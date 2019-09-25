@@ -545,7 +545,7 @@ while player_mode not in player_modes:
 - To exit the program enter: "Exit"  ').upper()
     # Quits program if user enters exit
     if player_mode == "EXIT":
-            print("You have left the game")
+            print("You have left the game!")
             break
         
 # Execute the mode where a human player plays the game
