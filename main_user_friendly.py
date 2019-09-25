@@ -15,6 +15,7 @@ import numpy as np
 import random
 import csv
 import matplotlib.pyplot as plt
+from tqdm import tqdm
 
 class game:
     gamestate = np.array([(0,0,0,0),(0,0,0,0),(0,0,0,0),(0,0,0,0)])
@@ -593,7 +594,7 @@ else:
     with open('statistical.csv', 'w', newline='') as f:
         thewriter = csv.writer(f)
         thewriter.writerow(['Player ','Score', 'Number of moves ','Highest tile ','Game over '])    
-        for player in players: # iterate over different computer strategies
+        for player in tqdm(players): # iterate over different computer strategies
             for k in range(50): # execute game k times per strategy
                 spielstand = game.gamestate
                 player.counter = 0

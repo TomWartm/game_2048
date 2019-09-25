@@ -1,0 +1,201 @@
+Player ,Score,Number of moves ,Highest tile ,Game over 
+W-S-E-N,308,137,64,True
+W-S-E-N,366,158,128,True
+W-S-E-N,270,125,128,True
+W-S-E-N,320,147,128,True
+W-S-E-N,252,110,64,True
+W-S-E-N,470,213,128,True
+W-S-E-N,554,250,256,True
+W-S-E-N,306,143,64,True
+W-S-E-N,550,246,256,True
+W-S-E-N,196,84,64,True
+W-S-E-N,404,183,256,True
+W-S-E-N,488,216,256,True
+W-S-E-N,472,212,128,True
+W-S-E-N,342,149,128,True
+W-S-E-N,600,270,256,True
+W-S-E-N,408,193,128,True
+W-S-E-N,420,183,128,True
+W-S-E-N,376,175,128,True
+W-S-E-N,660,301,256,True
+W-S-E-N,438,200,128,True
+W-S-E-N,556,256,256,True
+W-S-E-N,228,102,64,True
+W-S-E-N,472,218,256,True
+W-S-E-N,422,190,128,True
+W-S-E-N,490,221,256,True
+W-S-E-N,678,310,256,True
+W-S-E-N,198,88,64,True
+W-S-E-N,824,376,256,True
+W-S-E-N,590,270,256,True
+W-S-E-N,542,246,256,True
+W-S-E-N,388,176,128,True
+W-S-E-N,504,227,256,True
+W-S-E-N,636,286,256,True
+W-S-E-N,780,356,512,True
+W-S-E-N,456,212,128,True
+W-S-E-N,346,160,128,True
+W-S-E-N,464,211,256,True
+W-S-E-N,274,122,128,True
+W-S-E-N,630,281,256,True
+W-S-E-N,518,240,256,True
+W-S-E-N,402,181,128,True
+W-S-E-N,382,169,128,True
+W-S-E-N,374,173,128,True
+W-S-E-N,540,251,256,True
+W-S-E-N,486,221,256,True
+W-S-E-N,676,302,256,True
+W-S-E-N,204,90,64,True
+W-S-E-N,510,237,256,True
+W-S-E-N,306,137,128,True
+W-S-E-N,416,190,128,True
+Random,314,145,128,True
+Random,230,105,64,True
+Random,370,169,128,True
+Random,320,151,128,True
+Random,194,81,64,True
+Random,266,119,128,True
+Random,202,91,64,True
+Random,330,154,128,True
+Random,434,191,256,True
+Random,240,114,64,True
+Random,126,57,32,True
+Random,172,80,64,True
+Random,210,90,64,True
+Random,332,152,128,True
+Random,222,101,64,True
+Random,208,92,64,True
+Random,250,117,128,True
+Random,338,153,128,True
+Random,270,121,128,True
+Random,232,108,128,True
+Random,312,141,128,True
+Random,144,67,32,True
+Random,406,178,256,True
+Random,200,93,64,True
+Random,304,133,128,True
+Random,186,81,32,True
+Random,216,95,64,True
+Random,184,84,64,True
+Random,320,143,128,True
+Random,304,142,128,True
+Random,284,131,128,True
+Random,272,127,64,True
+Random,216,100,64,True
+Random,298,133,128,True
+Random,270,122,128,True
+Random,214,95,64,True
+Random,354,161,128,True
+Random,328,137,128,True
+Random,318,140,128,True
+Random,286,128,128,True
+Random,178,78,64,True
+Random,178,81,32,True
+Random,194,89,64,True
+Random,262,120,128,True
+Random,396,184,256,True
+Random,310,143,128,True
+Random,172,80,64,True
+Random,184,84,64,True
+Random,224,99,64,True
+Random,292,131,128,True
+Prob Max,824,376,512,True
+Prob Max,946,418,512,True
+Prob Max,598,273,256,True
+Prob Max,630,283,256,True
+Prob Max,448,204,256,True
+Prob Max,896,415,512,True
+Prob Max,910,412,512,True
+Prob Max,610,275,256,True
+Prob Max,602,271,256,True
+Prob Max,1094,499,512,True
+Prob Max,518,234,256,True
+Prob Max,600,277,256,True
+Prob Max,854,380,512,True
+Prob Max,1104,503,512,True
+Prob Max,646,287,256,True
+Prob Max,326,148,128,True
+Prob Max,570,254,256,True
+Prob Max,1024,468,512,True
+Prob Max,580,263,256,True
+Prob Max,972,456,512,True
+Prob Max,544,251,256,True
+Prob Max,364,162,128,True
+Prob Max,1362,620,1024,True
+Prob Max,616,285,256,True
+Prob Max,956,436,512,True
+Prob Max,662,307,256,True
+Prob Max,892,403,512,True
+Prob Max,446,206,128,True
+Prob Max,822,365,512,True
+Prob Max,352,157,128,True
+Prob Max,628,283,256,True
+Prob Max,554,250,256,True
+Prob Max,316,139,128,True
+Prob Max,524,237,256,True
+Prob Max,800,368,512,True
+Prob Max,330,146,128,True
+Prob Max,776,356,256,True
+Prob Max,990,452,512,True
+Prob Max,992,442,512,True
+Prob Max,350,159,128,True
+Prob Max,644,299,256,True
+Prob Max,586,264,256,True
+Prob Max,1046,475,512,True
+Prob Max,616,283,256,True
+Prob Max,1108,504,512,True
+Prob Max,642,291,256,True
+Prob Max,616,276,256,True
+Prob Max,1262,577,1024,True
+Prob Max,510,226,256,True
+Prob Max,384,177,128,True
+Simple Max,222,104,64,True
+Simple Max,304,139,64,True
+Simple Max,104,45,32,True
+Simple Max,260,117,64,True
+Simple Max,360,159,128,True
+Simple Max,184,82,64,True
+Simple Max,130,59,32,True
+Simple Max,126,56,32,True
+Simple Max,346,160,128,True
+Simple Max,370,163,128,True
+Simple Max,320,143,128,True
+Simple Max,248,111,128,True
+Simple Max,154,67,32,True
+Simple Max,122,56,32,True
+Simple Max,218,95,64,True
+Simple Max,234,108,64,True
+Simple Max,442,196,128,True
+Simple Max,132,57,32,True
+Simple Max,220,100,64,True
+Simple Max,116,50,32,True
+Simple Max,250,115,64,True
+Simple Max,184,86,64,True
+Simple Max,320,143,64,True
+Simple Max,166,77,64,True
+Simple Max,276,128,128,True
+Simple Max,332,156,64,True
+Simple Max,182,79,64,True
+Simple Max,280,129,128,True
+Simple Max,158,74,32,True
+Simple Max,158,69,32,True
+Simple Max,128,59,32,True
+Simple Max,200,86,64,True
+Simple Max,244,106,128,True
+Simple Max,216,99,64,True
+Simple Max,212,96,64,True
+Simple Max,446,190,128,True
+Simple Max,132,57,32,True
+Simple Max,268,121,128,True
+Simple Max,210,98,64,True
+Simple Max,222,92,64,True
+Simple Max,216,97,64,True
+Simple Max,282,133,128,True
+Simple Max,110,51,16,True
+Simple Max,164,73,32,True
+Simple Max,218,96,64,True
+Simple Max,118,54,32,True
+Simple Max,536,249,256,True
+Simple Max,348,156,128,True
+Simple Max,246,108,64,True
+Simple Max,240,107,64,True
