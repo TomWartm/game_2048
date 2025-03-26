@@ -272,21 +272,21 @@ class Left_Down:#Left then down, else right or up
     def __init__(self):
         self.counter = 0
     def __str__(self):
-        return "Left_Down"
+        return "Left Down"
     
     def move(self,board):#condition: game must not be over
+        prio_one = ["A","S"]
+        prio_two = ["D","W"]
         
-        if game.checkmove(board,"A"):
-            board = game.move(board,"A")
-        elif game.checkmove(board,"S"):
-            board = game.move(board,"S")
-        elif game.checkmove(board,"D"):
-            board = game.move(board,"D")
-        elif game.checkmove(board,"W"):
-            board = game.move(board,"W")
-        else:
-            print("there is an error")
-    
+        random.shuffle(prio_one)
+        random.shuffle(prio_two)
+        directions = prio_one + prio_two
+        
+        for direction in directions:
+            if game.checkmove(board, direction):
+                board = game.move(board, direction)
+                break
+
         self.counter +=1
         return board[0]
     
