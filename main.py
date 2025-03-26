@@ -272,7 +272,7 @@ class Left_Down:#Left then down, else right or up
     def __init__(self):
         self.counter = 0
     def __str__(self):
-        return "W-S-E-N"
+        return "Left_Down"
     
     def move(self,board):#condition: game must not be over
         
@@ -338,9 +338,12 @@ class Simple_Max:
     def move(self, board):
         test_board = np.copy(board)
         max_average_value = 0
+        best_direction = "A"
         for direction in ["A","D","S","W"]:
             if game.future_av_value(test_board, direction) >= max_average_value and game.checkmove(test_board,direction):
-                board = game.move(test_board,direction)
+                max_average_value = game.future_av_value(test_board, direction)
+                best_direction = direction
+        board = game.move(test_board, best_direction)
         self.counter += 1
         return board[0]
 """
@@ -580,17 +583,13 @@ if __name__ == "__main__":
 
     # Execute statistical mode
     else:   
-        Left_Down=Left_Down()
-        Random= Random()
-        Simple_Max = Simple_Max()
-        Prob_Max = Prob_Max()
-        players=[Left_Down, Random, Prob_Max, Simple_Max]
+        players=[Left_Down(), Random(), Prob_Max(), Simple_Max()]
         print("Please wait for the data to be loaded...")
         with open('data/statistical.csv', 'w', newline='') as f:
             thewriter = csv.writer(f)
-            thewriter.writerow(['Player ','Score', 'Number of moves ','Highest tile ','Game over '])    
-            for player in tqdm(players): # iterate over different computer strategies
-                for k in range(50): # execute game k times per strategy
+            thewriter.writerow(['Strategy','Score', 'Number of moves','Highest tile','Game over'])
+            for k in tqdm(range(50)): # execute game k times per strategy
+                for player in players: # iterate over different computer strategies
                     spielstand = game.gamestate
                     player.counter = 0
                     for i in range(1000):
