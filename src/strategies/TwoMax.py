@@ -1,11 +1,11 @@
 import numpy as np
 
-class ProbMax:
+class TwoMax:
     def __init__(self):
         self.counter = 0
         
     def __str__(self):
-        return "Prob Max"
+        return "Two Max"
     
     def move(self, game, board):
         

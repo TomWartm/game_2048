@@ -8,7 +8,7 @@ from src.Game import Game
 from src.strategies.HumanPlayer import HumanPlayer
 from src.strategies.LeftDown import LeftDown
 from src.strategies.Random import Random
-from src.strategies.ProbMax import ProbMax
+from src.strategies.TwoMax import TwoMax
 from src.strategies.SimpleMax import SimpleMax
 from src.ui.PrettyUI import PrettyUI
 from src.ui.ShellUI import ShellUI
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     # Execute statistical mode
     else:   
-        players=[LeftDown(), Random(), ProbMax(), SimpleMax()]
+        players=[LeftDown(), Random(), TwoMax(), SimpleMax()]
         print("Please wait for the data to be loaded...")
         with open('data/statistical.csv', 'w', newline='') as f:
             thewriter = csv.writer(f)

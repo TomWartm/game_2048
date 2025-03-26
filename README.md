@@ -8,7 +8,7 @@ There are 4 simple game strategies implemented:
 - **Random**: Makes a random next move.
 - **Left Down**: Try Left or Down, else Right or Up.
 - **Simple Max**: Checks all possibilities of the next move and takes the move that maximizes the average.
-- **Prob Max**: Checks all possibilites of the next two moves and takes the move that maximizes the average value.
+- **Two Max**: Checks all possibilites of the next two moves and takes the move that maximizes the average value.
 
 ![Game Screenshot](img/game_strategy.png)
 
