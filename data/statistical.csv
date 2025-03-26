@@ -11,11 +11,1320 @@ Left Down,20,9,8,False
 Left Down,22,10,8,False
 Left Down,24,11,8,False
 Left Down,28,12,8,False
-Left Down,32,13,16,False
-Left Down,34,14,16,False
-Left Down,36,15,16,False
+Left Down,30,13,16,False
+Left Down,32,14,16,False
+Left Down,34,15,16,False
 Left Down,38,16,16,False
 Left Down,40,17,16,False
+Left Down,42,18,16,False
+Left Down,46,19,16,False
+Left Down,48,20,16,False
+Left Down,50,21,16,False
+Left Down,52,22,32,False
+Left Down,54,23,32,False
+Left Down,58,24,32,False
+Left Down,60,25,32,False
+Left Down,62,26,32,False
+Left Down,66,27,32,False
+Left Down,68,28,32,False
+Left Down,70,29,32,False
+Left Down,72,30,32,False
+Left Down,74,31,32,False
+Left Down,76,32,32,False
+Left Down,78,33,32,False
+Left Down,80,34,32,False
+Left Down,82,35,32,False
+Left Down,86,36,32,False
+Left Down,88,37,32,False
+Left Down,90,38,32,False
+Left Down,92,39,32,False
+Left Down,96,40,32,False
+Left Down,98,41,32,False
+Left Down,100,42,32,False
+Left Down,102,43,32,False
+Left Down,104,44,32,False
+Left Down,106,45,64,False
+Left Down,110,46,64,False
+Left Down,112,47,64,False
+Left Down,114,48,64,False
+Left Down,116,49,64,False
+Left Down,118,50,64,False
+Left Down,120,51,64,False
+Left Down,124,52,64,False
+Left Down,126,53,64,False
+Left Down,128,54,64,False
+Left Down,130,55,64,False
+Left Down,132,56,64,False
+Left Down,134,57,64,False
+Left Down,136,58,64,False
+Left Down,138,59,64,False
+Left Down,140,60,64,False
+Left Down,142,61,64,False
+Left Down,144,62,64,False
+Left Down,146,63,64,False
+Left Down,148,64,64,False
+Left Down,152,65,64,False
+Left Down,154,66,64,False
+Left Down,156,67,64,False
+Left Down,158,68,64,False
+Left Down,160,69,64,False
+Left Down,162,70,128,False
+Left Down,164,71,128,False
+Left Down,166,72,128,False
+Left Down,168,73,128,False
+Left Down,170,74,128,False
+Left Down,172,75,128,False
+Left Down,174,76,128,False
+Left Down,176,77,128,False
+Left Down,178,78,128,False
+Left Down,180,79,128,False
+Left Down,182,80,128,False
+Left Down,186,81,128,False
+Left Down,188,82,128,False
+Left Down,190,83,128,False
+Left Down,194,84,128,False
+Left Down,196,85,128,False
+Left Down,198,86,128,False
+Left Down,200,87,128,False
+Left Down,202,88,128,False
+Left Down,204,89,128,False
+Left Down,206,90,128,False
+Left Down,208,91,128,False
+Left Down,210,92,128,False
+Left Down,214,93,128,False
+Left Down,216,94,128,False
+Left Down,220,95,128,False
+Left Down,222,96,128,False
+Left Down,224,97,128,False
+Left Down,226,98,128,False
+Left Down,228,99,128,False
+Left Down,230,100,128,False
+Left Down,232,101,128,False
+Left Down,234,102,128,False
+Left Down,236,103,128,False
+Left Down,238,104,128,False
+Left Down,240,105,128,False
+Left Down,242,106,128,False
+Left Down,244,107,128,False
+Left Down,248,108,128,False
+Left Down,250,109,128,False
+Left Down,252,110,128,False
+Left Down,254,111,128,False
+Left Down,256,112,128,False
+Left Down,260,113,128,False
+Left Down,262,114,128,False
+Left Down,264,115,128,False
+Left Down,266,116,128,False
+Left Down,268,117,128,False
+Left Down,270,118,128,False
+Left Down,272,119,128,False
+Left Down,274,120,128,False
+Left Down,276,121,128,False
+Left Down,278,122,128,False
+Left Down,280,123,128,False
+Left Down,284,124,128,False
+Left Down,288,125,128,False
+Left Down,290,126,128,False
+Left Down,294,127,128,False
+Left Down,296,128,128,False
+Left Down,298,129,128,False
+Left Down,300,129,128,True
+Random,2,1,2,False
+Random,4,2,2,False
+Random,6,3,4,False
+Random,8,4,4,False
+Random,10,5,4,False
+Random,12,6,4,False
+Random,16,7,8,False
+Random,18,8,8,False
+Random,20,9,8,False
+Random,22,10,8,False
+Random,24,11,16,False
+Random,26,12,16,False
+Random,30,13,16,False
+Random,32,14,16,False
+Random,34,15,16,False
+Random,36,16,16,False
+Random,38,17,16,False
+Random,40,18,16,False
+Random,42,19,16,False
+Random,44,20,16,False
+Random,46,21,16,False
+Random,48,22,16,False
+Random,50,23,16,False
+Random,54,24,16,False
+Random,56,25,16,False
+Random,58,26,16,False
+Random,60,27,16,False
+Random,62,28,16,False
+Random,66,29,16,False
+Random,68,30,16,False
+Random,70,31,16,False
+Random,72,32,16,False
+Random,74,33,16,False
+Random,76,34,16,False
+Random,78,35,16,False
+Random,80,36,16,False
+Random,84,37,16,False
+Random,86,38,16,False
+Random,88,39,32,False
+Random,92,40,32,False
+Random,94,41,32,False
+Random,96,42,32,False
+Random,98,43,32,False
+Random,100,44,32,False
+Random,102,45,32,False
+Random,104,46,32,False
+Random,106,47,32,False
+Random,108,48,32,False
+Random,110,49,32,False
+Random,112,50,32,False
+Random,114,51,32,False
+Random,116,52,32,False
+Random,120,53,32,False
+Random,122,54,32,False
+Random,124,55,32,False
+Random,128,56,32,False
+Random,132,57,32,False
+Random,134,58,32,False
+Random,136,59,32,False
+Random,138,60,32,False
+Random,140,61,32,False
+Random,142,62,32,False
+Random,144,63,32,False
+Random,146,64,32,False
+Random,148,65,32,False
+Random,150,66,32,False
+Random,152,67,32,False
+Random,156,68,32,False
+Random,158,69,64,False
+Random,160,70,64,False
+Random,162,71,64,False
+Random,164,72,64,False
+Random,166,73,64,False
+Random,168,74,64,False
+Random,170,75,64,False
+Random,174,76,64,False
+Random,176,77,64,False
+Random,178,78,64,False
+Random,180,79,64,False
+Random,182,80,64,False
+Random,184,81,64,False
+Random,188,82,64,False
+Random,190,83,64,False
+Random,192,84,64,False
+Random,194,85,64,False
+Random,196,86,64,False
+Random,198,87,64,False
+Random,200,88,64,False
+Random,202,89,64,False
+Random,204,90,64,False
+Random,208,91,64,False
+Random,210,92,64,False
+Random,212,93,64,False
+Random,214,94,64,False
+Random,216,95,64,False
+Random,220,96,64,False
+Random,224,97,64,False
+Random,226,98,64,False
+Random,228,99,64,False
+Random,230,100,64,False
+Random,232,101,64,False
+Random,234,102,64,False
+Random,236,103,64,False
+Random,238,104,64,False
+Random,240,104,64,True
+Prob Max,2,1,2,False
+Prob Max,4,2,2,False
+Prob Max,6,3,4,False
+Prob Max,8,4,4,False
+Prob Max,10,5,4,False
+Prob Max,12,6,8,False
+Prob Max,14,7,8,False
+Prob Max,16,8,8,False
+Prob Max,20,9,8,False
+Prob Max,22,10,8,False
+Prob Max,24,11,8,False
+Prob Max,26,12,8,False
+Prob Max,28,13,16,False
+Prob Max,30,14,16,False
+Prob Max,32,15,16,False
+Prob Max,34,16,16,False
+Prob Max,36,17,16,False
+Prob Max,38,18,16,False
+Prob Max,40,19,32,False
+Prob Max,42,20,32,False
+Prob Max,44,21,32,False
+Prob Max,46,22,32,False
+Prob Max,48,23,32,False
+Prob Max,50,24,32,False
+Prob Max,52,25,32,False
+Prob Max,56,26,32,False
+Prob Max,58,27,32,False
+Prob Max,60,28,32,False
+Prob Max,64,29,32,False
+Prob Max,66,30,32,False
+Prob Max,68,31,32,False
+Prob Max,70,32,32,False
+Prob Max,72,33,32,False
+Prob Max,74,34,32,False
+Prob Max,76,35,32,False
+Prob Max,78,36,32,False
+Prob Max,80,37,32,False
+Prob Max,82,38,32,False
+Prob Max,84,39,64,False
+Prob Max,86,40,64,False
+Prob Max,88,41,64,False
+Prob Max,90,42,64,False
+Prob Max,92,43,64,False
+Prob Max,94,44,64,False
+Prob Max,96,45,64,False
+Prob Max,98,46,64,False
+Prob Max,100,47,64,False
+Prob Max,102,48,64,False
+Prob Max,104,49,64,False
+Prob Max,106,50,64,False
+Prob Max,108,51,64,False
+Prob Max,110,52,64,False
+Prob Max,112,53,64,False
+Prob Max,114,54,64,False
+Prob Max,116,55,64,False
+Prob Max,118,56,64,False
+Prob Max,120,57,64,False
+Prob Max,122,58,64,False
+Prob Max,124,59,64,False
+Prob Max,126,60,64,False
+Prob Max,128,61,64,False
+Prob Max,132,62,64,False
+Prob Max,134,63,64,False
+Prob Max,136,64,64,False
+Prob Max,138,65,64,False
+Prob Max,140,66,64,False
+Prob Max,142,67,64,False
+Prob Max,144,68,64,False
+Prob Max,146,69,64,False
+Prob Max,148,70,64,False
+Prob Max,150,71,64,False
+Prob Max,152,72,64,False
+Prob Max,156,73,64,False
+Prob Max,160,74,128,False
+Prob Max,162,75,128,False
+Prob Max,164,76,128,False
+Prob Max,166,77,128,False
+Prob Max,168,78,128,False
+Prob Max,170,79,128,False
+Prob Max,172,80,128,False
+Prob Max,174,81,128,False
+Prob Max,176,82,128,False
+Prob Max,180,83,128,False
+Prob Max,182,84,128,False
+Prob Max,184,85,128,False
+Prob Max,186,86,128,False
+Prob Max,188,87,128,False
+Prob Max,190,88,128,False
+Prob Max,192,89,128,False
+Prob Max,194,90,128,False
+Prob Max,196,91,128,False
+Prob Max,200,92,128,False
+Prob Max,202,93,128,False
+Prob Max,204,94,128,False
+Prob Max,206,95,128,False
+Prob Max,208,96,128,False
+Prob Max,210,97,128,False
+Prob Max,212,98,128,False
+Prob Max,216,99,128,False
+Prob Max,218,100,128,False
+Prob Max,220,101,128,False
+Prob Max,222,102,128,False
+Prob Max,224,103,128,False
+Prob Max,226,104,128,False
+Prob Max,228,105,128,False
+Prob Max,232,106,128,False
+Prob Max,234,107,128,False
+Prob Max,236,108,128,False
+Prob Max,238,109,128,False
+Prob Max,240,110,128,False
+Prob Max,242,111,128,False
+Prob Max,244,112,128,False
+Prob Max,246,113,128,False
+Prob Max,248,114,128,False
+Prob Max,250,115,128,False
+Prob Max,252,116,128,False
+Prob Max,254,117,128,False
+Prob Max,256,118,128,False
+Prob Max,258,119,128,False
+Prob Max,260,120,128,False
+Prob Max,262,121,128,False
+Prob Max,264,122,128,False
+Prob Max,266,123,128,False
+Prob Max,268,124,128,False
+Prob Max,270,125,128,False
+Prob Max,272,126,128,False
+Prob Max,274,127,128,False
+Prob Max,276,128,128,False
+Prob Max,278,129,128,False
+Prob Max,280,130,128,False
+Prob Max,284,131,128,False
+Prob Max,286,132,128,False
+Prob Max,290,133,128,False
+Prob Max,292,134,128,False
+Prob Max,294,135,128,False
+Prob Max,296,136,128,False
+Prob Max,298,137,128,False
+Prob Max,300,138,128,False
+Prob Max,302,139,128,False
+Prob Max,304,140,128,False
+Prob Max,306,141,128,False
+Prob Max,308,142,128,False
+Prob Max,312,143,128,False
+Prob Max,316,144,128,False
+Prob Max,318,145,128,False
+Prob Max,320,146,128,False
+Prob Max,322,147,128,False
+Prob Max,324,148,128,False
+Prob Max,328,149,128,False
+Prob Max,330,150,128,False
+Prob Max,332,151,128,False
+Prob Max,334,152,128,False
+Prob Max,338,153,128,False
+Prob Max,340,154,128,False
+Prob Max,342,155,128,False
+Prob Max,344,156,128,False
+Prob Max,348,157,128,False
+Prob Max,350,158,128,False
+Prob Max,352,159,128,False
+Prob Max,356,160,128,False
+Prob Max,360,161,128,False
+Prob Max,362,162,128,False
+Prob Max,364,163,128,False
+Prob Max,366,164,128,False
+Prob Max,368,165,128,False
+Prob Max,372,166,256,False
+Prob Max,374,167,256,False
+Prob Max,376,168,256,False
+Prob Max,378,169,256,False
+Prob Max,380,170,256,False
+Prob Max,382,171,256,False
+Prob Max,386,172,256,False
+Prob Max,388,173,256,False
+Prob Max,390,174,256,False
+Prob Max,392,175,256,False
+Prob Max,394,176,256,False
+Prob Max,396,177,256,False
+Prob Max,398,178,256,False
+Prob Max,400,179,256,False
+Prob Max,402,180,256,False
+Prob Max,406,181,256,False
+Prob Max,408,182,256,False
+Prob Max,410,183,256,False
+Prob Max,412,184,256,False
+Prob Max,414,185,256,False
+Prob Max,416,186,256,False
+Prob Max,418,187,256,False
+Prob Max,420,188,256,False
+Prob Max,422,189,256,False
+Prob Max,424,190,256,False
+Prob Max,426,191,256,False
+Prob Max,430,192,256,False
+Prob Max,434,193,256,False
+Prob Max,436,194,256,False
+Prob Max,438,195,256,False
+Prob Max,440,196,256,False
+Prob Max,442,197,256,False
+Prob Max,446,198,256,False
+Prob Max,450,199,256,False
+Prob Max,452,200,256,False
+Prob Max,454,201,256,False
+Prob Max,456,202,256,False
+Prob Max,458,203,256,False
+Prob Max,460,204,256,False
+Prob Max,462,205,256,False
+Prob Max,464,206,256,False
+Prob Max,466,207,256,False
+Prob Max,468,208,256,False
+Prob Max,470,209,256,False
+Prob Max,472,210,256,False
+Prob Max,474,211,256,False
+Prob Max,476,212,256,False
+Prob Max,478,212,256,True
+Simple Max,2,1,2,False
+Simple Max,4,2,4,False
+Simple Max,8,3,4,False
+Simple Max,10,4,8,False
+Simple Max,12,5,8,False
+Simple Max,14,6,8,False
+Simple Max,16,7,8,False
+Simple Max,18,8,8,False
+Simple Max,20,9,8,False
+Simple Max,22,10,16,False
+Simple Max,24,11,16,False
+Simple Max,26,12,16,False
+Simple Max,30,13,16,False
+Simple Max,32,14,16,False
+Simple Max,36,15,16,False
+Simple Max,38,16,16,False
+Simple Max,40,17,16,False
+Simple Max,42,18,16,False
+Simple Max,44,19,16,False
+Simple Max,46,20,16,False
+Simple Max,48,21,16,False
+Simple Max,50,22,16,False
+Simple Max,52,23,16,False
+Simple Max,54,24,16,False
+Simple Max,56,25,16,False
+Simple Max,58,26,16,False
+Simple Max,60,27,16,False
+Simple Max,62,28,32,False
+Simple Max,64,29,32,False
+Simple Max,66,30,32,False
+Simple Max,68,31,32,False
+Simple Max,70,32,32,False
+Simple Max,72,33,32,False
+Simple Max,76,34,32,False
+Simple Max,78,35,32,False
+Simple Max,82,36,32,False
+Simple Max,84,37,64,False
+Simple Max,86,38,64,False
+Simple Max,88,39,64,False
+Simple Max,90,40,64,False
+Simple Max,92,41,64,False
+Simple Max,96,42,64,False
+Simple Max,98,43,64,False
+Simple Max,100,44,64,False
+Simple Max,102,45,64,False
+Simple Max,104,46,64,False
+Simple Max,106,47,64,False
+Simple Max,108,48,64,False
+Simple Max,112,49,64,False
+Simple Max,114,50,64,False
+Simple Max,116,51,64,False
+Simple Max,118,52,64,False
+Simple Max,120,53,64,False
+Simple Max,122,54,64,False
+Simple Max,124,55,64,False
+Simple Max,126,56,64,False
+Simple Max,128,57,64,False
+Simple Max,130,58,64,False
+Simple Max,132,59,64,False
+Simple Max,134,60,64,False
+Simple Max,136,61,64,False
+Simple Max,140,62,64,False
+Simple Max,142,63,64,False
+Simple Max,144,64,64,False
+Simple Max,146,65,64,False
+Simple Max,150,66,64,False
+Simple Max,152,67,64,False
+Simple Max,154,68,64,False
+Simple Max,156,69,64,False
+Simple Max,158,70,64,False
+Simple Max,160,71,64,False
+Simple Max,162,72,64,False
+Simple Max,164,73,128,False
+Simple Max,166,74,128,False
+Simple Max,168,75,128,False
+Simple Max,170,76,128,False
+Simple Max,172,77,128,False
+Simple Max,174,78,128,False
+Simple Max,178,79,128,False
+Simple Max,182,80,128,False
+Simple Max,184,81,128,False
+Simple Max,186,82,128,False
+Simple Max,188,83,128,False
+Simple Max,190,84,128,False
+Simple Max,192,85,128,False
+Simple Max,194,86,128,False
+Simple Max,196,87,128,False
+Simple Max,198,88,128,False
+Simple Max,200,89,128,False
+Simple Max,202,90,128,False
+Simple Max,204,91,128,False
+Simple Max,206,92,128,False
+Simple Max,208,93,128,False
+Simple Max,210,94,128,False
+Simple Max,212,95,128,False
+Simple Max,214,96,128,False
+Simple Max,216,97,128,False
+Simple Max,218,98,128,False
+Simple Max,220,99,128,False
+Simple Max,222,100,128,False
+Simple Max,224,101,128,False
+Simple Max,226,102,128,False
+Simple Max,228,103,128,False
+Simple Max,230,104,128,False
+Simple Max,232,105,128,False
+Simple Max,236,106,128,False
+Simple Max,238,107,128,False
+Simple Max,240,108,128,False
+Simple Max,242,109,128,False
+Simple Max,244,110,128,False
+Simple Max,246,111,128,False
+Simple Max,248,112,128,False
+Simple Max,250,113,128,False
+Simple Max,252,114,128,False
+Simple Max,254,115,128,False
+Simple Max,256,116,128,False
+Simple Max,258,117,128,False
+Simple Max,262,118,128,False
+Simple Max,264,119,128,False
+Simple Max,266,120,128,False
+Simple Max,268,121,128,False
+Simple Max,270,122,128,False
+Simple Max,272,123,128,False
+Simple Max,274,124,128,False
+Simple Max,276,125,128,False
+Simple Max,278,126,128,False
+Simple Max,280,127,128,False
+Simple Max,282,128,128,False
+Simple Max,284,129,128,False
+Simple Max,286,130,128,False
+Simple Max,288,131,128,False
+Simple Max,290,132,128,False
+Simple Max,292,133,128,False
+Simple Max,296,134,128,False
+Simple Max,298,135,128,False
+Simple Max,300,136,128,False
+Simple Max,304,137,128,False
+Simple Max,306,138,128,False
+Simple Max,308,139,128,False
+Simple Max,310,140,128,False
+Simple Max,314,141,128,False
+Simple Max,316,142,128,False
+Simple Max,318,143,128,False
+Simple Max,320,144,128,False
+Simple Max,322,145,128,False
+Simple Max,324,146,128,False
+Simple Max,326,147,128,False
+Simple Max,328,148,128,False
+Simple Max,330,149,128,False
+Simple Max,332,150,128,False
+Simple Max,334,151,128,False
+Simple Max,336,152,128,False
+Simple Max,338,153,128,False
+Simple Max,340,154,128,False
+Simple Max,342,155,128,False
+Simple Max,344,156,128,False
+Simple Max,346,157,128,False
+Simple Max,348,158,128,False
+Simple Max,350,159,128,False
+Simple Max,352,160,128,False
+Simple Max,354,161,128,False
+Simple Max,358,162,128,False
+Simple Max,360,163,128,False
+Simple Max,362,164,128,False
+Simple Max,364,165,128,False
+Simple Max,366,166,128,False
+Simple Max,368,167,128,False
+Simple Max,370,168,128,False
+Simple Max,372,169,128,False
+Simple Max,374,170,128,False
+Simple Max,376,171,128,False
+Simple Max,378,172,128,False
+Simple Max,380,173,128,False
+Simple Max,382,174,128,False
+Simple Max,384,175,128,False
+Simple Max,386,176,128,False
+Simple Max,388,177,128,False
+Simple Max,390,178,128,False
+Simple Max,392,179,128,False
+Simple Max,394,180,128,False
+Simple Max,396,181,128,False
+Simple Max,398,182,128,False
+Simple Max,400,183,128,False
+Simple Max,402,184,128,False
+Simple Max,404,185,128,False
+Simple Max,406,186,128,False
+Simple Max,408,187,128,False
+Simple Max,410,188,128,False
+Simple Max,412,189,128,False
+Simple Max,416,190,128,False
+Simple Max,418,191,128,False
+Simple Max,420,191,128,True
+Left Down,2,1,2,False
+Left Down,4,2,2,False
+Left Down,6,3,4,False
+Left Down,8,4,4,False
+Left Down,10,5,4,False
+Left Down,12,6,4,False
+Left Down,14,7,4,False
+Left Down,16,8,8,False
+Left Down,18,9,8,False
+Left Down,20,10,8,False
+Left Down,22,11,8,False
+Left Down,24,12,8,False
+Left Down,26,13,8,False
+Left Down,28,14,16,False
+Left Down,30,15,16,False
+Left Down,32,16,16,False
+Left Down,34,17,16,False
+Left Down,36,18,16,False
+Left Down,38,19,16,False
+Left Down,42,20,16,False
+Left Down,44,21,16,False
+Left Down,46,22,16,False
+Left Down,48,23,16,False
+Left Down,50,24,16,False
+Left Down,52,25,16,False
+Left Down,54,26,16,False
+Left Down,56,27,16,False
+Left Down,58,28,16,False
+Left Down,60,29,16,False
+Left Down,62,30,16,False
+Left Down,64,31,16,False
+Left Down,66,32,16,False
+Left Down,68,33,16,False
+Left Down,70,34,16,False
+Left Down,74,35,16,False
+Left Down,76,36,16,False
+Left Down,80,37,32,False
+Left Down,82,38,32,False
+Left Down,84,39,32,False
+Left Down,86,40,32,False
+Left Down,88,41,32,False
+Left Down,90,42,32,False
+Left Down,92,43,32,False
+Left Down,94,44,32,False
+Left Down,98,45,32,False
+Left Down,100,46,32,False
+Left Down,104,47,32,False
+Left Down,106,48,32,False
+Left Down,108,49,32,False
+Left Down,110,50,32,False
+Left Down,112,51,32,False
+Left Down,114,52,32,False
+Left Down,116,53,32,False
+Left Down,118,54,32,False
+Left Down,120,55,32,False
+Left Down,124,56,32,False
+Left Down,126,57,32,False
+Left Down,128,58,32,False
+Left Down,130,59,32,False
+Left Down,132,60,32,False
+Left Down,134,61,32,False
+Left Down,136,62,32,False
+Left Down,140,63,32,False
+Left Down,142,64,32,False
+Left Down,144,65,32,False
+Left Down,146,66,64,False
+Left Down,148,67,64,False
+Left Down,150,68,64,False
+Left Down,152,69,64,False
+Left Down,154,70,64,False
+Left Down,156,71,64,False
+Left Down,158,72,64,False
+Left Down,160,73,64,False
+Left Down,162,74,64,False
+Left Down,164,75,64,False
+Left Down,166,76,64,False
+Left Down,168,77,64,False
+Left Down,170,78,64,False
+Left Down,172,79,64,False
+Left Down,174,80,64,False
+Left Down,178,81,64,False
+Left Down,180,82,64,False
+Left Down,182,83,64,False
+Left Down,186,84,64,False
+Left Down,188,85,64,False
+Left Down,190,86,64,False
+Left Down,192,87,64,False
+Left Down,194,88,64,False
+Left Down,196,89,64,False
+Left Down,198,90,64,False
+Left Down,200,91,64,False
+Left Down,202,92,64,False
+Left Down,204,93,64,False
+Left Down,206,94,64,False
+Left Down,208,95,64,False
+Left Down,210,96,64,False
+Left Down,212,97,64,False
+Left Down,214,98,64,False
+Left Down,216,99,64,False
+Left Down,218,100,64,False
+Left Down,220,100,64,True
+Random,2,1,2,False
+Random,4,2,2,False
+Random,8,3,4,False
+Random,10,4,4,False
+Random,12,5,8,False
+Random,14,6,8,False
+Random,16,7,8,False
+Random,18,8,8,False
+Random,20,9,8,False
+Random,22,10,8,False
+Random,24,11,16,False
+Random,26,12,16,False
+Random,28,13,16,False
+Random,30,14,16,False
+Random,32,15,16,False
+Random,34,16,16,False
+Random,36,17,16,False
+Random,38,18,16,False
+Random,40,19,16,False
+Random,42,20,16,False
+Random,44,21,16,False
+Random,46,22,16,False
+Random,48,23,16,False
+Random,50,24,16,False
+Random,52,25,16,False
+Random,54,26,16,False
+Random,56,27,16,False
+Random,58,28,16,False
+Random,60,29,16,False
+Random,62,30,16,False
+Random,64,31,32,False
+Random,66,32,32,False
+Random,68,33,32,False
+Random,70,34,32,False
+Random,72,35,32,False
+Random,74,36,32,False
+Random,76,37,32,False
+Random,78,38,32,False
+Random,80,39,32,False
+Random,82,40,32,False
+Random,84,41,32,False
+Random,86,42,32,False
+Random,90,43,32,False
+Random,92,44,32,False
+Random,96,45,32,False
+Random,98,46,32,False
+Random,100,47,32,False
+Random,102,48,32,False
+Random,104,49,32,False
+Random,106,50,32,False
+Random,108,51,32,False
+Random,110,52,32,False
+Random,112,53,32,False
+Random,114,54,32,False
+Random,116,55,32,False
+Random,118,56,32,False
+Random,120,57,32,False
+Random,122,58,32,False
+Random,124,59,32,False
+Random,126,60,32,False
+Random,128,61,32,False
+Random,130,62,32,False
+Random,134,63,64,False
+Random,136,64,64,False
+Random,138,65,64,False
+Random,140,66,64,False
+Random,142,67,64,False
+Random,144,68,64,False
+Random,146,69,64,False
+Random,148,70,64,False
+Random,150,71,64,False
+Random,152,72,64,False
+Random,154,73,64,False
+Random,156,74,64,False
+Random,158,75,64,False
+Random,160,76,64,False
+Random,162,77,64,False
+Random,164,78,64,False
+Random,166,79,64,False
+Random,168,80,64,False
+Random,170,81,64,False
+Random,172,82,64,False
+Random,176,83,64,False
+Random,178,84,64,False
+Random,180,85,64,False
+Random,182,86,64,False
+Random,184,87,64,False
+Random,186,88,64,False
+Random,188,89,64,False
+Random,190,90,64,False
+Random,192,91,64,False
+Random,196,92,64,False
+Random,198,93,64,False
+Random,200,94,64,False
+Random,202,95,64,False
+Random,204,96,64,False
+Random,206,97,64,False
+Random,208,98,64,False
+Random,210,99,64,False
+Random,212,100,64,False
+Random,214,101,64,False
+Random,216,102,64,False
+Random,220,103,64,False
+Random,222,104,64,False
+Random,224,105,64,False
+Random,226,106,64,False
+Random,228,107,64,False
+Random,230,108,64,False
+Random,232,109,64,False
+Random,234,110,64,False
+Random,236,111,64,False
+Random,238,112,64,False
+Random,240,113,64,False
+Random,242,114,64,False
+Random,244,115,64,False
+Random,246,116,64,False
+Random,248,117,64,False
+Random,250,118,64,False
+Random,252,119,128,False
+Random,254,120,128,False
+Random,256,121,128,False
+Random,258,122,128,False
+Random,260,123,128,False
+Random,264,124,128,False
+Random,266,125,128,False
+Random,268,126,128,False
+Random,270,127,128,False
+Random,272,128,128,False
+Random,274,129,128,False
+Random,276,129,128,True
+Prob Max,2,1,2,False
+Prob Max,4,2,2,False
+Prob Max,6,3,4,False
+Prob Max,8,4,4,False
+Prob Max,10,5,8,False
+Prob Max,12,6,8,False
+Prob Max,14,7,8,False
+Prob Max,16,8,8,False
+Prob Max,20,9,8,False
+Prob Max,22,10,8,False
+Prob Max,24,11,16,False
+Prob Max,28,12,16,False
+Prob Max,30,13,16,False
+Prob Max,32,14,16,False
+Prob Max,34,15,16,False
+Prob Max,36,16,16,False
+Prob Max,38,17,16,False
+Prob Max,40,18,16,False
+Prob Max,42,19,16,False
+Prob Max,44,20,16,False
+Prob Max,46,21,16,False
+Prob Max,48,22,16,False
+Prob Max,50,23,16,False
+Prob Max,52,24,16,False
+Prob Max,54,25,16,False
+Prob Max,56,26,32,False
+Prob Max,58,27,32,False
+Prob Max,60,28,32,False
+Prob Max,62,29,32,False
+Prob Max,64,30,32,False
+Prob Max,66,31,32,False
+Prob Max,68,32,32,False
+Prob Max,70,33,32,False
+Prob Max,72,34,32,False
+Prob Max,74,35,32,False
+Prob Max,76,36,32,False
+Prob Max,78,37,64,False
+Prob Max,80,38,64,False
+Prob Max,82,39,64,False
+Prob Max,86,40,64,False
+Prob Max,88,41,64,False
+Prob Max,90,42,64,False
+Prob Max,92,43,64,False
+Prob Max,94,44,64,False
+Prob Max,96,45,64,False
+Prob Max,98,46,64,False
+Prob Max,102,47,64,False
+Prob Max,104,48,64,False
+Prob Max,106,49,64,False
+Prob Max,108,50,64,False
+Prob Max,110,51,64,False
+Prob Max,112,52,64,False
+Prob Max,114,53,64,False
+Prob Max,116,54,64,False
+Prob Max,118,55,64,False
+Prob Max,120,56,64,False
+Prob Max,122,57,64,False
+Prob Max,124,58,64,False
+Prob Max,126,59,64,False
+Prob Max,128,60,64,False
+Prob Max,130,61,64,False
+Prob Max,132,62,64,False
+Prob Max,134,63,64,False
+Prob Max,136,64,64,False
+Prob Max,138,65,64,False
+Prob Max,140,66,64,False
+Prob Max,142,67,64,False
+Prob Max,144,68,64,False
+Prob Max,146,69,64,False
+Prob Max,148,70,64,False
+Prob Max,150,71,64,False
+Prob Max,152,72,64,False
+Prob Max,154,73,64,False
+Prob Max,156,74,64,False
+Prob Max,158,75,64,False
+Prob Max,162,76,64,False
+Prob Max,164,77,64,False
+Prob Max,168,78,64,False
+Prob Max,170,79,64,False
+Prob Max,172,80,64,False
+Prob Max,174,81,64,False
+Prob Max,176,82,64,False
+Prob Max,178,83,64,False
+Prob Max,180,84,128,False
+Prob Max,182,85,128,False
+Prob Max,184,86,128,False
+Prob Max,186,87,128,False
+Prob Max,190,88,128,False
+Prob Max,192,89,128,False
+Prob Max,194,90,128,False
+Prob Max,196,91,128,False
+Prob Max,198,92,128,False
+Prob Max,200,93,128,False
+Prob Max,202,94,128,False
+Prob Max,204,95,128,False
+Prob Max,206,96,128,False
+Prob Max,208,97,128,False
+Prob Max,210,98,128,False
+Prob Max,214,99,128,False
+Prob Max,216,100,128,False
+Prob Max,220,101,128,False
+Prob Max,222,102,128,False
+Prob Max,224,103,128,False
+Prob Max,226,104,128,False
+Prob Max,228,105,128,False
+Prob Max,230,106,128,False
+Prob Max,232,107,128,False
+Prob Max,234,108,128,False
+Prob Max,236,109,128,False
+Prob Max,238,110,128,False
+Prob Max,240,111,128,False
+Prob Max,244,112,128,False
+Prob Max,248,113,128,False
+Prob Max,250,114,128,False
+Prob Max,252,115,128,False
+Prob Max,254,116,128,False
+Prob Max,256,117,128,False
+Prob Max,258,118,128,False
+Prob Max,260,119,128,False
+Prob Max,262,120,128,False
+Prob Max,264,121,128,False
+Prob Max,266,122,128,False
+Prob Max,268,123,128,False
+Prob Max,270,124,128,False
+Prob Max,272,125,128,False
+Prob Max,274,126,128,False
+Prob Max,276,127,128,False
+Prob Max,278,128,128,False
+Prob Max,280,129,128,False
+Prob Max,284,130,128,False
+Prob Max,286,131,128,False
+Prob Max,288,132,128,False
+Prob Max,290,133,128,False
+Prob Max,294,134,128,False
+Prob Max,296,135,128,False
+Prob Max,298,136,128,False
+Prob Max,300,137,128,False
+Prob Max,302,138,128,False
+Prob Max,304,139,256,False
+Prob Max,308,140,256,False
+Prob Max,310,141,256,False
+Prob Max,312,142,256,False
+Prob Max,314,143,256,False
+Prob Max,316,144,256,False
+Prob Max,318,145,256,False
+Prob Max,320,146,256,False
+Prob Max,322,147,256,False
+Prob Max,324,148,256,False
+Prob Max,326,149,256,False
+Prob Max,328,150,256,False
+Prob Max,330,151,256,False
+Prob Max,332,152,256,False
+Prob Max,334,153,256,False
+Prob Max,336,154,256,False
+Prob Max,338,155,256,False
+Prob Max,340,156,256,False
+Prob Max,342,157,256,False
+Prob Max,344,158,256,False
+Prob Max,346,159,256,False
+Prob Max,350,160,256,False
+Prob Max,352,161,256,False
+Prob Max,354,162,256,False
+Prob Max,356,163,256,False
+Prob Max,358,164,256,False
+Prob Max,360,165,256,False
+Prob Max,362,166,256,False
+Prob Max,364,167,256,False
+Prob Max,366,168,256,False
+Prob Max,368,169,256,False
+Prob Max,370,170,256,False
+Prob Max,372,171,256,False
+Prob Max,374,172,256,False
+Prob Max,376,173,256,False
+Prob Max,378,174,256,False
+Prob Max,382,175,256,False
+Prob Max,386,176,256,False
+Prob Max,388,177,256,False
+Prob Max,390,178,256,False
+Prob Max,392,179,256,False
+Prob Max,394,180,256,False
+Prob Max,396,181,256,False
+Prob Max,398,182,256,False
+Prob Max,400,183,256,False
+Prob Max,402,184,256,False
+Prob Max,404,185,256,False
+Prob Max,406,186,256,False
+Prob Max,408,187,256,False
+Prob Max,410,188,256,False
+Prob Max,412,189,256,False
+Prob Max,414,190,256,False
+Prob Max,416,191,256,False
+Prob Max,418,192,256,False
+Prob Max,420,193,256,False
+Prob Max,422,194,256,False
+Prob Max,424,195,256,False
+Prob Max,426,196,256,False
+Prob Max,428,197,256,False
+Prob Max,430,198,256,False
+Prob Max,432,199,256,False
+Prob Max,434,200,256,False
+Prob Max,436,201,256,False
+Prob Max,438,202,256,False
+Prob Max,440,203,256,False
+Prob Max,444,204,256,False
+Prob Max,448,205,256,False
+Prob Max,450,206,256,False
+Prob Max,452,207,256,False
+Prob Max,454,208,256,False
+Prob Max,456,209,256,False
+Prob Max,460,210,256,False
+Prob Max,462,211,256,False
+Prob Max,464,212,256,False
+Prob Max,466,213,256,False
+Prob Max,468,214,256,False
+Prob Max,470,215,256,False
+Prob Max,472,216,256,False
+Prob Max,474,217,256,False
+Prob Max,476,218,256,False
+Prob Max,478,219,256,False
+Prob Max,480,220,256,False
+Prob Max,482,221,256,False
+Prob Max,484,222,256,False
+Prob Max,486,223,256,False
+Prob Max,488,224,256,False
+Prob Max,490,225,256,False
+Prob Max,494,226,256,False
+Prob Max,496,227,256,False
+Prob Max,498,228,256,False
+Prob Max,500,229,256,False
+Prob Max,504,230,256,False
+Prob Max,506,231,256,False
+Prob Max,508,232,256,False
+Prob Max,510,233,256,False
+Prob Max,512,234,256,False
+Prob Max,514,235,256,False
+Prob Max,516,236,256,False
+Prob Max,518,237,256,False
+Prob Max,520,238,256,False
+Prob Max,522,239,256,False
+Prob Max,524,240,256,False
+Prob Max,526,241,256,False
+Prob Max,528,242,256,False
+Prob Max,530,243,256,False
+Prob Max,532,244,256,False
+Prob Max,534,245,256,False
+Prob Max,536,246,256,False
+Prob Max,538,247,256,False
+Prob Max,540,248,256,False
+Prob Max,542,249,256,False
+Prob Max,544,250,256,False
+Prob Max,548,251,256,False
+Prob Max,550,252,256,False
+Prob Max,552,253,256,False
+Prob Max,554,254,256,False
+Prob Max,556,255,256,False
+Prob Max,558,256,256,False
+Prob Max,560,257,256,False
+Prob Max,562,258,256,False
+Prob Max,564,259,256,False
+Prob Max,566,260,256,False
+Prob Max,568,261,256,False
+Prob Max,570,262,256,False
+Prob Max,572,263,256,False
+Prob Max,574,264,256,False
+Prob Max,576,265,256,False
+Prob Max,580,266,256,False
+Prob Max,582,267,256,False
+Prob Max,584,267,256,True
+Simple Max,2,1,2,False
+Simple Max,4,2,2,False
+Simple Max,6,3,4,False
+Simple Max,8,4,4,False
+Simple Max,10,5,8,False
+Simple Max,12,6,8,False
+Simple Max,14,7,8,False
+Simple Max,16,8,8,False
+Simple Max,18,9,8,False
+Simple Max,20,10,8,False
+Simple Max,22,11,8,False
+Simple Max,26,12,8,False
+Simple Max,28,13,8,False
+Simple Max,32,14,16,False
+Simple Max,34,15,16,False
+Simple Max,36,16,16,False
+Simple Max,38,17,16,False
+Simple Max,42,18,16,False
+Simple Max,44,19,16,False
+Simple Max,46,20,32,False
+Simple Max,48,21,32,False
+Simple Max,50,22,32,False
+Simple Max,52,23,32,False
+Simple Max,54,24,32,False
+Simple Max,56,25,32,False
+Simple Max,58,26,32,False
+Simple Max,60,27,32,False
+Simple Max,62,28,32,False
+Simple Max,64,29,32,False
+Simple Max,66,30,32,False
+Simple Max,70,31,32,False
+Simple Max,72,32,32,False
+Simple Max,74,33,32,False
+Simple Max,76,34,32,False
+Simple Max,78,35,32,False
+Simple Max,80,36,32,False
+Simple Max,82,37,32,False
+Simple Max,84,38,32,False
+Simple Max,88,39,32,False
+Simple Max,90,40,32,False
+Simple Max,92,41,32,False
+Simple Max,94,42,32,False
+Simple Max,96,43,64,False
+Simple Max,98,44,64,False
+Simple Max,100,45,64,False
+Simple Max,102,46,64,False
+Simple Max,104,47,64,False
+Simple Max,106,48,64,False
+Simple Max,108,49,64,False
+Simple Max,110,50,64,False
+Simple Max,112,51,64,False
+Simple Max,114,52,64,False
+Simple Max,116,53,64,False
+Simple Max,118,54,64,False
+Simple Max,120,55,64,False
+Simple Max,124,56,64,False
+Simple Max,126,57,64,False
+Simple Max,128,58,64,False
+Simple Max,130,59,64,False
+Simple Max,132,60,64,False
+Simple Max,134,61,64,False
+Simple Max,138,62,64,False
+Simple Max,140,63,64,False
+Simple Max,142,64,64,False
+Simple Max,146,65,64,False
+Simple Max,148,66,64,False
+Simple Max,150,67,64,False
+Simple Max,152,68,64,False
+Simple Max,154,69,64,False
+Simple Max,156,70,64,False
+Simple Max,158,71,64,False
+Simple Max,160,72,64,False
+Simple Max,162,73,64,False
+Simple Max,164,74,64,False
+Simple Max,166,75,64,False
+Simple Max,168,76,64,False
+Simple Max,170,77,64,False
+Simple Max,172,78,64,False
+Simple Max,176,79,64,False
+Simple Max,178,80,64,False
+Simple Max,180,81,128,False
+Simple Max,182,82,128,False
+Simple Max,184,83,128,False
+Simple Max,186,84,128,False
+Simple Max,188,85,128,False
+Simple Max,190,86,128,False
+Simple Max,192,87,128,False
+Simple Max,194,88,128,False
+Simple Max,196,89,128,False
+Simple Max,198,90,128,False
+Simple Max,200,91,128,False
+Simple Max,202,92,128,False
+Simple Max,204,93,128,False
+Simple Max,206,94,128,False
+Simple Max,208,95,128,False
+Simple Max,210,96,128,False
+Simple Max,212,97,128,False
+Simple Max,214,98,128,False
+Simple Max,216,99,128,False
+Simple Max,218,100,128,False
+Simple Max,220,101,128,False
+Simple Max,224,102,128,False
+Simple Max,226,103,128,False
+Simple Max,228,104,128,False
+Simple Max,232,105,128,False
+Simple Max,234,106,128,False
+Simple Max,236,107,128,False
+Simple Max,238,108,128,False
+Simple Max,240,109,128,False
+Simple Max,242,110,128,False
+Simple Max,244,111,128,False
+Simple Max,246,112,128,False
+Simple Max,248,113,128,False
+Simple Max,250,114,128,False
+Simple Max,252,115,128,False
+Simple Max,254,116,128,False
+Simple Max,256,117,128,False
+Simple Max,258,118,128,False
+Simple Max,260,119,128,False
+Simple Max,264,120,128,False
+Simple Max,266,121,128,False
+Simple Max,268,122,128,False
+Simple Max,270,123,128,False
+Simple Max,272,124,128,False
+Simple Max,276,125,128,False
+Simple Max,278,126,128,False
+Simple Max,280,127,128,False
+Simple Max,282,128,128,False
+Simple Max,284,129,128,False
+Simple Max,288,130,128,False
+Simple Max,290,131,128,False
+Simple Max,292,132,128,False
+Simple Max,294,133,128,False
+Simple Max,298,134,128,False
+Simple Max,300,135,128,False
+Simple Max,302,136,128,False
+Simple Max,304,137,128,False
+Simple Max,306,138,128,False
+Simple Max,308,139,128,False
+Simple Max,310,140,128,False
+Simple Max,312,141,128,False
+Simple Max,316,142,128,False
+Simple Max,318,143,128,False
+Simple Max,320,144,128,False
+Simple Max,322,145,128,False
+Simple Max,324,146,128,False
+Simple Max,326,147,128,False
+Simple Max,328,148,128,False
+Simple Max,330,149,128,False
+Simple Max,332,150,128,False
+Simple Max,334,151,128,False
+Simple Max,336,152,128,False
+Simple Max,338,153,128,False
+Simple Max,342,154,128,False
+Simple Max,344,155,128,False
+Simple Max,348,156,128,False
+Simple Max,350,157,128,False
+Simple Max,352,158,128,False
+Simple Max,354,159,128,False
+Simple Max,356,160,128,False
+Simple Max,358,161,128,False
+Simple Max,360,162,128,False
+Simple Max,362,163,128,False
+Simple Max,364,164,128,False
+Simple Max,366,165,128,False
+Simple Max,368,166,128,False
+Simple Max,370,167,128,False
+Simple Max,372,168,128,False
+Simple Max,374,169,128,False
+Simple Max,376,169,128,True
+Left Down,2,1,2,False
+Left Down,4,2,2,False
+Left Down,8,3,4,False
+Left Down,10,4,8,False
+Left Down,12,5,8,False
+Left Down,14,6,8,False
+Left Down,16,7,8,False
+Left Down,18,8,8,False
+Left Down,20,9,8,False
+Left Down,22,10,8,False
+Left Down,24,11,8,False
+Left Down,28,12,8,False
+Left Down,30,13,16,False
+Left Down,32,14,16,False
+Left Down,34,15,16,False
+Left Down,36,16,16,False
+Left Down,38,17,16,False
 Left Down,42,18,16,False
 Left Down,44,19,16,False
 Left Down,46,20,16,False
@@ -27,8 +1336,8 @@ Left Down,56,25,32,False
 Left Down,58,26,32,False
 Left Down,60,27,32,False
 Left Down,62,28,32,False
-Left Down,66,29,32,False
-Left Down,68,30,32,False
+Left Down,64,29,32,False
+Left Down,66,30,32,False
 Left Down,70,31,32,False
 Left Down,72,32,32,False
 Left Down,74,33,32,False
@@ -47,13 +1356,2753 @@ Left Down,98,45,32,False
 Left Down,100,46,32,False
 Left Down,102,47,32,False
 Left Down,104,48,32,False
-Left Down,106,49,64,False
-Left Down,108,50,64,False
+Left Down,106,49,32,False
+Left Down,108,50,32,False
+Left Down,110,51,32,False
+Left Down,112,52,32,False
+Left Down,114,53,32,False
+Left Down,116,54,32,False
+Left Down,118,55,32,False
+Left Down,120,56,32,False
+Left Down,122,57,32,False
+Left Down,124,58,32,False
+Left Down,128,59,32,False
+Left Down,130,60,32,False
+Left Down,132,61,32,False
+Left Down,134,62,32,False
+Left Down,136,63,32,False
+Left Down,138,64,32,False
+Left Down,140,65,32,False
+Left Down,142,66,32,False
+Left Down,144,67,32,False
+Left Down,146,68,32,False
+Left Down,148,69,32,False
+Left Down,150,70,32,False
+Left Down,152,71,32,False
+Left Down,154,72,32,False
+Left Down,156,73,32,False
+Left Down,158,74,32,False
+Left Down,160,75,32,False
+Left Down,162,76,32,False
+Left Down,164,77,32,False
+Left Down,166,78,32,False
+Left Down,168,79,32,False
+Left Down,170,80,32,False
+Left Down,172,81,32,False
+Left Down,174,82,32,False
+Left Down,176,83,32,False
+Left Down,178,84,32,False
+Left Down,180,85,32,False
+Left Down,182,86,32,False
+Left Down,184,87,32,False
+Left Down,186,88,32,False
+Left Down,188,89,32,False
+Left Down,190,90,32,False
+Left Down,192,90,32,True
+Random,2,1,2,False
+Random,4,2,4,False
+Random,8,3,4,False
+Random,10,4,4,False
+Random,12,5,4,False
+Random,14,6,4,False
+Random,16,7,8,False
+Random,18,8,8,False
+Random,20,9,8,False
+Random,22,10,8,False
+Random,26,11,8,False
+Random,28,12,16,False
+Random,30,13,16,False
+Random,32,14,16,False
+Random,34,15,16,False
+Random,36,16,16,False
+Random,38,17,16,False
+Random,40,18,16,False
+Random,42,19,16,False
+Random,44,20,16,False
+Random,48,21,16,False
+Random,50,22,32,False
+Random,52,23,32,False
+Random,54,24,32,False
+Random,56,25,32,False
+Random,60,26,32,False
+Random,62,27,32,False
+Random,64,28,32,False
+Random,66,29,32,False
+Random,70,30,32,False
+Random,74,31,32,False
+Random,76,32,32,False
+Random,78,33,32,False
+Random,80,34,32,False
+Random,82,35,32,False
+Random,84,36,32,False
+Random,88,37,32,False
+Random,90,38,32,False
+Random,94,39,32,False
+Random,96,40,32,False
+Random,98,41,32,False
+Random,100,42,32,False
+Random,102,43,32,False
+Random,104,44,32,False
+Random,106,45,32,False
+Random,108,46,32,False
+Random,110,47,32,False
+Random,112,48,64,False
+Random,114,49,64,False
+Random,116,50,64,False
+Random,118,51,64,False
+Random,120,52,64,False
+Random,122,53,64,False
+Random,124,54,64,False
+Random,126,55,64,False
+Random,130,56,64,False
+Random,132,57,64,False
+Random,134,58,64,False
+Random,136,59,64,False
+Random,138,60,64,False
+Random,142,61,64,False
+Random,144,62,64,False
+Random,146,63,64,False
+Random,148,64,64,False
+Random,150,65,64,False
+Random,152,66,64,False
+Random,154,67,64,False
+Random,156,68,64,False
+Random,158,69,64,False
+Random,160,70,64,False
+Random,164,71,64,False
+Random,166,72,64,False
+Random,168,73,64,False
+Random,170,74,64,False
+Random,172,75,64,False
+Random,174,76,64,False
+Random,176,77,64,False
+Random,178,78,64,False
+Random,180,79,64,False
+Random,182,80,64,False
+Random,184,81,64,False
+Random,186,82,64,False
+Random,188,83,64,False
+Random,190,84,64,False
+Random,192,85,64,False
+Random,194,86,64,False
+Random,196,87,64,False
+Random,198,88,64,False
+Random,200,89,64,False
+Random,202,90,64,False
+Random,204,91,64,False
+Random,206,92,64,False
+Random,208,93,64,False
+Random,210,94,64,False
+Random,214,95,64,False
+Random,216,96,64,False
+Random,218,97,64,False
+Random,220,98,64,False
+Random,222,99,64,False
+Random,226,100,64,False
+Random,228,101,64,False
+Random,230,102,64,False
+Random,232,103,64,False
+Random,234,104,64,False
+Random,236,105,64,False
+Random,238,106,64,False
+Random,240,107,64,False
+Random,242,107,64,True
+Prob Max,2,1,2,False
+Prob Max,6,2,4,False
+Prob Max,8,3,4,False
+Prob Max,10,4,4,False
+Prob Max,12,5,4,False
+Prob Max,14,6,8,False
+Prob Max,16,7,8,False
+Prob Max,20,8,8,False
+Prob Max,22,9,16,False
+Prob Max,24,10,16,False
+Prob Max,26,11,16,False
+Prob Max,28,12,16,False
+Prob Max,30,13,16,False
+Prob Max,32,14,16,False
+Prob Max,34,15,16,False
+Prob Max,36,16,16,False
+Prob Max,38,17,16,False
+Prob Max,40,18,16,False
+Prob Max,42,19,16,False
+Prob Max,44,20,16,False
+Prob Max,46,21,32,False
+Prob Max,48,22,32,False
+Prob Max,50,23,32,False
+Prob Max,54,24,32,False
+Prob Max,56,25,32,False
+Prob Max,58,26,32,False
+Prob Max,60,27,32,False
+Prob Max,62,28,32,False
+Prob Max,64,29,32,False
+Prob Max,66,30,32,False
+Prob Max,68,31,32,False
+Prob Max,70,32,32,False
+Prob Max,72,33,32,False
+Prob Max,74,34,32,False
+Prob Max,76,35,32,False
+Prob Max,78,36,32,False
+Prob Max,82,37,32,False
+Prob Max,84,38,32,False
+Prob Max,86,39,64,False
+Prob Max,88,40,64,False
+Prob Max,90,41,64,False
+Prob Max,92,42,64,False
+Prob Max,94,43,64,False
+Prob Max,96,44,64,False
+Prob Max,98,45,64,False
+Prob Max,100,46,64,False
+Prob Max,102,47,64,False
+Prob Max,104,48,64,False
+Prob Max,106,49,64,False
+Prob Max,108,50,64,False
+Prob Max,110,51,64,False
+Prob Max,112,52,64,False
+Prob Max,114,53,64,False
+Prob Max,116,54,64,False
+Prob Max,118,55,64,False
+Prob Max,120,56,64,False
+Prob Max,122,57,64,False
+Prob Max,124,58,64,False
+Prob Max,126,59,64,False
+Prob Max,128,60,64,False
+Prob Max,130,61,64,False
+Prob Max,132,62,64,False
+Prob Max,134,63,64,False
+Prob Max,136,64,64,False
+Prob Max,138,65,64,False
+Prob Max,140,66,64,False
+Prob Max,142,67,64,False
+Prob Max,144,68,64,False
+Prob Max,146,69,64,False
+Prob Max,148,70,64,False
+Prob Max,150,71,64,False
+Prob Max,152,72,64,False
+Prob Max,154,73,64,False
+Prob Max,156,74,64,False
+Prob Max,158,75,64,False
+Prob Max,160,76,64,False
+Prob Max,162,77,64,False
+Prob Max,164,78,64,False
+Prob Max,166,79,64,False
+Prob Max,168,80,64,False
+Prob Max,170,81,64,False
+Prob Max,172,82,128,False
+Prob Max,174,83,128,False
+Prob Max,178,84,128,False
+Prob Max,182,85,128,False
+Prob Max,184,86,128,False
+Prob Max,186,87,128,False
+Prob Max,188,88,128,False
+Prob Max,190,89,128,False
+Prob Max,192,90,128,False
+Prob Max,194,91,128,False
+Prob Max,196,92,128,False
+Prob Max,198,93,128,False
+Prob Max,200,94,128,False
+Prob Max,202,95,128,False
+Prob Max,204,96,128,False
+Prob Max,206,97,128,False
+Prob Max,208,98,128,False
+Prob Max,210,99,128,False
+Prob Max,212,100,128,False
+Prob Max,214,101,128,False
+Prob Max,216,102,128,False
+Prob Max,218,103,128,False
+Prob Max,220,104,128,False
+Prob Max,224,105,128,False
+Prob Max,226,106,128,False
+Prob Max,230,107,128,False
+Prob Max,232,108,128,False
+Prob Max,234,109,128,False
+Prob Max,236,110,128,False
+Prob Max,238,111,128,False
+Prob Max,242,112,128,False
+Prob Max,246,113,128,False
+Prob Max,248,114,128,False
+Prob Max,250,115,128,False
+Prob Max,252,116,128,False
+Prob Max,256,117,128,False
+Prob Max,258,118,128,False
+Prob Max,262,119,128,False
+Prob Max,264,120,128,False
+Prob Max,266,121,128,False
+Prob Max,268,122,128,False
+Prob Max,270,123,128,False
+Prob Max,272,124,128,False
+Prob Max,274,125,128,False
+Prob Max,276,126,128,False
+Prob Max,278,127,128,False
+Prob Max,282,128,128,False
+Prob Max,284,129,128,False
+Prob Max,286,130,128,False
+Prob Max,288,131,128,False
+Prob Max,290,132,128,False
+Prob Max,292,133,128,False
+Prob Max,294,134,128,False
+Prob Max,296,135,128,False
+Prob Max,298,136,128,False
+Prob Max,300,137,128,False
+Prob Max,302,138,128,False
+Prob Max,304,139,128,False
+Prob Max,306,140,128,False
+Prob Max,310,141,128,False
+Prob Max,312,142,128,False
+Prob Max,314,143,128,False
+Prob Max,318,144,128,False
+Prob Max,320,145,128,False
+Prob Max,322,146,128,False
+Prob Max,324,147,128,False
+Prob Max,326,148,128,False
+Prob Max,328,149,256,False
+Prob Max,330,150,256,False
+Prob Max,334,151,256,False
+Prob Max,336,152,256,False
+Prob Max,338,153,256,False
+Prob Max,342,154,256,False
+Prob Max,344,155,256,False
+Prob Max,346,156,256,False
+Prob Max,348,157,256,False
+Prob Max,350,158,256,False
+Prob Max,352,159,256,False
+Prob Max,354,160,256,False
+Prob Max,356,161,256,False
+Prob Max,360,162,256,False
+Prob Max,362,163,256,False
+Prob Max,366,164,256,False
+Prob Max,368,165,256,False
+Prob Max,372,166,256,False
+Prob Max,374,167,256,False
+Prob Max,376,168,256,False
+Prob Max,378,169,256,False
+Prob Max,380,170,256,False
+Prob Max,382,171,256,False
+Prob Max,384,172,256,False
+Prob Max,386,173,256,False
+Prob Max,388,174,256,False
+Prob Max,392,175,256,False
+Prob Max,394,176,256,False
+Prob Max,396,177,256,False
+Prob Max,398,178,256,False
+Prob Max,400,179,256,False
+Prob Max,402,180,256,False
+Prob Max,404,181,256,False
+Prob Max,406,182,256,False
+Prob Max,408,183,256,False
+Prob Max,410,184,256,False
+Prob Max,412,185,256,False
+Prob Max,414,186,256,False
+Prob Max,416,187,256,False
+Prob Max,418,188,256,False
+Prob Max,420,189,256,False
+Prob Max,422,190,256,False
+Prob Max,424,191,256,False
+Prob Max,426,192,256,False
+Prob Max,428,193,256,False
+Prob Max,432,194,256,False
+Prob Max,434,195,256,False
+Prob Max,436,196,256,False
+Prob Max,438,197,256,False
+Prob Max,440,198,256,False
+Prob Max,444,199,256,False
+Prob Max,448,200,256,False
+Prob Max,450,201,256,False
+Prob Max,452,202,256,False
+Prob Max,454,203,256,False
+Prob Max,458,204,256,False
+Prob Max,460,205,256,False
+Prob Max,462,206,256,False
+Prob Max,464,207,256,False
+Prob Max,466,208,256,False
+Prob Max,468,209,256,False
+Prob Max,470,210,256,False
+Prob Max,472,211,256,False
+Prob Max,474,212,256,False
+Prob Max,478,213,256,False
+Prob Max,482,214,256,False
+Prob Max,484,215,256,False
+Prob Max,486,216,256,False
+Prob Max,488,217,256,False
+Prob Max,490,218,256,False
+Prob Max,492,219,256,False
+Prob Max,494,220,256,False
+Prob Max,496,221,256,False
+Prob Max,498,222,256,False
+Prob Max,500,223,256,False
+Prob Max,502,224,256,False
+Prob Max,504,225,256,False
+Prob Max,506,226,256,False
+Prob Max,508,227,256,False
+Prob Max,510,228,256,False
+Prob Max,514,229,256,False
+Prob Max,516,230,256,False
+Prob Max,518,231,256,False
+Prob Max,522,232,256,False
+Prob Max,524,233,256,False
+Prob Max,526,234,256,False
+Prob Max,528,235,256,False
+Prob Max,530,236,256,False
+Prob Max,532,237,256,False
+Prob Max,534,238,256,False
+Prob Max,536,239,256,False
+Prob Max,538,240,256,False
+Prob Max,540,241,256,False
+Prob Max,542,242,256,False
+Prob Max,544,243,256,False
+Prob Max,546,244,256,False
+Prob Max,548,245,256,False
+Prob Max,550,246,256,False
+Prob Max,552,247,256,False
+Prob Max,554,248,256,False
+Prob Max,556,249,256,False
+Prob Max,558,250,256,False
+Prob Max,560,251,256,False
+Prob Max,562,252,256,False
+Prob Max,564,253,256,False
+Prob Max,566,254,256,False
+Prob Max,568,255,256,False
+Prob Max,570,256,256,False
+Prob Max,572,257,256,False
+Prob Max,574,258,256,False
+Prob Max,576,259,256,False
+Prob Max,578,260,256,False
+Prob Max,580,261,256,False
+Prob Max,582,262,256,False
+Prob Max,584,263,256,False
+Prob Max,586,264,256,False
+Prob Max,588,265,256,False
+Prob Max,590,266,256,False
+Prob Max,592,267,512,False
+Prob Max,594,268,512,False
+Prob Max,596,269,512,False
+Prob Max,598,270,512,False
+Prob Max,600,271,512,False
+Prob Max,604,272,512,False
+Prob Max,606,273,512,False
+Prob Max,608,274,512,False
+Prob Max,610,275,512,False
+Prob Max,612,276,512,False
+Prob Max,614,277,512,False
+Prob Max,616,278,512,False
+Prob Max,618,279,512,False
+Prob Max,620,280,512,False
+Prob Max,622,281,512,False
+Prob Max,624,282,512,False
+Prob Max,628,283,512,False
+Prob Max,630,284,512,False
+Prob Max,632,285,512,False
+Prob Max,634,286,512,False
+Prob Max,636,287,512,False
+Prob Max,638,288,512,False
+Prob Max,640,289,512,False
+Prob Max,642,290,512,False
+Prob Max,644,291,512,False
+Prob Max,648,292,512,False
+Prob Max,650,293,512,False
+Prob Max,652,294,512,False
+Prob Max,654,295,512,False
+Prob Max,656,296,512,False
+Prob Max,658,297,512,False
+Prob Max,660,298,512,False
+Prob Max,662,299,512,False
+Prob Max,664,300,512,False
+Prob Max,666,301,512,False
+Prob Max,668,302,512,False
+Prob Max,670,303,512,False
+Prob Max,672,304,512,False
+Prob Max,676,305,512,False
+Prob Max,678,306,512,False
+Prob Max,680,307,512,False
+Prob Max,682,308,512,False
+Prob Max,684,309,512,False
+Prob Max,686,310,512,False
+Prob Max,688,311,512,False
+Prob Max,690,312,512,False
+Prob Max,692,313,512,False
+Prob Max,694,314,512,False
+Prob Max,696,315,512,False
+Prob Max,698,316,512,False
+Prob Max,700,317,512,False
+Prob Max,702,318,512,False
+Prob Max,704,319,512,False
+Prob Max,706,320,512,False
+Prob Max,708,321,512,False
+Prob Max,710,322,512,False
+Prob Max,712,323,512,False
+Prob Max,714,324,512,False
+Prob Max,716,325,512,False
+Prob Max,718,326,512,False
+Prob Max,720,327,512,False
+Prob Max,724,328,512,False
+Prob Max,726,329,512,False
+Prob Max,728,330,512,False
+Prob Max,730,331,512,False
+Prob Max,732,332,512,False
+Prob Max,734,333,512,False
+Prob Max,738,334,512,False
+Prob Max,740,335,512,False
+Prob Max,742,336,512,False
+Prob Max,744,337,512,False
+Prob Max,746,338,512,False
+Prob Max,748,339,512,False
+Prob Max,750,340,512,False
+Prob Max,752,341,512,False
+Prob Max,754,342,512,False
+Prob Max,756,343,512,False
+Prob Max,758,344,512,False
+Prob Max,760,345,512,False
+Prob Max,762,346,512,False
+Prob Max,764,347,512,False
+Prob Max,768,348,512,False
+Prob Max,770,349,512,False
+Prob Max,772,350,512,False
+Prob Max,774,351,512,False
+Prob Max,776,352,512,False
+Prob Max,780,353,512,False
+Prob Max,782,354,512,False
+Prob Max,784,355,512,False
+Prob Max,788,356,512,False
+Prob Max,790,357,512,False
+Prob Max,792,358,512,False
+Prob Max,794,359,512,False
+Prob Max,796,360,512,False
+Prob Max,800,361,512,False
+Prob Max,802,362,512,False
+Prob Max,804,363,512,False
+Prob Max,806,364,512,False
+Prob Max,808,365,512,False
+Prob Max,810,366,512,False
+Prob Max,812,367,512,False
+Prob Max,814,368,512,False
+Prob Max,816,369,512,False
+Prob Max,818,370,512,False
+Prob Max,822,371,512,False
+Prob Max,824,372,512,False
+Prob Max,826,373,512,False
+Prob Max,828,374,512,False
+Prob Max,830,375,512,False
+Prob Max,832,376,512,False
+Prob Max,834,377,512,False
+Prob Max,836,378,512,False
+Prob Max,838,379,512,False
+Prob Max,840,380,512,False
+Prob Max,842,381,512,False
+Prob Max,846,382,512,False
+Prob Max,848,383,512,False
+Prob Max,850,384,512,False
+Prob Max,852,385,512,False
+Prob Max,854,386,512,False
+Prob Max,856,387,512,False
+Prob Max,858,388,512,False
+Prob Max,860,389,512,False
+Prob Max,864,390,512,False
+Prob Max,866,391,512,False
+Prob Max,868,392,512,False
+Prob Max,872,393,512,False
+Prob Max,874,394,512,False
+Prob Max,876,395,512,False
+Prob Max,878,396,512,False
+Prob Max,882,397,512,False
+Prob Max,884,398,512,False
+Prob Max,886,399,512,False
+Prob Max,888,400,512,False
+Prob Max,890,401,512,False
+Prob Max,892,402,512,False
+Prob Max,894,403,512,False
+Prob Max,896,404,512,False
+Prob Max,900,405,512,False
+Prob Max,902,406,512,False
+Prob Max,904,407,512,False
+Prob Max,906,408,512,False
+Prob Max,908,409,512,False
+Prob Max,910,410,512,False
+Prob Max,914,411,512,False
+Prob Max,916,412,512,False
+Prob Max,918,413,512,False
+Prob Max,920,414,512,False
+Prob Max,922,415,512,False
+Prob Max,924,416,512,False
+Prob Max,926,417,512,False
+Prob Max,928,418,512,False
+Prob Max,930,419,512,False
+Prob Max,932,420,512,False
+Prob Max,934,421,512,False
+Prob Max,936,422,512,False
+Prob Max,938,423,512,False
+Prob Max,942,423,512,True
+Simple Max,2,1,2,False
+Simple Max,4,2,2,False
+Simple Max,6,3,4,False
+Simple Max,8,4,4,False
+Simple Max,10,5,4,False
+Simple Max,12,6,8,False
+Simple Max,14,7,8,False
+Simple Max,16,8,8,False
+Simple Max,18,9,8,False
+Simple Max,20,10,8,False
+Simple Max,24,11,8,False
+Simple Max,26,12,16,False
+Simple Max,28,13,16,False
+Simple Max,30,14,16,False
+Simple Max,34,15,16,False
+Simple Max,36,16,16,False
+Simple Max,38,17,16,False
+Simple Max,40,18,16,False
+Simple Max,44,19,16,False
+Simple Max,46,20,16,False
+Simple Max,48,21,16,False
+Simple Max,50,22,32,False
+Simple Max,54,23,32,False
+Simple Max,58,24,32,False
+Simple Max,60,25,32,False
+Simple Max,64,26,32,False
+Simple Max,66,27,32,False
+Simple Max,68,28,32,False
+Simple Max,70,29,32,False
+Simple Max,72,30,32,False
+Simple Max,74,31,32,False
+Simple Max,78,32,32,False
+Simple Max,80,33,64,False
+Simple Max,82,34,64,False
+Simple Max,84,35,64,False
+Simple Max,86,36,64,False
+Simple Max,90,37,64,False
+Simple Max,92,38,64,False
+Simple Max,94,39,64,False
+Simple Max,96,40,64,False
+Simple Max,98,41,64,False
+Simple Max,100,42,64,False
+Simple Max,102,43,64,False
+Simple Max,104,44,64,False
+Simple Max,106,45,64,False
+Simple Max,108,46,64,False
+Simple Max,110,47,64,False
+Simple Max,114,48,64,False
+Simple Max,116,49,64,False
+Simple Max,118,50,64,False
+Simple Max,120,51,64,False
+Simple Max,122,52,64,False
+Simple Max,124,53,64,False
+Simple Max,126,54,64,False
+Simple Max,128,55,64,False
+Simple Max,130,56,64,False
+Simple Max,132,57,64,False
+Simple Max,134,58,64,False
+Simple Max,136,59,64,False
+Simple Max,138,60,64,False
+Simple Max,140,61,64,False
+Simple Max,144,62,64,False
+Simple Max,148,63,64,False
+Simple Max,150,64,64,False
+Simple Max,152,65,64,False
+Simple Max,154,66,64,False
+Simple Max,156,67,64,False
+Simple Max,158,68,64,False
+Simple Max,160,69,64,False
+Simple Max,162,70,64,False
+Simple Max,164,71,64,False
+Simple Max,166,72,64,False
+Simple Max,168,73,64,False
+Simple Max,170,74,64,False
+Simple Max,172,75,64,False
+Simple Max,174,76,64,False
+Simple Max,176,77,64,False
+Simple Max,178,78,64,False
+Simple Max,180,79,64,False
+Simple Max,182,80,64,False
+Simple Max,184,81,64,False
+Simple Max,186,82,64,False
+Simple Max,188,83,64,False
+Simple Max,190,84,64,False
+Simple Max,194,85,64,False
+Simple Max,196,86,64,False
+Simple Max,198,87,64,False
+Simple Max,200,88,64,False
+Simple Max,204,89,64,False
+Simple Max,206,90,128,False
+Simple Max,208,91,128,False
+Simple Max,210,92,128,False
+Simple Max,212,93,128,False
+Simple Max,214,94,128,False
+Simple Max,216,95,128,False
+Simple Max,218,96,128,False
+Simple Max,220,97,128,False
+Simple Max,222,98,128,False
+Simple Max,224,99,128,False
+Simple Max,226,100,128,False
+Simple Max,228,101,128,False
+Simple Max,230,102,128,False
+Simple Max,232,103,128,False
+Simple Max,236,104,128,False
+Simple Max,238,105,128,False
+Simple Max,240,106,128,False
+Simple Max,242,107,128,False
+Simple Max,244,108,128,False
+Simple Max,246,109,128,False
+Simple Max,248,110,128,False
+Simple Max,250,111,128,False
+Simple Max,252,112,128,False
+Simple Max,254,113,128,False
+Simple Max,256,114,128,False
+Simple Max,260,115,128,False
+Simple Max,264,116,128,False
+Simple Max,266,117,128,False
+Simple Max,270,118,128,False
+Simple Max,272,119,128,False
+Simple Max,274,120,128,False
+Simple Max,276,121,128,False
+Simple Max,278,122,128,False
+Simple Max,280,123,128,False
+Simple Max,282,124,128,False
+Simple Max,284,125,128,False
+Simple Max,286,126,128,False
+Simple Max,288,127,128,False
+Simple Max,290,128,128,False
+Simple Max,292,129,128,False
+Simple Max,294,130,128,False
+Simple Max,296,131,128,False
+Simple Max,298,132,128,False
+Simple Max,300,133,128,False
+Simple Max,302,134,128,False
+Simple Max,304,135,128,False
+Simple Max,306,136,128,False
+Simple Max,308,137,128,False
+Simple Max,310,138,128,False
+Simple Max,312,139,128,False
+Simple Max,314,140,128,False
+Simple Max,316,141,128,False
+Simple Max,318,142,128,False
+Simple Max,320,143,128,False
+Simple Max,322,144,128,False
+Simple Max,324,145,128,False
+Simple Max,326,146,128,False
+Simple Max,328,147,128,False
+Simple Max,330,148,128,False
+Simple Max,332,149,128,False
+Simple Max,334,150,128,False
+Simple Max,336,151,128,False
+Simple Max,338,152,128,False
+Simple Max,340,153,128,False
+Simple Max,342,154,128,False
+Simple Max,344,155,128,False
+Simple Max,346,156,128,False
+Simple Max,348,157,128,False
+Simple Max,350,158,128,False
+Simple Max,352,159,128,False
+Simple Max,354,160,128,False
+Simple Max,356,161,128,False
+Simple Max,358,162,128,False
+Simple Max,360,163,128,False
+Simple Max,362,164,128,False
+Simple Max,366,165,128,False
+Simple Max,368,166,128,False
+Simple Max,370,167,128,False
+Simple Max,372,168,128,False
+Simple Max,374,169,128,False
+Simple Max,376,170,128,False
+Simple Max,378,171,128,False
+Simple Max,380,172,128,False
+Simple Max,382,173,128,False
+Simple Max,384,174,128,False
+Simple Max,388,175,128,False
+Simple Max,390,176,128,False
+Simple Max,392,177,128,False
+Simple Max,394,178,128,False
+Simple Max,396,179,128,False
+Simple Max,398,180,128,False
+Simple Max,400,181,128,False
+Simple Max,402,182,128,False
+Simple Max,406,183,128,False
+Simple Max,408,184,128,False
+Simple Max,410,185,128,False
+Simple Max,412,186,128,False
+Simple Max,414,187,128,False
+Simple Max,416,188,128,False
+Simple Max,420,189,128,False
+Simple Max,422,190,128,False
+Simple Max,424,191,128,False
+Simple Max,428,192,128,False
+Simple Max,430,193,128,False
+Simple Max,432,194,128,False
+Simple Max,434,195,128,False
+Simple Max,436,196,128,False
+Simple Max,438,197,128,False
+Simple Max,440,198,128,False
+Simple Max,442,199,128,False
+Simple Max,446,200,128,False
+Simple Max,448,201,128,False
+Simple Max,450,202,128,False
+Simple Max,452,203,128,False
+Simple Max,454,204,128,False
+Simple Max,456,205,128,False
+Simple Max,458,206,128,False
+Simple Max,460,207,128,False
+Simple Max,462,208,128,False
+Simple Max,464,209,128,False
+Simple Max,466,210,128,False
+Simple Max,468,211,128,False
+Simple Max,470,212,128,False
+Simple Max,472,213,128,False
+Simple Max,476,214,128,False
+Simple Max,478,215,128,False
+Simple Max,480,216,128,False
+Simple Max,482,217,128,False
+Simple Max,484,218,128,False
+Simple Max,486,219,128,False
+Simple Max,488,220,128,False
+Simple Max,492,221,128,False
+Simple Max,494,222,128,False
+Simple Max,496,223,128,False
+Simple Max,498,224,128,False
+Simple Max,500,225,128,False
+Simple Max,502,225,128,True
+Left Down,2,1,2,False
+Left Down,4,2,4,False
+Left Down,6,3,4,False
+Left Down,8,4,4,False
+Left Down,10,5,4,False
+Left Down,12,6,4,False
+Left Down,14,7,8,False
+Left Down,16,8,8,False
+Left Down,18,9,8,False
+Left Down,20,10,8,False
+Left Down,22,11,8,False
+Left Down,24,12,8,False
+Left Down,26,13,8,False
+Left Down,28,14,8,False
+Left Down,30,15,8,False
+Left Down,32,16,16,False
+Left Down,34,17,16,False
+Left Down,36,18,16,False
+Left Down,38,19,16,False
+Left Down,40,20,16,False
+Left Down,42,21,16,False
+Left Down,44,22,16,False
+Left Down,46,23,16,False
+Left Down,48,24,16,False
+Left Down,50,25,16,False
+Left Down,52,26,16,False
+Left Down,54,27,16,False
+Left Down,56,28,16,False
+Left Down,58,29,32,False
+Left Down,60,30,32,False
+Left Down,62,31,32,False
+Left Down,64,32,32,False
+Left Down,66,33,32,False
+Left Down,68,34,32,False
+Left Down,70,35,32,False
+Left Down,72,36,32,False
+Left Down,76,37,32,False
+Left Down,78,38,32,False
+Left Down,80,39,32,False
+Left Down,82,40,32,False
+Left Down,84,41,32,False
+Left Down,86,42,32,False
+Left Down,88,43,32,False
+Left Down,90,44,32,False
+Left Down,94,45,32,False
+Left Down,96,46,32,False
+Left Down,98,47,32,False
+Left Down,100,48,32,False
+Left Down,102,49,32,False
+Left Down,104,50,32,False
+Left Down,106,51,32,False
+Left Down,108,52,32,False
+Left Down,110,53,32,False
+Left Down,112,54,32,False
+Left Down,114,55,32,False
+Left Down,118,56,32,False
+Left Down,120,57,64,False
+Left Down,122,58,64,False
+Left Down,124,59,64,False
+Left Down,126,60,64,False
+Left Down,128,61,64,False
+Left Down,130,62,64,False
+Left Down,132,63,64,False
+Left Down,134,64,64,False
+Left Down,138,65,64,False
+Left Down,142,66,64,False
+Left Down,144,67,64,False
+Left Down,146,68,64,False
+Left Down,150,69,64,False
+Left Down,152,70,64,False
+Left Down,154,71,64,False
+Left Down,156,72,64,False
+Left Down,158,73,64,False
+Left Down,160,74,64,False
+Left Down,162,75,64,False
+Left Down,164,76,64,False
+Left Down,168,77,128,False
+Left Down,170,78,128,False
+Left Down,172,79,128,False
+Left Down,174,80,128,False
+Left Down,176,81,128,False
+Left Down,180,82,128,False
+Left Down,182,83,128,False
+Left Down,184,84,128,False
+Left Down,186,85,128,False
+Left Down,188,86,128,False
+Left Down,190,87,128,False
+Left Down,192,88,128,False
+Left Down,194,89,128,False
+Left Down,196,90,128,False
+Left Down,200,91,128,False
+Left Down,202,92,128,False
+Left Down,204,93,128,False
+Left Down,206,94,128,False
+Left Down,208,95,128,False
+Left Down,212,96,128,False
+Left Down,216,97,128,False
+Left Down,218,98,128,False
+Left Down,222,99,128,False
+Left Down,224,100,128,False
+Left Down,226,101,128,False
+Left Down,228,102,128,False
+Left Down,232,102,128,True
+Random,4,1,4,False
+Random,6,2,4,False
+Random,8,3,4,False
+Random,10,4,4,False
+Random,12,5,4,False
+Random,14,6,4,False
+Random,16,7,4,False
+Random,20,8,4,False
+Random,22,9,4,False
+Random,24,10,4,False
+Random,26,11,8,False
+Random,28,12,8,False
+Random,32,13,8,False
+Random,34,14,8,False
+Random,36,15,16,False
+Random,38,16,16,False
+Random,40,17,16,False
+Random,44,18,16,False
+Random,46,19,16,False
+Random,48,20,16,False
+Random,50,21,16,False
+Random,52,22,16,False
+Random,54,23,16,False
+Random,56,24,16,False
+Random,58,25,16,False
+Random,60,26,32,False
+Random,62,27,32,False
+Random,64,28,32,False
+Random,66,29,32,False
+Random,68,30,32,False
+Random,70,31,32,False
+Random,72,32,32,False
+Random,74,33,32,False
+Random,76,34,32,False
+Random,78,35,32,False
+Random,82,36,32,False
+Random,84,37,32,False
+Random,86,38,32,False
+Random,88,39,32,False
+Random,90,40,32,False
+Random,92,41,32,False
+Random,94,42,32,False
+Random,96,43,32,False
+Random,100,44,32,False
+Random,104,45,32,False
+Random,106,46,32,False
+Random,108,47,32,False
+Random,110,48,32,False
+Random,112,49,64,False
+Random,114,50,64,False
+Random,116,51,64,False
+Random,118,52,64,False
+Random,122,53,64,False
+Random,124,54,64,False
+Random,126,55,64,False
+Random,128,56,64,False
+Random,130,57,64,False
+Random,132,58,64,False
+Random,134,59,64,False
+Random,136,60,64,False
+Random,138,61,64,False
+Random,140,62,64,False
+Random,142,63,64,False
+Random,144,64,64,False
+Random,146,65,64,False
+Random,148,66,64,False
+Random,150,67,64,False
+Random,152,68,64,False
+Random,154,69,64,False
+Random,156,70,64,False
+Random,158,71,64,False
+Random,160,72,64,False
+Random,162,73,64,False
+Random,164,74,64,False
+Random,166,75,64,False
+Random,168,76,64,False
+Random,170,77,64,False
+Random,174,78,64,False
+Random,176,79,64,False
+Random,178,80,64,False
+Random,180,81,64,False
+Random,184,82,64,False
+Random,186,83,64,False
+Random,188,84,64,False
+Random,190,85,64,False
+Random,192,86,64,False
+Random,194,87,64,False
+Random,196,88,128,False
+Random,200,89,128,False
+Random,202,90,128,False
+Random,204,91,128,False
+Random,206,92,128,False
+Random,208,93,128,False
+Random,210,94,128,False
+Random,212,95,128,False
+Random,214,96,128,False
+Random,218,97,128,False
+Random,222,98,128,False
+Random,224,99,128,False
+Random,226,100,128,False
+Random,230,101,128,False
+Random,232,102,128,False
+Random,234,103,128,False
+Random,236,104,128,False
+Random,238,105,128,False
+Random,240,106,128,False
+Random,244,107,128,False
+Random,246,108,128,False
+Random,250,109,128,False
+Random,252,110,128,False
+Random,254,111,128,False
+Random,256,112,128,False
+Random,258,113,128,False
+Random,260,114,128,False
+Random,262,115,128,False
+Random,264,116,128,False
+Random,266,117,128,False
+Random,268,118,128,False
+Random,270,119,128,False
+Random,272,120,128,False
+Random,274,121,128,False
+Random,276,122,128,False
+Random,278,123,128,False
+Random,282,124,128,False
+Random,284,125,128,False
+Random,286,126,128,False
+Random,288,127,128,False
+Random,290,128,128,False
+Random,292,129,128,False
+Random,294,130,128,False
+Random,296,131,128,False
+Random,298,132,128,False
+Random,300,133,128,False
+Random,302,134,128,False
+Random,304,135,128,False
+Random,306,136,128,False
+Random,308,137,128,False
+Random,310,138,128,False
+Random,312,139,128,False
+Random,314,140,128,False
+Random,318,141,128,False
+Random,320,142,128,False
+Random,322,143,128,False
+Random,326,144,128,False
+Random,328,145,128,False
+Random,330,146,128,False
+Random,332,147,128,False
+Random,334,148,128,False
+Random,336,149,128,False
+Random,338,149,128,True
+Prob Max,4,1,4,False
+Prob Max,8,2,8,False
+Prob Max,10,3,8,False
+Prob Max,12,4,8,False
+Prob Max,14,5,8,False
+Prob Max,16,6,8,False
+Prob Max,18,7,8,False
+Prob Max,20,8,8,False
+Prob Max,22,9,8,False
+Prob Max,26,10,8,False
+Prob Max,28,11,8,False
+Prob Max,30,12,16,False
+Prob Max,32,13,16,False
+Prob Max,34,14,16,False
+Prob Max,38,15,16,False
+Prob Max,40,16,16,False
+Prob Max,42,17,32,False
+Prob Max,44,18,32,False
+Prob Max,46,19,32,False
+Prob Max,48,20,32,False
+Prob Max,50,21,32,False
+Prob Max,52,22,32,False
+Prob Max,54,23,32,False
+Prob Max,56,24,32,False
+Prob Max,58,25,32,False
+Prob Max,60,26,32,False
+Prob Max,62,27,32,False
+Prob Max,64,28,32,False
+Prob Max,66,29,32,False
+Prob Max,68,30,32,False
+Prob Max,72,31,32,False
+Prob Max,74,32,32,False
+Prob Max,78,33,32,False
+Prob Max,82,34,32,False
+Prob Max,84,35,32,False
+Prob Max,86,36,32,False
+Prob Max,88,37,32,False
+Prob Max,90,38,32,False
+Prob Max,92,39,32,False
+Prob Max,94,40,64,False
+Prob Max,96,41,64,False
+Prob Max,98,42,64,False
+Prob Max,102,43,64,False
+Prob Max,104,44,64,False
+Prob Max,106,45,64,False
+Prob Max,108,46,64,False
+Prob Max,110,47,64,False
+Prob Max,114,48,64,False
+Prob Max,116,49,64,False
+Prob Max,118,50,64,False
+Prob Max,120,51,64,False
+Prob Max,122,52,64,False
+Prob Max,124,53,64,False
+Prob Max,126,54,64,False
+Prob Max,128,55,64,False
+Prob Max,130,56,64,False
+Prob Max,134,57,64,False
+Prob Max,136,58,64,False
+Prob Max,138,59,64,False
+Prob Max,140,60,64,False
+Prob Max,142,61,64,False
+Prob Max,144,62,64,False
+Prob Max,146,63,64,False
+Prob Max,148,64,64,False
+Prob Max,150,65,64,False
+Prob Max,152,66,64,False
+Prob Max,154,67,64,False
+Prob Max,156,68,64,False
+Prob Max,158,69,64,False
+Prob Max,160,70,64,False
+Prob Max,162,71,64,False
+Prob Max,164,72,64,False
+Prob Max,166,73,64,False
+Prob Max,170,74,64,False
+Prob Max,172,75,64,False
+Prob Max,174,76,64,False
+Prob Max,176,77,64,False
+Prob Max,178,78,64,False
+Prob Max,180,79,64,False
+Prob Max,182,80,64,False
+Prob Max,184,81,64,False
+Prob Max,188,82,64,False
+Prob Max,190,83,64,False
+Prob Max,192,84,64,False
+Prob Max,194,85,128,False
+Prob Max,196,86,128,False
+Prob Max,198,87,128,False
+Prob Max,200,88,128,False
+Prob Max,202,89,128,False
+Prob Max,204,90,128,False
+Prob Max,206,91,128,False
+Prob Max,208,92,128,False
+Prob Max,210,93,128,False
+Prob Max,212,94,128,False
+Prob Max,214,95,128,False
+Prob Max,216,96,128,False
+Prob Max,218,97,128,False
+Prob Max,220,98,128,False
+Prob Max,222,99,128,False
+Prob Max,224,100,128,False
+Prob Max,226,101,128,False
+Prob Max,230,102,128,False
+Prob Max,232,103,128,False
+Prob Max,234,104,128,False
+Prob Max,236,105,128,False
+Prob Max,238,106,128,False
+Prob Max,240,107,128,False
+Prob Max,244,108,128,False
+Prob Max,246,109,128,False
+Prob Max,248,110,128,False
+Prob Max,250,111,128,False
+Prob Max,252,112,128,False
+Prob Max,254,113,128,False
+Prob Max,256,114,128,False
+Prob Max,260,115,128,False
+Prob Max,262,116,128,False
+Prob Max,264,117,128,False
+Prob Max,266,118,128,False
+Prob Max,268,119,128,False
+Prob Max,270,120,128,False
+Prob Max,272,121,128,False
+Prob Max,274,122,128,False
+Prob Max,276,123,128,False
+Prob Max,278,124,128,False
+Prob Max,280,125,128,False
+Prob Max,284,126,128,False
+Prob Max,286,127,128,False
+Prob Max,288,128,128,False
+Prob Max,290,129,128,False
+Prob Max,292,130,128,False
+Prob Max,294,131,128,False
+Prob Max,296,132,128,False
+Prob Max,298,133,128,False
+Prob Max,300,134,128,False
+Prob Max,302,135,128,False
+Prob Max,304,136,128,False
+Prob Max,306,137,128,False
+Prob Max,308,138,128,False
+Prob Max,310,139,128,False
+Prob Max,314,140,128,False
+Prob Max,318,141,128,False
+Prob Max,322,142,128,False
+Prob Max,324,143,128,False
+Prob Max,326,144,128,False
+Prob Max,328,145,128,False
+Prob Max,330,146,128,False
+Prob Max,332,147,128,False
+Prob Max,334,148,128,False
+Prob Max,336,149,128,False
+Prob Max,338,150,128,False
+Prob Max,340,151,128,False
+Prob Max,342,152,128,False
+Prob Max,344,153,128,False
+Prob Max,346,154,128,False
+Prob Max,350,155,128,False
+Prob Max,352,156,128,False
+Prob Max,354,157,128,False
+Prob Max,356,158,128,False
+Prob Max,358,159,128,False
+Prob Max,360,160,128,False
+Prob Max,362,161,128,False
+Prob Max,366,162,128,False
+Prob Max,368,163,128,False
+Prob Max,370,164,128,False
+Prob Max,372,165,128,False
+Prob Max,374,166,128,False
+Prob Max,376,167,128,False
+Prob Max,378,168,128,False
+Prob Max,380,169,128,False
+Prob Max,382,170,128,False
+Prob Max,384,171,128,False
+Prob Max,386,172,128,False
+Prob Max,390,173,128,False
+Prob Max,392,174,128,False
+Prob Max,394,175,128,False
+Prob Max,396,176,256,False
+Prob Max,398,177,256,False
+Prob Max,400,178,256,False
+Prob Max,402,179,256,False
+Prob Max,404,180,256,False
+Prob Max,408,181,256,False
+Prob Max,410,182,256,False
+Prob Max,412,183,256,False
+Prob Max,414,184,256,False
+Prob Max,416,185,256,False
+Prob Max,418,186,256,False
+Prob Max,420,187,256,False
+Prob Max,422,188,256,False
+Prob Max,424,189,256,False
+Prob Max,426,190,256,False
+Prob Max,428,191,256,False
+Prob Max,430,192,256,False
+Prob Max,432,193,256,False
+Prob Max,434,194,256,False
+Prob Max,436,195,256,False
+Prob Max,440,196,256,False
+Prob Max,442,197,256,False
+Prob Max,444,198,256,False
+Prob Max,446,199,256,False
+Prob Max,448,200,256,False
+Prob Max,450,201,256,False
+Prob Max,452,202,256,False
+Prob Max,454,203,256,False
+Prob Max,456,204,256,False
+Prob Max,460,205,256,False
+Prob Max,462,206,256,False
+Prob Max,464,207,256,False
+Prob Max,466,208,256,False
+Prob Max,468,209,256,False
+Prob Max,470,210,256,False
+Prob Max,472,211,256,False
+Prob Max,474,212,256,False
+Prob Max,476,213,256,False
+Prob Max,478,214,256,False
+Prob Max,480,215,256,False
+Prob Max,482,216,256,False
+Prob Max,484,217,256,False
+Prob Max,486,218,256,False
+Prob Max,488,219,256,False
+Prob Max,490,220,256,False
+Prob Max,492,221,256,False
+Prob Max,494,222,256,False
+Prob Max,496,223,256,False
+Prob Max,498,224,256,False
+Prob Max,500,225,256,False
+Prob Max,502,226,256,False
+Prob Max,504,227,256,False
+Prob Max,506,228,256,False
+Prob Max,508,229,256,False
+Prob Max,510,230,256,False
+Prob Max,512,231,256,False
+Prob Max,514,232,256,False
+Prob Max,516,233,256,False
+Prob Max,518,234,256,False
+Prob Max,520,235,256,False
+Prob Max,522,236,256,False
+Prob Max,524,237,256,False
+Prob Max,526,238,256,False
+Prob Max,528,239,256,False
+Prob Max,530,240,256,False
+Prob Max,532,241,256,False
+Prob Max,534,242,256,False
+Prob Max,536,243,256,False
+Prob Max,538,244,256,False
+Prob Max,540,245,256,False
+Prob Max,542,246,256,False
+Prob Max,544,247,256,False
+Prob Max,546,248,256,False
+Prob Max,548,249,256,False
+Prob Max,550,250,256,False
+Prob Max,552,251,256,False
+Prob Max,554,252,256,False
+Prob Max,556,253,256,False
+Prob Max,558,254,256,False
+Prob Max,560,255,256,False
+Prob Max,562,256,256,False
+Prob Max,564,257,256,False
+Prob Max,568,258,256,False
+Prob Max,572,259,256,False
+Prob Max,574,260,256,False
+Prob Max,576,261,256,False
+Prob Max,578,262,256,False
+Prob Max,580,263,256,False
+Prob Max,582,264,256,False
+Prob Max,584,265,256,False
+Prob Max,586,266,256,False
+Prob Max,588,267,256,False
+Prob Max,590,268,256,False
+Prob Max,592,269,256,False
+Prob Max,594,270,256,False
+Prob Max,596,271,256,False
+Prob Max,598,272,256,False
+Prob Max,600,273,256,False
+Prob Max,602,274,256,False
+Prob Max,604,275,256,False
+Prob Max,606,276,256,False
+Prob Max,608,277,256,False
+Prob Max,610,278,256,False
+Prob Max,614,279,256,False
+Prob Max,616,280,256,False
+Prob Max,618,281,256,False
+Prob Max,620,282,256,False
+Prob Max,622,283,256,False
+Prob Max,624,284,256,False
+Prob Max,626,285,256,False
+Prob Max,628,286,256,False
+Prob Max,630,287,256,False
+Prob Max,632,287,256,True
+Simple Max,2,1,2,False
+Simple Max,4,2,4,False
+Simple Max,6,3,4,False
+Simple Max,8,4,4,False
+Simple Max,10,5,8,False
+Simple Max,12,6,8,False
+Simple Max,16,7,8,False
+Simple Max,18,8,8,False
+Simple Max,20,9,8,False
+Simple Max,22,10,8,False
+Simple Max,26,11,8,False
+Simple Max,28,12,16,False
+Simple Max,30,13,16,False
+Simple Max,32,14,16,False
+Simple Max,34,15,16,False
+Simple Max,36,16,16,False
+Simple Max,38,17,16,False
+Simple Max,40,18,16,False
+Simple Max,42,19,16,False
+Simple Max,46,20,32,False
+Simple Max,50,21,32,False
+Simple Max,52,22,32,False
+Simple Max,56,23,32,False
+Simple Max,58,24,32,False
+Simple Max,60,25,32,False
+Simple Max,62,26,32,False
+Simple Max,64,27,32,False
+Simple Max,66,28,32,False
+Simple Max,70,29,32,False
+Simple Max,72,30,32,False
+Simple Max,74,31,32,False
+Simple Max,76,32,32,False
+Simple Max,78,33,32,False
+Simple Max,80,34,32,False
+Simple Max,82,35,32,False
+Simple Max,84,36,32,False
+Simple Max,86,37,32,False
+Simple Max,88,38,32,False
+Simple Max,90,39,32,False
+Simple Max,92,40,64,False
+Simple Max,94,41,64,False
+Simple Max,98,42,64,False
+Simple Max,100,43,64,False
+Simple Max,102,44,64,False
+Simple Max,104,45,64,False
+Simple Max,106,46,64,False
+Simple Max,108,47,64,False
+Simple Max,110,48,64,False
+Simple Max,112,49,64,False
+Simple Max,114,50,64,False
+Simple Max,116,51,64,False
+Simple Max,118,52,64,False
+Simple Max,120,53,64,False
+Simple Max,122,54,64,False
+Simple Max,124,55,64,False
+Simple Max,126,56,64,False
+Simple Max,128,57,64,False
+Simple Max,130,58,64,False
+Simple Max,132,59,64,False
+Simple Max,134,60,64,False
+Simple Max,136,61,64,False
+Simple Max,138,62,64,False
+Simple Max,140,63,64,False
+Simple Max,144,64,64,False
+Simple Max,146,65,64,False
+Simple Max,148,66,64,False
+Simple Max,150,67,64,False
+Simple Max,154,68,64,False
+Simple Max,156,69,64,False
+Simple Max,158,70,64,False
+Simple Max,160,71,64,False
+Simple Max,162,72,64,False
+Simple Max,164,73,64,False
+Simple Max,166,74,64,False
+Simple Max,170,75,64,False
+Simple Max,172,76,64,False
+Simple Max,174,77,64,False
+Simple Max,176,78,64,False
+Simple Max,178,79,64,False
+Simple Max,182,80,64,False
+Simple Max,184,81,64,False
+Simple Max,186,82,64,False
+Simple Max,188,83,64,False
+Simple Max,192,84,64,False
+Simple Max,196,85,128,False
+Simple Max,198,86,128,False
+Simple Max,200,87,128,False
+Simple Max,202,88,128,False
+Simple Max,204,89,128,False
+Simple Max,206,90,128,False
+Simple Max,208,91,128,False
+Simple Max,210,92,128,False
+Simple Max,212,93,128,False
+Simple Max,214,94,128,False
+Simple Max,216,95,128,False
+Simple Max,218,96,128,False
+Simple Max,220,97,128,False
+Simple Max,222,98,128,False
+Simple Max,224,99,128,False
+Simple Max,226,100,128,False
+Simple Max,228,101,128,False
+Simple Max,230,102,128,False
+Simple Max,232,103,128,False
+Simple Max,234,104,128,False
+Simple Max,236,105,128,False
+Simple Max,238,106,128,False
+Simple Max,240,107,128,False
+Simple Max,242,108,128,False
+Simple Max,244,109,128,False
+Simple Max,246,110,128,False
+Simple Max,248,111,128,False
+Simple Max,250,112,128,False
+Simple Max,252,113,128,False
+Simple Max,254,114,128,False
+Simple Max,256,115,128,False
+Simple Max,258,116,128,False
+Simple Max,260,117,128,False
+Simple Max,262,118,128,False
+Simple Max,264,119,128,False
+Simple Max,266,120,128,False
+Simple Max,268,121,128,False
+Simple Max,272,122,128,False
+Simple Max,274,123,128,False
+Simple Max,276,124,128,False
+Simple Max,278,125,128,False
+Simple Max,280,126,128,False
+Simple Max,282,127,128,False
+Simple Max,284,128,128,False
+Simple Max,286,129,128,False
+Simple Max,288,130,128,False
+Simple Max,290,131,128,False
+Simple Max,292,132,128,False
+Simple Max,294,133,128,False
+Simple Max,296,134,128,False
+Simple Max,298,135,128,False
+Simple Max,300,136,128,False
+Simple Max,302,137,128,False
+Simple Max,304,138,128,False
+Simple Max,306,139,128,False
+Simple Max,308,140,128,False
+Simple Max,310,141,128,False
+Simple Max,312,142,128,False
+Simple Max,314,143,128,False
+Simple Max,316,144,128,False
+Simple Max,318,145,128,False
+Simple Max,320,146,128,False
+Simple Max,322,147,128,False
+Simple Max,324,148,128,False
+Simple Max,326,149,128,False
+Simple Max,328,150,128,False
+Simple Max,330,151,128,False
+Simple Max,332,152,128,False
+Simple Max,334,153,128,False
+Simple Max,336,154,128,False
+Simple Max,338,155,128,False
+Simple Max,340,156,128,False
+Simple Max,342,157,128,False
+Simple Max,344,158,128,False
+Simple Max,346,159,128,False
+Simple Max,348,160,128,False
+Simple Max,350,161,128,False
+Simple Max,352,162,128,False
+Simple Max,354,163,128,False
+Simple Max,356,164,128,False
+Simple Max,358,165,128,False
+Simple Max,360,166,128,False
+Simple Max,362,167,128,False
+Simple Max,364,168,128,False
+Simple Max,366,169,128,False
+Simple Max,368,170,128,False
+Simple Max,370,171,128,False
+Simple Max,372,172,128,False
+Simple Max,374,173,128,False
+Simple Max,376,173,128,True
+Left Down,4,1,4,False
+Left Down,6,2,4,False
+Left Down,8,3,4,False
+Left Down,10,4,4,False
+Left Down,12,5,4,False
+Left Down,16,6,8,False
+Left Down,18,7,8,False
+Left Down,20,8,8,False
+Left Down,22,9,8,False
+Left Down,24,10,8,False
+Left Down,26,11,16,False
+Left Down,28,12,16,False
+Left Down,30,13,16,False
+Left Down,32,14,16,False
+Left Down,34,15,16,False
+Left Down,36,16,16,False
+Left Down,38,17,16,False
+Left Down,40,18,16,False
+Left Down,44,19,16,False
+Left Down,46,20,16,False
+Left Down,48,21,16,False
+Left Down,52,22,16,False
+Left Down,54,23,16,False
+Left Down,58,24,16,False
+Left Down,60,25,32,False
+Left Down,62,26,32,False
+Left Down,64,27,32,False
+Left Down,66,28,32,False
+Left Down,68,29,32,False
+Left Down,70,30,32,False
+Left Down,72,31,32,False
+Left Down,74,32,32,False
+Left Down,76,33,32,False
+Left Down,78,34,32,False
+Left Down,80,35,32,False
+Left Down,82,36,32,False
+Left Down,84,37,32,False
+Left Down,86,38,32,False
+Left Down,88,39,64,False
+Left Down,92,40,64,False
+Left Down,94,41,64,False
+Left Down,96,42,64,False
+Left Down,100,43,64,False
+Left Down,102,44,64,False
+Left Down,104,45,64,False
+Left Down,106,46,64,False
+Left Down,108,47,64,False
+Left Down,110,48,64,False
+Left Down,112,49,64,False
+Left Down,114,50,64,False
+Left Down,116,51,64,False
+Left Down,118,52,64,False
+Left Down,122,53,64,False
+Left Down,124,54,64,False
+Left Down,126,55,64,False
+Left Down,128,56,64,False
+Left Down,130,57,64,False
+Left Down,132,58,64,False
+Left Down,134,59,64,False
+Left Down,136,60,64,False
+Left Down,138,61,64,False
+Left Down,140,62,64,False
+Left Down,142,63,64,False
+Left Down,144,64,64,False
+Left Down,148,65,64,False
+Left Down,152,66,64,False
+Left Down,154,67,64,False
+Left Down,156,68,64,False
+Left Down,158,69,64,False
+Left Down,160,70,64,False
+Left Down,162,71,64,False
+Left Down,164,72,64,False
+Left Down,166,73,64,False
+Left Down,168,74,64,False
+Left Down,170,75,64,False
+Left Down,172,76,64,False
+Left Down,176,77,64,False
+Left Down,178,78,128,False
+Left Down,180,79,128,False
+Left Down,182,80,128,False
+Left Down,184,81,128,False
+Left Down,186,82,128,False
+Left Down,188,83,128,False
+Left Down,190,84,128,False
+Left Down,192,85,128,False
+Left Down,196,86,128,False
+Left Down,200,87,128,False
+Left Down,202,88,128,False
+Left Down,204,89,128,False
+Left Down,206,90,128,False
+Left Down,208,91,128,False
+Left Down,210,92,128,False
+Left Down,212,93,128,False
+Left Down,216,94,128,False
+Left Down,218,95,128,False
+Left Down,220,96,128,False
+Left Down,222,97,128,False
+Left Down,224,98,128,False
+Left Down,226,99,128,False
+Left Down,230,100,128,False
+Left Down,232,101,128,False
+Left Down,234,102,128,False
+Left Down,236,103,128,False
+Left Down,238,104,128,False
+Left Down,242,105,128,False
+Left Down,246,106,128,False
+Left Down,248,107,128,False
+Left Down,250,108,128,False
+Left Down,252,109,128,False
+Left Down,254,110,128,False
+Left Down,256,111,128,False
+Left Down,258,112,128,False
+Left Down,260,113,128,False
+Left Down,262,114,128,False
+Left Down,264,115,128,False
+Left Down,266,116,128,False
+Left Down,268,117,128,False
+Left Down,270,118,128,False
+Left Down,272,119,128,False
+Left Down,274,120,128,False
+Left Down,276,121,128,False
+Left Down,278,122,128,False
+Left Down,280,123,128,False
+Left Down,282,124,128,False
+Left Down,284,125,128,False
+Left Down,288,126,128,False
+Left Down,292,127,128,False
+Left Down,294,128,128,False
+Left Down,296,129,128,False
+Left Down,298,130,128,False
+Left Down,300,131,128,False
+Left Down,302,132,128,False
+Left Down,304,133,128,False
+Left Down,306,134,128,False
+Left Down,308,135,128,False
+Left Down,310,136,128,False
+Left Down,312,137,128,False
+Left Down,314,138,128,False
+Left Down,318,139,128,False
+Left Down,320,140,128,False
+Left Down,322,141,128,False
+Left Down,324,142,128,False
+Left Down,326,143,128,False
+Left Down,328,144,128,False
+Left Down,330,145,128,False
+Left Down,332,146,128,False
+Left Down,336,147,128,False
+Left Down,338,148,128,False
+Left Down,340,149,128,False
+Left Down,342,150,128,False
+Left Down,344,151,128,False
+Left Down,346,152,128,False
+Left Down,348,153,128,False
+Left Down,350,154,128,False
+Left Down,352,155,128,False
+Left Down,354,156,128,False
+Left Down,356,157,128,False
+Left Down,358,158,128,False
+Left Down,360,159,128,False
+Left Down,362,160,128,False
+Left Down,364,161,128,False
+Left Down,366,162,128,False
+Left Down,368,163,128,False
+Left Down,372,164,256,False
+Left Down,374,165,256,False
+Left Down,376,166,256,False
+Left Down,378,167,256,False
+Left Down,380,168,256,False
+Left Down,382,169,256,False
+Left Down,384,170,256,False
+Left Down,386,171,256,False
+Left Down,388,172,256,False
+Left Down,390,173,256,False
+Left Down,392,174,256,False
+Left Down,394,175,256,False
+Left Down,398,176,256,False
+Left Down,400,177,256,False
+Left Down,402,178,256,False
+Left Down,404,179,256,False
+Left Down,406,180,256,False
+Left Down,408,181,256,False
+Left Down,410,182,256,False
+Left Down,412,183,256,False
+Left Down,414,184,256,False
+Left Down,416,185,256,False
+Left Down,418,186,256,False
+Left Down,420,187,256,False
+Left Down,422,188,256,False
+Left Down,424,189,256,False
+Left Down,426,190,256,False
+Left Down,428,191,256,False
+Left Down,430,192,256,False
+Left Down,432,193,256,False
+Left Down,434,194,256,False
+Left Down,436,195,256,False
+Left Down,438,196,256,False
+Left Down,440,197,256,False
+Left Down,442,198,256,False
+Left Down,444,199,256,False
+Left Down,446,200,256,False
+Left Down,448,201,256,False
+Left Down,450,202,256,False
+Left Down,452,203,256,False
+Left Down,454,204,256,False
+Left Down,456,205,256,False
+Left Down,458,206,256,False
+Left Down,460,207,256,False
+Left Down,462,208,256,False
+Left Down,464,209,256,False
+Left Down,466,210,256,False
+Left Down,468,211,256,False
+Left Down,470,212,256,False
+Left Down,472,213,256,False
+Left Down,474,214,256,False
+Left Down,476,215,256,False
+Left Down,478,216,256,False
+Left Down,482,217,256,False
+Left Down,486,218,256,False
+Left Down,488,219,256,False
+Left Down,490,220,256,False
+Left Down,492,221,256,False
+Left Down,494,222,256,False
+Left Down,496,223,256,False
+Left Down,498,224,256,False
+Left Down,500,225,256,False
+Left Down,502,226,256,False
+Left Down,504,227,256,False
+Left Down,506,228,256,False
+Left Down,508,229,256,False
+Left Down,510,230,256,False
+Left Down,512,231,256,False
+Left Down,514,232,256,False
+Left Down,516,233,256,False
+Left Down,518,234,256,False
+Left Down,520,235,256,False
+Left Down,522,236,256,False
+Left Down,524,237,256,False
+Left Down,526,238,256,False
+Left Down,528,239,256,False
+Left Down,530,240,256,False
+Left Down,532,241,256,False
+Left Down,534,241,256,True
+Random,2,1,2,False
+Random,6,2,4,False
+Random,8,3,4,False
+Random,10,4,4,False
+Random,12,5,8,False
+Random,14,6,8,False
+Random,16,7,8,False
+Random,20,8,8,False
+Random,22,9,8,False
+Random,24,10,8,False
+Random,26,11,8,False
+Random,28,12,8,False
+Random,30,13,8,False
+Random,32,14,8,False
+Random,34,15,8,False
+Random,36,16,8,False
+Random,38,17,8,False
+Random,40,18,8,False
+Random,42,19,8,False
+Random,44,20,16,False
+Random,46,21,16,False
+Random,48,22,16,False
+Random,50,23,16,False
+Random,52,24,16,False
+Random,56,25,16,False
+Random,58,26,16,False
+Random,60,27,16,False
+Random,62,28,16,False
+Random,64,29,16,False
+Random,66,30,16,False
+Random,68,31,16,False
+Random,70,32,16,False
+Random,72,33,16,False
+Random,76,34,16,False
+Random,78,35,16,False
+Random,80,36,16,False
+Random,82,37,16,False
+Random,84,38,16,False
+Random,86,39,16,False
+Random,88,40,16,False
+Random,90,41,16,False
+Random,92,42,16,False
+Random,94,43,16,False
+Random,96,44,16,False
+Random,98,45,16,False
+Random,100,46,32,False
+Random,102,47,32,False
+Random,104,48,32,False
+Random,106,49,32,False
+Random,110,50,32,False
+Random,112,51,32,False
+Random,114,52,64,False
+Random,118,53,64,False
+Random,120,54,64,False
+Random,122,55,64,False
+Random,124,56,64,False
+Random,126,57,64,False
+Random,128,58,64,False
+Random,132,59,64,False
+Random,134,60,64,False
+Random,136,61,64,False
+Random,138,62,64,False
+Random,140,63,64,False
+Random,142,64,64,False
+Random,146,65,64,False
+Random,148,66,64,False
+Random,150,67,64,False
+Random,152,68,64,False
+Random,154,69,64,False
+Random,156,70,64,False
+Random,160,71,64,False
+Random,162,72,64,False
+Random,166,73,64,False
+Random,170,74,64,False
+Random,172,75,64,False
+Random,174,76,64,False
+Random,176,77,64,False
+Random,178,78,64,False
+Random,180,79,64,False
+Random,182,80,64,False
+Random,184,81,64,False
+Random,186,82,64,False
+Random,188,82,64,True
+Prob Max,2,1,2,False
+Prob Max,6,2,4,False
+Prob Max,8,3,4,False
+Prob Max,12,4,8,False
+Prob Max,14,5,8,False
+Prob Max,16,6,8,False
+Prob Max,18,7,8,False
+Prob Max,20,8,8,False
+Prob Max,22,9,16,False
+Prob Max,24,10,16,False
+Prob Max,26,11,16,False
+Prob Max,28,12,16,False
+Prob Max,30,13,16,False
+Prob Max,32,14,16,False
+Prob Max,34,15,16,False
+Prob Max,36,16,16,False
+Prob Max,38,17,16,False
+Prob Max,40,18,32,False
+Prob Max,44,19,32,False
+Prob Max,48,20,32,False
+Prob Max,50,21,32,False
+Prob Max,52,22,32,False
+Prob Max,54,23,32,False
+Prob Max,56,24,32,False
+Prob Max,58,25,32,False
+Prob Max,60,26,32,False
+Prob Max,62,27,32,False
+Prob Max,64,28,32,False
+Prob Max,66,29,32,False
+Prob Max,68,30,32,False
+Prob Max,70,31,32,False
+Prob Max,72,32,32,False
+Prob Max,74,33,32,False
+Prob Max,76,34,32,False
+Prob Max,78,35,32,False
+Prob Max,80,36,32,False
+Prob Max,82,37,32,False
+Prob Max,84,38,32,False
+Prob Max,86,39,32,False
+Prob Max,90,40,64,False
+Prob Max,92,41,64,False
+Prob Max,94,42,64,False
+Prob Max,96,43,64,False
+Prob Max,98,44,64,False
+Prob Max,100,45,64,False
+Prob Max,102,46,64,False
+Prob Max,104,47,64,False
+Prob Max,106,48,64,False
+Prob Max,108,49,64,False
+Prob Max,110,50,64,False
+Prob Max,114,51,64,False
+Prob Max,118,52,64,False
+Prob Max,120,53,64,False
+Prob Max,124,54,64,False
+Prob Max,126,55,64,False
+Prob Max,130,56,64,False
+Prob Max,132,57,64,False
+Prob Max,134,58,64,False
+Prob Max,136,59,64,False
+Prob Max,138,60,64,False
+Prob Max,140,61,64,False
+Prob Max,142,62,64,False
+Prob Max,144,63,64,False
+Prob Max,146,64,64,False
+Prob Max,148,65,64,False
+Prob Max,150,66,64,False
+Prob Max,152,67,64,False
+Prob Max,154,68,64,False
+Prob Max,156,69,64,False
+Prob Max,158,70,64,False
+Prob Max,162,71,64,False
+Prob Max,164,72,64,False
+Prob Max,166,73,64,False
+Prob Max,168,74,64,False
+Prob Max,170,75,64,False
+Prob Max,172,76,64,False
+Prob Max,174,77,64,False
+Prob Max,176,78,64,False
+Prob Max,178,79,128,False
+Prob Max,182,80,128,False
+Prob Max,184,81,128,False
+Prob Max,188,82,128,False
+Prob Max,190,83,128,False
+Prob Max,192,84,128,False
+Prob Max,194,85,128,False
+Prob Max,196,86,128,False
+Prob Max,198,87,128,False
+Prob Max,200,88,128,False
+Prob Max,202,89,128,False
+Prob Max,204,90,128,False
+Prob Max,206,91,128,False
+Prob Max,208,92,128,False
+Prob Max,210,93,128,False
+Prob Max,212,94,128,False
+Prob Max,214,95,128,False
+Prob Max,216,96,128,False
+Prob Max,218,97,128,False
+Prob Max,222,98,128,False
+Prob Max,224,99,128,False
+Prob Max,226,100,128,False
+Prob Max,228,101,128,False
+Prob Max,230,102,128,False
+Prob Max,232,103,128,False
+Prob Max,234,104,128,False
+Prob Max,236,105,128,False
+Prob Max,240,106,128,False
+Prob Max,242,107,128,False
+Prob Max,244,108,128,False
+Prob Max,246,109,128,False
+Prob Max,250,110,128,False
+Prob Max,252,111,128,False
+Prob Max,254,112,128,False
+Prob Max,256,113,128,False
+Prob Max,258,114,128,False
+Prob Max,260,115,128,False
+Prob Max,262,116,128,False
+Prob Max,264,117,128,False
+Prob Max,266,118,128,False
+Prob Max,270,119,128,False
+Prob Max,274,120,128,False
+Prob Max,276,121,128,False
+Prob Max,278,122,128,False
+Prob Max,280,123,128,False
+Prob Max,282,124,128,False
+Prob Max,284,125,128,False
+Prob Max,286,126,128,False
+Prob Max,288,127,128,False
+Prob Max,290,128,128,False
+Prob Max,292,129,128,False
+Prob Max,294,130,128,False
+Prob Max,296,131,128,False
+Prob Max,298,132,128,False
+Prob Max,300,133,128,False
+Prob Max,302,134,128,False
+Prob Max,306,135,128,False
+Prob Max,308,136,128,False
+Prob Max,310,137,128,False
+Prob Max,312,138,128,False
+Prob Max,314,139,128,False
+Prob Max,316,140,256,False
+Prob Max,318,141,256,False
+Prob Max,320,142,256,False
+Prob Max,322,143,256,False
+Prob Max,324,144,256,False
+Prob Max,326,145,256,False
+Prob Max,328,146,256,False
+Prob Max,332,147,256,False
+Prob Max,334,148,256,False
+Prob Max,336,149,256,False
+Prob Max,338,150,256,False
+Prob Max,340,151,256,False
+Prob Max,342,152,256,False
+Prob Max,344,153,256,False
+Prob Max,346,154,256,False
+Prob Max,348,155,256,False
+Prob Max,350,156,256,False
+Prob Max,352,157,256,False
+Prob Max,354,158,256,False
+Prob Max,356,159,256,False
+Prob Max,358,160,256,False
+Prob Max,360,161,256,False
+Prob Max,362,162,256,False
+Prob Max,364,163,256,False
+Prob Max,366,164,256,False
+Prob Max,368,165,256,False
+Prob Max,372,166,256,False
+Prob Max,374,167,256,False
+Prob Max,376,168,256,False
+Prob Max,378,169,256,False
+Prob Max,380,170,256,False
+Prob Max,382,171,256,False
+Prob Max,384,172,256,False
+Prob Max,386,173,256,False
+Prob Max,388,174,256,False
+Prob Max,392,175,256,False
+Prob Max,394,176,256,False
+Prob Max,396,177,256,False
+Prob Max,398,178,256,False
+Prob Max,400,179,256,False
+Prob Max,402,180,256,False
+Prob Max,404,181,256,False
+Prob Max,406,182,256,False
+Prob Max,408,183,256,False
+Prob Max,410,184,256,False
+Prob Max,412,185,256,False
+Prob Max,414,186,256,False
+Prob Max,416,187,256,False
+Prob Max,418,188,256,False
+Prob Max,420,189,256,False
+Prob Max,422,190,256,False
+Prob Max,426,191,256,False
+Prob Max,428,192,256,False
+Prob Max,430,193,256,False
+Prob Max,432,194,256,False
+Prob Max,436,195,256,False
+Prob Max,438,196,256,False
+Prob Max,440,197,256,False
+Prob Max,444,198,256,False
+Prob Max,446,199,256,False
+Prob Max,448,200,256,False
+Prob Max,450,201,256,False
+Prob Max,452,202,256,False
+Prob Max,454,203,256,False
+Prob Max,456,204,256,False
+Prob Max,458,205,256,False
+Prob Max,460,206,256,False
+Prob Max,462,207,256,False
+Prob Max,464,208,256,False
+Prob Max,466,209,256,False
+Prob Max,468,210,256,False
+Prob Max,470,211,256,False
+Prob Max,472,212,256,False
+Prob Max,474,213,256,False
+Prob Max,476,214,256,False
+Prob Max,478,215,256,False
+Prob Max,480,216,256,False
+Prob Max,482,217,256,False
+Prob Max,486,218,256,False
+Prob Max,488,219,256,False
+Prob Max,492,220,256,False
+Prob Max,494,221,256,False
+Prob Max,498,222,256,False
+Prob Max,500,223,256,False
+Prob Max,502,224,256,False
+Prob Max,504,225,256,False
+Prob Max,506,226,256,False
+Prob Max,510,227,256,False
+Prob Max,512,228,256,False
+Prob Max,514,229,256,False
+Prob Max,516,230,256,False
+Prob Max,518,231,256,False
+Prob Max,520,232,256,False
+Prob Max,522,233,256,False
+Prob Max,524,234,256,False
+Prob Max,526,235,256,False
+Prob Max,528,236,256,False
+Prob Max,530,237,256,False
+Prob Max,532,238,256,False
+Prob Max,534,239,256,False
+Prob Max,536,240,256,False
+Prob Max,538,241,256,False
+Prob Max,540,242,256,False
+Prob Max,542,243,256,False
+Prob Max,544,244,256,False
+Prob Max,546,245,256,False
+Prob Max,548,246,256,False
+Prob Max,550,247,256,False
+Prob Max,552,248,256,False
+Prob Max,554,249,256,False
+Prob Max,556,250,256,False
+Prob Max,558,251,256,False
+Prob Max,560,252,256,False
+Prob Max,562,253,256,False
+Prob Max,564,254,256,False
+Prob Max,566,255,256,False
+Prob Max,568,256,256,False
+Prob Max,570,257,256,False
+Prob Max,572,258,256,False
+Prob Max,574,259,256,False
+Prob Max,576,260,256,False
+Prob Max,578,261,256,False
+Prob Max,580,262,256,False
+Prob Max,582,263,256,False
+Prob Max,584,264,256,False
+Prob Max,586,265,256,False
+Prob Max,588,266,256,False
+Prob Max,590,267,512,False
+Prob Max,592,268,512,False
+Prob Max,594,269,512,False
+Prob Max,596,270,512,False
+Prob Max,598,271,512,False
+Prob Max,600,272,512,False
+Prob Max,604,273,512,False
+Prob Max,608,274,512,False
+Prob Max,610,275,512,False
+Prob Max,612,276,512,False
+Prob Max,614,277,512,False
+Prob Max,616,278,512,False
+Prob Max,620,279,512,False
+Prob Max,622,280,512,False
+Prob Max,626,281,512,False
+Prob Max,628,282,512,False
+Prob Max,630,283,512,False
+Prob Max,632,284,512,False
+Prob Max,634,285,512,False
+Prob Max,636,286,512,False
+Prob Max,640,287,512,False
+Prob Max,642,288,512,False
+Prob Max,644,289,512,False
+Prob Max,646,290,512,False
+Prob Max,648,291,512,False
+Prob Max,650,292,512,False
+Prob Max,652,293,512,False
+Prob Max,654,294,512,False
+Prob Max,656,295,512,False
+Prob Max,658,296,512,False
+Prob Max,662,297,512,False
+Prob Max,664,298,512,False
+Prob Max,666,299,512,False
+Prob Max,668,300,512,False
+Prob Max,672,301,512,False
+Prob Max,674,302,512,False
+Prob Max,678,303,512,False
+Prob Max,680,304,512,False
+Prob Max,682,305,512,False
+Prob Max,684,306,512,False
+Prob Max,688,307,512,False
+Prob Max,690,308,512,False
+Prob Max,692,309,512,False
+Prob Max,694,310,512,False
+Prob Max,698,311,512,False
+Prob Max,700,312,512,False
+Prob Max,702,313,512,False
+Prob Max,704,314,512,False
+Prob Max,706,315,512,False
+Prob Max,710,316,512,False
+Prob Max,712,317,512,False
+Prob Max,716,318,512,False
+Prob Max,718,319,512,False
+Prob Max,720,320,512,False
+Prob Max,722,321,512,False
+Prob Max,724,322,512,False
+Prob Max,726,323,512,False
+Prob Max,728,324,512,False
+Prob Max,730,325,512,False
+Prob Max,732,326,512,False
+Prob Max,734,327,512,False
+Prob Max,736,328,512,False
+Prob Max,738,329,512,False
+Prob Max,740,330,512,False
+Prob Max,742,331,512,False
+Prob Max,744,332,512,False
+Prob Max,748,333,512,False
+Prob Max,750,334,512,False
+Prob Max,752,335,512,False
+Prob Max,754,336,512,False
+Prob Max,756,337,512,False
+Prob Max,758,338,512,False
+Prob Max,760,339,512,False
+Prob Max,762,340,512,False
+Prob Max,764,341,512,False
+Prob Max,766,342,512,False
+Prob Max,768,343,512,False
+Prob Max,770,344,512,False
+Prob Max,772,345,512,False
+Prob Max,774,346,512,False
+Prob Max,778,347,512,False
+Prob Max,780,348,512,False
+Prob Max,782,349,512,False
+Prob Max,786,350,512,False
+Prob Max,788,351,512,False
+Prob Max,790,352,512,False
+Prob Max,792,353,512,False
+Prob Max,794,354,512,False
+Prob Max,796,355,512,False
+Prob Max,798,356,512,False
+Prob Max,800,357,512,False
+Prob Max,802,358,512,False
+Prob Max,804,359,512,False
+Prob Max,806,360,512,False
+Prob Max,808,361,512,False
+Prob Max,810,362,512,False
+Prob Max,812,363,512,False
+Prob Max,814,364,512,False
+Prob Max,816,365,512,False
+Prob Max,818,366,512,False
+Prob Max,820,367,512,False
+Prob Max,824,368,512,False
+Prob Max,826,369,512,False
+Prob Max,828,370,512,False
+Prob Max,830,371,512,False
+Prob Max,832,372,512,False
+Prob Max,836,373,512,False
+Prob Max,838,374,512,False
+Prob Max,840,375,512,False
+Prob Max,842,376,512,False
+Prob Max,846,376,512,True
+Simple Max,2,1,2,False
+Simple Max,4,2,2,False
+Simple Max,6,3,4,False
+Simple Max,8,4,4,False
+Simple Max,10,5,4,False
+Simple Max,12,6,8,False
+Simple Max,16,7,8,False
+Simple Max,18,8,8,False
+Simple Max,20,9,8,False
+Simple Max,22,10,8,False
+Simple Max,24,11,16,False
+Simple Max,26,12,16,False
+Simple Max,28,13,16,False
+Simple Max,30,14,16,False
+Simple Max,32,15,16,False
+Simple Max,34,16,16,False
+Simple Max,36,17,16,False
+Simple Max,38,18,16,False
+Simple Max,40,19,16,False
+Simple Max,42,20,32,False
+Simple Max,46,21,32,False
+Simple Max,48,22,32,False
+Simple Max,50,23,32,False
+Simple Max,54,24,32,False
+Simple Max,58,25,32,False
+Simple Max,60,26,32,False
+Simple Max,62,27,32,False
+Simple Max,64,28,32,False
+Simple Max,66,29,32,False
+Simple Max,68,30,32,False
+Simple Max,70,31,32,False
+Simple Max,72,32,32,False
+Simple Max,74,33,32,False
+Simple Max,76,34,32,False
+Simple Max,78,35,32,False
+Simple Max,80,36,32,False
+Simple Max,82,37,32,False
+Simple Max,84,38,32,False
+Simple Max,86,39,32,False
+Simple Max,88,40,32,False
+Simple Max,90,41,32,False
+Simple Max,92,42,32,False
+Simple Max,94,43,64,False
+Simple Max,96,44,64,False
+Simple Max,98,45,64,False
+Simple Max,100,46,64,False
+Simple Max,102,47,64,False
+Simple Max,104,48,64,False
+Simple Max,106,49,64,False
+Simple Max,108,50,64,False
+Simple Max,110,51,64,False
+Simple Max,112,52,64,False
+Simple Max,114,53,64,False
+Simple Max,118,54,64,False
+Simple Max,120,55,64,False
+Simple Max,122,56,64,False
+Simple Max,124,57,64,False
+Simple Max,126,58,64,False
+Simple Max,128,59,64,False
+Simple Max,130,60,64,False
+Simple Max,132,61,64,False
+Simple Max,134,62,64,False
+Simple Max,136,63,64,False
+Simple Max,138,64,64,False
+Simple Max,140,65,64,False
+Simple Max,142,66,64,False
+Simple Max,144,67,64,False
+Simple Max,148,68,64,False
+Simple Max,152,69,64,False
+Simple Max,154,70,64,False
+Simple Max,156,71,64,False
+Simple Max,158,72,64,False
+Simple Max,160,73,64,False
+Simple Max,162,74,64,False
+Simple Max,164,75,64,False
+Simple Max,166,76,64,False
+Simple Max,168,77,64,False
+Simple Max,170,78,64,False
+Simple Max,172,79,64,False
+Simple Max,176,80,64,False
+Simple Max,178,81,64,False
+Simple Max,180,82,64,False
+Simple Max,182,83,64,False
+Simple Max,186,84,64,False
+Simple Max,190,85,64,False
+Simple Max,192,86,64,False
+Simple Max,194,87,64,False
+Simple Max,196,88,64,False
+Simple Max,200,89,64,False
+Simple Max,202,90,64,False
+Simple Max,204,91,64,False
+Simple Max,206,92,64,False
+Simple Max,208,93,64,False
+Simple Max,210,94,64,False
+Simple Max,212,95,64,False
+Simple Max,214,96,64,False
+Simple Max,216,97,64,False
+Simple Max,218,98,64,False
+Simple Max,220,99,64,False
+Simple Max,222,100,64,False
+Simple Max,224,101,64,False
+Simple Max,226,102,64,False
+Simple Max,228,103,64,False
+Simple Max,230,104,64,False
+Simple Max,232,105,64,False
+Simple Max,236,106,64,False
+Simple Max,238,107,64,False
+Simple Max,240,108,64,False
+Simple Max,242,109,64,False
+Simple Max,244,110,64,False
+Simple Max,246,111,64,False
+Simple Max,248,112,64,False
+Simple Max,250,113,64,False
+Simple Max,252,114,64,False
+Simple Max,256,115,64,False
+Simple Max,258,116,64,False
+Simple Max,260,117,64,False
+Simple Max,262,118,64,False
+Simple Max,266,119,64,False
+Simple Max,268,120,64,False
+Simple Max,270,121,64,False
+Simple Max,272,122,64,False
+Simple Max,274,123,64,False
+Simple Max,276,124,64,False
+Simple Max,278,125,64,False
+Simple Max,280,126,64,False
+Simple Max,282,127,64,False
+Simple Max,284,128,64,False
+Simple Max,286,129,64,False
+Simple Max,288,130,64,False
+Simple Max,290,131,64,False
+Simple Max,292,132,64,False
+Simple Max,294,133,64,False
+Simple Max,296,134,64,False
+Simple Max,298,135,64,False
+Simple Max,300,136,64,False
+Simple Max,302,137,64,False
+Simple Max,304,138,64,False
+Simple Max,306,139,64,False
+Simple Max,308,140,64,False
+Simple Max,310,141,64,False
+Simple Max,312,142,64,False
+Simple Max,314,143,64,False
+Simple Max,318,144,64,False
+Simple Max,320,145,64,False
+Simple Max,322,146,64,False
+Simple Max,326,147,64,False
+Simple Max,328,148,64,False
+Simple Max,330,149,64,False
+Simple Max,334,150,64,False
+Simple Max,336,151,64,False
+Simple Max,338,152,128,False
+Simple Max,340,153,128,False
+Simple Max,342,154,128,False
+Simple Max,344,155,128,False
+Simple Max,346,156,128,False
+Simple Max,348,157,128,False
+Simple Max,350,158,128,False
+Simple Max,354,159,128,False
+Simple Max,358,160,128,False
+Simple Max,360,161,128,False
+Simple Max,362,162,128,False
+Simple Max,364,163,128,False
+Simple Max,366,164,128,False
+Simple Max,370,165,128,False
+Simple Max,372,166,128,False
+Simple Max,374,167,128,False
+Simple Max,376,168,128,False
+Simple Max,378,169,128,False
+Simple Max,380,170,128,False
+Simple Max,382,171,128,False
+Simple Max,384,172,128,False
+Simple Max,386,173,128,False
+Simple Max,388,174,128,False
+Simple Max,392,175,128,False
+Simple Max,394,176,128,False
+Simple Max,396,177,128,False
+Simple Max,398,178,128,False
+Simple Max,400,179,128,False
+Simple Max,402,180,128,False
+Simple Max,404,181,128,False
+Simple Max,406,182,128,False
+Simple Max,408,183,128,False
+Simple Max,410,184,128,False
+Simple Max,412,185,128,False
+Simple Max,414,186,128,False
+Simple Max,416,187,128,False
+Simple Max,418,188,128,False
+Simple Max,420,189,128,False
+Simple Max,424,190,128,False
+Simple Max,426,191,128,False
+Simple Max,428,192,128,False
+Simple Max,432,193,128,False
+Simple Max,434,194,128,False
+Simple Max,436,195,128,False
+Simple Max,440,196,128,False
+Simple Max,442,197,128,False
+Simple Max,444,198,128,False
+Simple Max,448,199,256,False
+Simple Max,450,200,256,False
+Simple Max,452,201,256,False
+Simple Max,454,202,256,False
+Simple Max,458,203,256,False
+Simple Max,460,204,256,False
+Simple Max,462,205,256,False
+Simple Max,464,206,256,False
+Simple Max,466,207,256,False
+Simple Max,468,208,256,False
+Simple Max,470,209,256,False
+Simple Max,472,210,256,False
+Simple Max,474,211,256,False
+Simple Max,476,212,256,False
+Simple Max,478,213,256,False
+Simple Max,480,214,256,False
+Simple Max,482,215,256,False
+Simple Max,484,216,256,False
+Simple Max,486,217,256,False
+Simple Max,490,218,256,False
+Simple Max,492,219,256,False
+Simple Max,494,220,256,False
+Simple Max,496,221,256,False
+Simple Max,500,222,256,False
+Simple Max,502,223,256,False
+Simple Max,504,224,256,False
+Simple Max,506,225,256,False
+Simple Max,508,226,256,False
+Simple Max,510,227,256,False
+Simple Max,512,228,256,False
+Simple Max,514,229,256,False
+Simple Max,516,230,256,False
+Simple Max,518,231,256,False
+Simple Max,520,232,256,False
+Simple Max,522,233,256,False
+Simple Max,524,234,256,False
+Simple Max,526,235,256,False
+Simple Max,528,236,256,False
+Simple Max,530,237,256,False
+Simple Max,532,238,256,False
+Simple Max,534,239,256,False
+Simple Max,536,240,256,False
+Simple Max,538,241,256,False
+Simple Max,542,242,256,False
+Simple Max,544,243,256,False
+Simple Max,546,244,256,False
+Simple Max,548,245,256,False
+Simple Max,550,246,256,False
+Simple Max,552,247,256,False
+Simple Max,554,248,256,False
+Simple Max,556,249,256,False
+Simple Max,558,250,256,False
+Simple Max,560,251,256,False
+Simple Max,562,252,256,False
+Simple Max,564,253,256,False
+Simple Max,566,254,256,False
+Simple Max,568,255,256,False
+Simple Max,570,256,256,False
+Simple Max,572,257,256,False
+Simple Max,574,258,256,False
+Simple Max,576,259,256,False
+Simple Max,578,260,256,False
+Simple Max,580,261,256,False
+Simple Max,582,262,256,False
+Simple Max,584,263,256,False
+Simple Max,586,264,256,False
+Simple Max,588,265,256,False
+Simple Max,590,266,256,False
+Simple Max,592,267,256,False
+Simple Max,594,268,256,False
+Simple Max,596,269,256,False
+Simple Max,598,270,256,False
+Simple Max,600,271,256,False
+Simple Max,602,272,256,False
+Simple Max,604,273,256,False
+Simple Max,606,274,256,False
+Simple Max,608,275,256,False
+Simple Max,610,276,256,False
+Simple Max,612,277,256,False
+Simple Max,614,278,256,False
+Simple Max,616,279,256,False
+Simple Max,618,280,256,False
+Simple Max,620,281,256,False
+Simple Max,622,282,256,False
+Simple Max,624,283,256,False
+Simple Max,626,284,256,False
+Simple Max,628,285,256,False
+Simple Max,630,286,256,False
+Simple Max,632,287,256,False
+Simple Max,636,288,256,False
+Simple Max,638,289,256,False
+Simple Max,640,290,256,False
+Simple Max,642,291,256,False
+Simple Max,644,292,256,False
+Simple Max,646,293,256,False
+Simple Max,648,294,512,False
+Simple Max,650,295,512,False
+Simple Max,652,296,512,False
+Simple Max,656,297,512,False
+Simple Max,658,298,512,False
+Simple Max,660,299,512,False
+Simple Max,662,300,512,False
+Simple Max,664,301,512,False
+Simple Max,666,302,512,False
+Simple Max,670,303,512,False
+Simple Max,672,304,512,False
+Simple Max,674,305,512,False
+Simple Max,676,306,512,False
+Simple Max,678,307,512,False
+Simple Max,680,308,512,False
+Simple Max,682,309,512,False
+Simple Max,684,310,512,False
+Simple Max,686,311,512,False
+Simple Max,688,312,512,False
+Simple Max,690,313,512,False
+Simple Max,692,314,512,False
+Simple Max,694,315,512,False
+Simple Max,698,316,512,False
+Simple Max,700,317,512,False
+Simple Max,704,318,512,False
+Simple Max,706,319,512,False
+Simple Max,708,320,512,False
+Simple Max,710,321,512,False
+Simple Max,714,322,512,False
+Simple Max,716,323,512,False
+Simple Max,718,324,512,False
+Simple Max,720,325,512,False
+Simple Max,724,326,512,False
+Simple Max,726,327,512,False
+Simple Max,728,328,512,False
+Simple Max,730,329,512,False
+Simple Max,732,330,512,False
+Simple Max,734,331,512,False
+Simple Max,738,332,512,False
+Simple Max,740,333,512,False
+Simple Max,742,334,512,False
+Simple Max,744,335,512,False
+Simple Max,746,336,512,False
+Simple Max,750,337,512,False
+Simple Max,752,338,512,False
+Simple Max,754,339,512,False
+Simple Max,756,340,512,False
+Simple Max,758,341,512,False
+Simple Max,762,342,512,False
+Simple Max,764,343,512,False
+Simple Max,768,344,512,False
+Simple Max,772,345,512,False
+Simple Max,774,346,512,False
+Simple Max,778,347,512,False
+Simple Max,780,348,512,False
+Simple Max,782,349,512,False
+Simple Max,784,350,512,False
+Simple Max,786,351,512,False
+Simple Max,790,352,512,False
+Simple Max,792,353,512,False
+Simple Max,794,354,512,False
+Simple Max,796,355,512,False
+Simple Max,798,356,512,False
+Simple Max,800,357,512,False
+Simple Max,802,358,512,False
+Simple Max,804,359,512,False
+Simple Max,806,360,512,False
+Simple Max,808,361,512,False
+Simple Max,810,362,512,False
+Simple Max,812,363,512,False
+Simple Max,816,364,512,False
+Simple Max,818,365,512,False
+Simple Max,820,366,512,False
+Simple Max,822,367,512,False
+Simple Max,824,368,512,False
+Simple Max,826,369,512,False
+Simple Max,828,370,512,False
+Simple Max,830,371,512,False
+Simple Max,832,372,512,False
+Simple Max,834,373,512,False
+Simple Max,836,374,512,False
+Simple Max,838,375,512,False
+Simple Max,840,376,512,False
+Simple Max,842,377,512,False
+Simple Max,846,378,512,False
+Simple Max,848,379,512,False
+Simple Max,850,380,512,False
+Simple Max,852,381,512,False
+Simple Max,854,382,512,False
+Simple Max,856,383,512,False
+Simple Max,858,384,512,False
+Simple Max,860,385,512,False
+Simple Max,862,386,512,False
+Simple Max,864,387,512,False
+Simple Max,866,388,512,False
+Simple Max,868,389,512,False
+Simple Max,870,390,512,False
+Simple Max,872,391,512,False
+Simple Max,874,392,512,False
+Simple Max,876,393,512,False
+Simple Max,880,394,512,False
+Simple Max,884,395,512,False
+Simple Max,886,396,512,False
+Simple Max,888,397,512,False
+Simple Max,890,398,512,False
+Simple Max,892,399,512,False
+Simple Max,896,400,512,False
+Simple Max,898,401,512,False
+Simple Max,900,402,512,False
+Simple Max,902,403,512,False
+Simple Max,904,404,512,False
+Simple Max,906,405,512,False
+Simple Max,908,406,512,False
+Simple Max,910,407,512,False
+Simple Max,914,408,512,False
+Simple Max,916,409,512,False
+Simple Max,918,410,512,False
+Simple Max,920,411,512,False
+Simple Max,922,412,512,False
+Simple Max,924,413,512,False
+Simple Max,926,414,512,False
+Simple Max,928,415,512,False
+Simple Max,930,416,512,False
+Simple Max,932,417,512,False
+Simple Max,934,418,512,False
+Simple Max,936,419,512,False
+Simple Max,938,420,512,False
+Simple Max,940,421,512,False
+Simple Max,942,422,512,False
+Simple Max,944,423,512,False
+Simple Max,946,424,512,False
+Simple Max,948,425,512,False
+Simple Max,950,426,512,False
+Simple Max,952,427,512,False
+Simple Max,954,428,512,False
+Simple Max,956,429,512,False
+Simple Max,958,430,512,False
+Simple Max,960,431,512,False
+Simple Max,962,432,512,False
+Simple Max,964,433,512,False
+Simple Max,966,434,512,False
+Simple Max,968,435,512,False
+Simple Max,970,436,512,False
+Simple Max,972,437,512,False
+Simple Max,974,438,512,False
+Simple Max,976,439,512,False
+Simple Max,978,440,512,False
+Simple Max,980,441,512,False
+Simple Max,982,442,512,False
+Simple Max,986,443,512,False
+Simple Max,988,444,512,False
+Simple Max,990,445,512,False
+Simple Max,992,446,512,False
+Simple Max,994,447,512,False
+Simple Max,996,448,512,False
+Simple Max,998,449,512,False
+Simple Max,1000,450,512,False
+Simple Max,1002,451,512,False
+Simple Max,1004,452,512,False
+Simple Max,1006,453,512,False
+Simple Max,1008,454,512,False
+Simple Max,1010,455,512,False
+Simple Max,1012,456,512,False
+Simple Max,1014,457,512,False
+Simple Max,1016,458,512,False
+Simple Max,1018,459,512,False
+Simple Max,1020,460,512,False
+Simple Max,1022,461,512,False
+Simple Max,1024,462,512,False
+Simple Max,1026,463,512,False
+Simple Max,1028,464,512,False
+Simple Max,1030,465,512,False
+Simple Max,1032,466,512,False
+Simple Max,1034,467,512,False
+Simple Max,1036,468,512,False
+Simple Max,1038,469,512,False
+Simple Max,1040,470,512,False
+Simple Max,1042,471,512,False
+Simple Max,1044,472,512,False
+Simple Max,1046,473,512,False
+Simple Max,1048,473,512,True
+Left Down,2,1,2,False
+Left Down,4,2,2,False
+Left Down,6,3,2,False
+Left Down,8,4,4,False
+Left Down,10,5,4,False
+Left Down,12,6,4,False
+Left Down,14,7,4,False
+Left Down,16,8,4,False
+Left Down,18,9,4,False
+Left Down,20,10,8,False
+Left Down,22,11,8,False
+Left Down,24,12,16,False
+Left Down,26,13,16,False
+Left Down,28,14,16,False
+Left Down,30,15,16,False
+Left Down,32,16,16,False
+Left Down,34,17,16,False
+Left Down,36,18,16,False
+Left Down,38,19,16,False
+Left Down,40,20,16,False
+Left Down,42,21,16,False
+Left Down,44,22,16,False
+Left Down,46,23,16,False
+Left Down,48,24,16,False
+Left Down,50,25,16,False
+Left Down,52,26,16,False
+Left Down,54,27,16,False
+Left Down,56,28,32,False
+Left Down,58,29,32,False
+Left Down,60,30,32,False
+Left Down,62,31,32,False
+Left Down,64,32,32,False
+Left Down,66,33,32,False
+Left Down,70,34,32,False
+Left Down,72,35,32,False
+Left Down,74,36,32,False
+Left Down,76,37,32,False
+Left Down,78,38,32,False
+Left Down,80,39,32,False
+Left Down,82,40,32,False
+Left Down,84,41,32,False
+Left Down,86,42,32,False
+Left Down,88,43,32,False
+Left Down,90,44,32,False
+Left Down,92,45,32,False
+Left Down,96,46,32,False
+Left Down,98,47,32,False
+Left Down,100,48,32,False
+Left Down,102,49,32,False
+Left Down,106,50,64,False
 Left Down,110,51,64,False
-Left Down,114,52,64,False
-Left Down,116,53,64,False
-Left Down,118,54,64,False
-Left Down,120,55,64,False
+Left Down,112,52,64,False
+Left Down,114,53,64,False
+Left Down,116,54,64,False
+Left Down,118,55,64,False
 Left Down,122,56,64,False
 Left Down,124,57,64,False
 Left Down,126,58,64,False
@@ -69,300 +4118,198 @@ Left Down,144,67,64,False
 Left Down,146,68,64,False
 Left Down,148,69,64,False
 Left Down,150,70,64,False
-Left Down,154,71,64,False
-Left Down,156,72,64,False
-Left Down,158,73,64,False
-Left Down,160,74,64,False
-Left Down,162,75,64,False
-Left Down,166,76,64,False
-Left Down,170,77,64,False
-Left Down,172,78,64,False
-Left Down,174,79,64,False
-Left Down,176,80,64,False
-Left Down,178,81,64,False
-Left Down,180,82,64,False
-Left Down,182,83,64,False
-Left Down,184,84,64,False
-Left Down,186,85,64,False
-Left Down,188,86,64,False
-Left Down,190,87,64,False
-Left Down,192,88,64,False
-Left Down,194,89,64,False
-Left Down,196,90,64,False
-Left Down,198,91,64,False
-Left Down,200,92,64,False
-Left Down,202,93,64,False
-Left Down,204,94,64,False
-Left Down,206,95,64,False
-Left Down,208,96,128,False
-Left Down,210,97,128,False
-Left Down,212,98,128,False
-Left Down,214,99,128,False
-Left Down,216,100,128,False
-Left Down,218,101,128,False
+Left Down,152,71,64,False
+Left Down,154,72,64,False
+Left Down,156,73,64,False
+Left Down,158,74,64,False
+Left Down,160,75,64,False
+Left Down,162,76,64,False
+Left Down,164,77,64,False
+Left Down,166,78,64,False
+Left Down,168,79,64,False
+Left Down,170,80,64,False
+Left Down,172,81,64,False
+Left Down,174,82,64,False
+Left Down,176,83,64,False
+Left Down,178,84,64,False
+Left Down,180,85,64,False
+Left Down,182,86,64,False
+Left Down,186,87,64,False
+Left Down,188,88,64,False
+Left Down,192,89,64,False
+Left Down,194,90,64,False
+Left Down,196,91,64,False
+Left Down,198,92,64,False
+Left Down,200,93,64,False
+Left Down,202,94,64,False
+Left Down,204,95,64,False
+Left Down,206,96,64,False
+Left Down,208,97,64,False
+Left Down,210,98,64,False
+Left Down,212,99,64,False
+Left Down,214,100,128,False
+Left Down,216,101,128,False
 Left Down,220,102,128,False
 Left Down,222,103,128,False
-Left Down,226,104,128,False
-Left Down,228,105,128,False
-Left Down,230,106,128,False
-Left Down,232,107,128,False
-Left Down,234,108,128,False
-Left Down,236,109,128,False
-Left Down,238,110,128,False
-Left Down,240,111,128,False
-Left Down,244,112,128,False
-Left Down,246,113,128,False
-Left Down,248,114,128,False
-Left Down,250,115,128,False
-Left Down,252,116,128,False
-Left Down,254,117,128,False
-Left Down,256,118,128,False
-Left Down,260,119,128,False
-Left Down,262,120,128,False
-Left Down,266,121,128,False
-Left Down,268,122,128,False
-Left Down,270,123,128,False
-Left Down,272,124,128,False
-Left Down,274,125,128,False
-Left Down,278,126,128,False
-Left Down,280,127,128,False
-Left Down,282,128,128,False
-Left Down,284,129,128,False
-Left Down,286,130,128,False
-Left Down,288,131,128,False
-Left Down,290,132,128,False
-Left Down,292,133,128,False
-Left Down,294,134,128,False
-Left Down,296,135,128,False
-Left Down,298,136,128,False
-Left Down,300,137,128,False
-Left Down,302,138,128,False
-Left Down,304,139,128,False
-Left Down,306,140,128,False
-Left Down,308,141,128,False
-Left Down,310,142,128,False
-Left Down,312,143,128,False
-Left Down,316,144,128,False
-Left Down,318,145,128,False
-Left Down,320,146,128,False
-Left Down,322,147,128,False
-Left Down,324,148,128,False
-Left Down,326,149,128,False
-Left Down,328,150,128,False
-Left Down,330,151,128,False
-Left Down,332,152,128,False
+Left Down,224,104,128,False
+Left Down,226,105,128,False
+Left Down,228,106,128,False
+Left Down,230,107,128,False
+Left Down,232,108,128,False
+Left Down,234,109,128,False
+Left Down,236,110,128,False
+Left Down,238,111,128,False
+Left Down,240,112,128,False
+Left Down,242,113,128,False
+Left Down,244,114,128,False
+Left Down,246,115,128,False
+Left Down,248,116,128,False
+Left Down,250,117,128,False
+Left Down,252,118,128,False
+Left Down,254,119,128,False
+Left Down,256,120,128,False
+Left Down,258,121,128,False
+Left Down,262,122,128,False
+Left Down,264,123,128,False
+Left Down,266,124,128,False
+Left Down,270,125,128,False
+Left Down,272,126,128,False
+Left Down,274,127,128,False
+Left Down,276,128,128,False
+Left Down,278,129,128,False
+Left Down,282,130,128,False
+Left Down,284,131,128,False
+Left Down,288,132,128,False
+Left Down,290,133,128,False
+Left Down,292,134,128,False
+Left Down,294,135,128,False
+Left Down,296,136,128,False
+Left Down,298,137,128,False
+Left Down,300,138,128,False
+Left Down,302,139,128,False
+Left Down,304,140,128,False
+Left Down,306,141,128,False
+Left Down,308,142,128,False
+Left Down,310,143,128,False
+Left Down,312,144,128,False
+Left Down,314,145,128,False
+Left Down,316,146,128,False
+Left Down,318,147,128,False
+Left Down,320,148,128,False
+Left Down,322,149,128,False
+Left Down,326,150,128,False
+Left Down,328,151,128,False
+Left Down,330,152,128,False
 Left Down,334,153,128,False
 Left Down,336,154,128,False
 Left Down,338,155,128,False
-Left Down,340,156,128,False
-Left Down,342,157,128,False
-Left Down,344,158,128,False
-Left Down,346,159,128,False
-Left Down,348,160,128,False
-Left Down,350,161,128,False
-Left Down,352,162,128,False
-Left Down,354,163,128,False
-Left Down,356,164,128,False
-Left Down,358,165,128,False
-Left Down,360,166,128,False
-Left Down,362,167,128,False
-Left Down,364,168,128,False
-Left Down,366,169,128,False
-Left Down,368,170,128,False
-Left Down,370,171,128,False
-Left Down,374,172,128,False
-Left Down,376,173,128,False
-Left Down,378,174,128,False
-Left Down,380,175,128,False
-Left Down,382,176,128,False
-Left Down,384,177,128,False
-Left Down,386,178,128,False
-Left Down,390,179,128,False
-Left Down,392,180,128,False
-Left Down,394,181,128,False
-Left Down,396,182,128,False
-Left Down,398,183,128,False
-Left Down,400,184,128,False
-Left Down,402,185,256,False
-Left Down,404,186,256,False
-Left Down,406,187,256,False
-Left Down,408,188,256,False
-Left Down,410,189,256,False
-Left Down,412,190,256,False
-Left Down,416,191,256,False
-Left Down,418,192,256,False
-Left Down,420,193,256,False
-Left Down,424,194,256,False
-Left Down,426,195,256,False
-Left Down,428,196,256,False
-Left Down,430,197,256,False
-Left Down,432,198,256,False
-Left Down,434,199,256,False
-Left Down,436,200,256,False
-Left Down,440,201,256,False
-Left Down,442,202,256,False
-Left Down,444,203,256,False
-Left Down,446,204,256,False
-Left Down,448,205,256,False
-Left Down,452,206,256,False
-Left Down,454,207,256,False
-Left Down,456,208,256,False
-Left Down,458,209,256,False
-Left Down,460,210,256,False
-Left Down,462,211,256,False
-Left Down,466,212,256,False
-Left Down,470,213,256,False
-Left Down,472,214,256,False
-Left Down,474,215,256,False
-Left Down,476,216,256,False
-Left Down,478,217,256,False
-Left Down,480,218,256,False
-Left Down,482,219,256,False
-Left Down,484,220,256,False
-Left Down,486,221,256,False
-Left Down,488,222,256,False
-Left Down,490,223,256,False
-Left Down,494,224,256,False
-Left Down,496,225,256,False
-Left Down,498,226,256,False
-Left Down,500,227,256,False
-Left Down,502,228,256,False
-Left Down,504,229,256,False
-Left Down,506,230,256,False
-Left Down,508,231,256,False
-Left Down,510,232,256,False
-Left Down,512,233,256,False
-Left Down,514,234,256,False
-Left Down,516,235,256,False
-Left Down,518,236,256,False
-Left Down,520,237,256,False
-Left Down,522,238,256,False
-Left Down,524,239,256,False
-Left Down,526,240,256,False
-Left Down,528,241,256,False
-Left Down,530,242,256,False
-Left Down,532,243,256,False
-Left Down,536,244,256,False
-Left Down,538,244,256,True
+Left Down,340,155,128,True
 Random,2,1,2,False
-Random,4,2,4,False
+Random,4,2,2,False
 Random,6,3,4,False
 Random,8,4,4,False
 Random,10,5,4,False
-Random,12,6,8,False
-Random,14,7,8,False
-Random,16,8,8,False
-Random,18,9,8,False
-Random,20,10,8,False
+Random,14,6,4,False
+Random,16,7,8,False
+Random,18,8,8,False
+Random,20,9,8,False
+Random,22,10,8,False
 Random,24,11,8,False
 Random,26,12,8,False
-Random,30,13,8,False
-Random,32,14,8,False
-Random,34,15,16,False
-Random,36,16,16,False
-Random,38,17,16,False
-Random,40,18,16,False
-Random,42,19,16,False
-Random,44,20,16,False
-Random,46,21,16,False
-Random,48,22,16,False
-Random,50,23,16,False
-Random,52,24,16,False
-Random,54,25,16,False
-Random,56,26,16,False
-Random,58,27,16,False
-Random,62,28,16,False
-Random,64,29,16,False
-Random,68,30,16,False
-Random,70,31,16,False
-Random,72,32,32,False
-Random,74,33,32,False
-Random,76,34,32,False
-Random,78,35,32,False
-Random,80,36,32,False
-Random,82,37,32,False
-Random,84,38,32,False
-Random,86,39,32,False
-Random,88,40,32,False
-Random,90,41,32,False
-Random,92,42,32,False
-Random,94,43,32,False
-Random,96,44,32,False
-Random,100,45,32,False
-Random,102,46,32,False
-Random,104,47,32,False
-Random,106,48,32,False
-Random,108,49,32,False
-Random,110,50,32,False
-Random,112,51,32,False
-Random,114,52,32,False
-Random,116,53,32,False
-Random,118,54,32,False
-Random,120,55,32,False
-Random,122,56,32,False
-Random,124,57,32,False
-Random,126,58,32,False
-Random,130,59,32,False
-Random,134,60,32,False
-Random,138,61,32,False
-Random,140,62,32,False
-Random,142,63,32,False
-Random,144,64,64,False
-Random,146,65,64,False
-Random,148,66,64,False
-Random,150,67,64,False
-Random,152,68,64,False
-Random,154,69,64,False
-Random,156,70,64,False
-Random,158,71,64,False
-Random,160,72,64,False
-Random,162,73,64,False
-Random,164,74,64,False
-Random,166,75,64,False
-Random,170,76,64,False
-Random,172,77,64,False
-Random,174,78,64,False
-Random,176,79,64,False
-Random,178,80,64,False
+Random,28,13,8,False
+Random,30,14,8,False
+Random,32,15,8,False
+Random,34,16,8,False
+Random,36,17,8,False
+Random,38,18,8,False
+Random,40,19,8,False
+Random,42,20,8,False
+Random,44,21,16,False
+Random,46,22,16,False
+Random,48,23,16,False
+Random,50,24,16,False
+Random,52,25,16,False
+Random,54,26,16,False
+Random,56,27,16,False
+Random,58,28,16,False
+Random,60,29,16,False
+Random,62,30,16,False
+Random,64,31,16,False
+Random,66,32,16,False
+Random,68,33,16,False
+Random,70,34,16,False
+Random,72,35,16,False
+Random,74,36,32,False
+Random,76,37,32,False
+Random,78,38,32,False
+Random,80,39,32,False
+Random,82,40,32,False
+Random,84,41,32,False
+Random,86,42,32,False
+Random,88,43,32,False
+Random,90,44,32,False
+Random,92,45,32,False
+Random,94,46,32,False
+Random,96,47,32,False
+Random,98,48,32,False
+Random,100,49,32,False
+Random,102,50,32,False
+Random,104,51,32,False
+Random,106,52,32,False
+Random,108,53,32,False
+Random,110,54,32,False
+Random,112,55,32,False
+Random,114,56,32,False
+Random,118,57,32,False
+Random,120,58,32,False
+Random,124,59,32,False
+Random,126,60,32,False
+Random,128,61,32,False
+Random,130,62,32,False
+Random,132,63,32,False
+Random,136,64,32,False
+Random,138,65,32,False
+Random,140,66,32,False
+Random,142,67,32,False
+Random,144,68,32,False
+Random,146,69,64,False
+Random,150,70,64,False
+Random,152,71,64,False
+Random,154,72,64,False
+Random,156,73,64,False
+Random,158,74,64,False
+Random,160,75,64,False
+Random,164,76,64,False
+Random,166,77,64,False
+Random,168,78,64,False
+Random,172,79,64,False
+Random,176,80,64,False
 Random,180,81,64,False
-Random,182,82,64,False
-Random,184,83,64,False
-Random,186,84,64,False
-Random,188,85,64,False
-Random,192,86,64,False
-Random,194,87,64,False
-Random,196,88,64,False
-Random,198,89,64,False
-Random,200,90,128,False
-Random,202,91,128,False
-Random,204,92,128,False
-Random,206,93,128,False
-Random,208,94,128,False
-Random,210,95,128,False
-Random,212,96,128,False
-Random,214,97,128,False
-Random,216,98,128,False
-Random,218,99,128,False
-Random,220,100,128,False
-Random,222,101,128,False
-Random,224,102,128,False
-Random,226,103,128,False
-Random,228,104,128,False
-Random,230,105,128,False
-Random,234,106,128,False
-Random,236,107,128,False
-Random,238,108,128,False
-Random,242,109,128,False
-Random,244,110,128,False
-Random,246,111,128,False
-Random,248,112,128,False
-Random,250,113,128,False
-Random,254,114,128,False
-Random,258,115,128,False
-Random,262,116,128,False
-Random,264,117,128,False
-Random,266,118,128,False
-Random,268,119,128,False
-Random,270,120,128,False
-Random,272,121,128,False
-Random,274,121,128,True
+Random,184,82,64,False
+Random,186,83,64,False
+Random,188,84,64,False
+Random,190,84,64,True
+Prob Max,2,1,2,False
+Prob Max,4,2,2,False
+Prob Max,6,3,4,False
+Prob Max,8,4,4,False
+Prob Max,10,5,8,False
+Prob Max,12,6,8,False
+Prob Max,14,7,8,False
+Prob Max,16,8,8,False
+Prob Max,18,9,8,False
+Prob Max,20,10,16,False
+Prob Max,22,11,16,False
+Prob Max,24,12,16,False
+Prob Max,26,13,16,False
+Prob Max,30,14,16,False
+Prob Max,32,15,16,False
+Prob Max,34,16,16,False
+Prob Max,36,17,16,False
+Prob Max,38,18,16,False
+Prob Max,40,19,16,False
+Prob Max,42,20,16,False
+Prob Max,44,21,16,False
+Prob Max,46,22,16,False
+Prob Max,48,23,16,False
+Prob Max,50,24,16,False
