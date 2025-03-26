@@ -11,4 +11,4 @@ This script requires the following Python packages:
 - matplotlib
 - tqdm
 
-Then run `python main_user_friendly.py` and follow the instructions and mode selection in the command prompt
+Then run `python main.py` and follow the instructions and mode selection in the command prompt
