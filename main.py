@@ -14,18 +14,18 @@ from tqdm import tqdm
 
 matplotlib.use('TkAgg')
 
-class game:
-    gamestate = np.array([(0,0,0,0),(0,0,0,0),(0,0,0,0),(0,0,0,0)])
-    def init():
+class Game:
+
+    def __init__(self):
         """initializes the board back to empty"""
-        game.gamestate=np.array([(0,0,0,0),(0,0,0,0),(0,0,0,0),(0,0,0,0)])
+        self.gamestate=np.array([(0,0,0,0),(0,0,0,0),(0,0,0,0),(0,0,0,0)])
         
-    def state():
+    def state(self):
         """returns the current gamestate"""
-        currentstate=np.copy(game.gamestate)                                    #give back a copy of the gamestate
+        currentstate=np.copy(self.gamestate)                                    #give back a copy of the gamestate
         return currentstate
     
-    def empty_spaces(matrix):
+    def empty_spaces(self, matrix):
         """list position-tuples of all empty spaces on matrix-board"""
         empty_entries = []
         for i in range(0,4):                                                    #check all tiles
@@ -34,7 +34,7 @@ class game:
                     empty_entries.append((i,j))                                 #if empty (=0), add their coordinates to the list
         return empty_entries
 		
-    def rotate_entriesCW(matrix):
+    def rotate_entriesCW(self, matrix):
         """rotate a matrix clockwise"""
         use_matrix=np.copy(matrix)
         swap_matrix=np.array([(0,0,0,1),(0,0,1,0),(0,1,0,0),(1,0,0,0)])
@@ -42,7 +42,7 @@ class game:
         newmatrix=np.matmul(newmatrix,swap_matrix)
         return newmatrix
 		
-    def rotate_entriesACW(matrix):
+    def rotate_entriesACW(self, matrix):
         """rotate a matrix anti-clockwise"""
         use_matrix=np.copy(matrix)
         swap_matrix=np.array([(0,0,0,1),(0,0,1,0),(0,1,0,0),(1,0,0,0)])
@@ -50,10 +50,10 @@ class game:
         newmatrix=newmatrix.transpose()
         return newmatrix
 	
-    def is_over(matrix):
+    def is_over(self, matrix):
         """checks if legal move on the board"""
         returnvalue = True
-        if not len(game.empty_spaces(matrix)) == 0:                              #if there are empty tiles on the board there must be a legal move
+        if not len(self.empty_spaces(matrix)) == 0:                              #if there are empty tiles on the board there must be a legal move
             returnvalue= False
         else:
             i=0
@@ -74,7 +74,7 @@ class game:
                 i+=1
         return returnvalue
         
-    def checkmoveUP(matrix):
+    def checkmoveUP(self, matrix):
         """checks if the given boardstate is compatible with the move UP/N"""
         legality = False
         j=0
@@ -95,25 +95,25 @@ class game:
             j+=1
         return legality
 	
-    def checkmove(matrix,direction):
+    def checkmove(self, matrix, direction):
         """checks if a boardstate is compatible with a move in the given direction"""
         test_matrix = np.copy(matrix)
         movelegality = False
         if direction == "W":                                                    #this applies checkmoveUp by just rotating the matrix into an orientation where our move becomes N/UP
-            movelegality=game.checkmoveUP(test_matrix)
+            movelegality= self.checkmoveUP(test_matrix)
         if direction == "D":
-            test_matrix = game.rotate_entriesACW(test_matrix)
-            movelegality=game.checkmoveUP(test_matrix)
+            test_matrix = self.rotate_entriesACW(test_matrix)
+            movelegality= self.checkmoveUP(test_matrix)
         if direction == "A":
-            test_matrix = game.rotate_entriesCW(test_matrix)
-            movelegality=game.checkmoveUP(test_matrix)
+            test_matrix = self.rotate_entriesCW(test_matrix)
+            movelegality= self.checkmoveUP(test_matrix)
         if direction == "S":
-            test_matrix = game.rotate_entriesCW(test_matrix)
-            test_matrix = game.rotate_entriesCW(test_matrix)
-            movelegality=game.checkmoveUP(test_matrix)
+            test_matrix = self.rotate_entriesCW(test_matrix)
+            test_matrix = self.rotate_entriesCW(test_matrix)
+            movelegality= self.checkmoveUP(test_matrix)
         return movelegality
     
-    def current_score(matrix):                                                  #simply returns the total value of a board by adding all tile values.
+    def current_score(self, matrix):                                                  #simply returns the total value of a board by adding all tile values.
         """returns the score of a matrix-board"""
         score=0
         for i in range(0,4):
@@ -121,7 +121,7 @@ class game:
                 score+=matrix[i,j]
         return score
     
-    def highest_tile(matrix):
+    def highest_tile(self, matrix):
         """ returns the highest tile of a matrix board"""
         tile_num = 0
         for i in range(0,4):
@@ -130,15 +130,15 @@ class game:
                     tile_num = matrix[i,j]
         return tile_num
     
-    def average_value(matrix):                                                  #this is a more advanced score version where we divide the score by the number of nonempty tiles
+    def average_value(self, matrix):                                                  #this is a more advanced score version where we divide the score by the number of nonempty tiles
         """returns the average tilevalue of a board 
         (this excludes empty tiles)"""
-        emptylist=game.empty_spaces(matrix)
-        totalvalue=game.current_score(matrix)
+        emptylist=self.empty_spaces(matrix)
+        totalvalue=self.current_score(matrix)
         averagevalue=totalvalue/(16-len(emptylist))
         return averagevalue
 	
-    def moveUP(matrix):
+    def moveUP(self, matrix):
         """executes the move UP/N on a boardstate"""
         newmatrix=np.copy(matrix)
         move_matrix=np.copy(matrix)
@@ -173,7 +173,7 @@ class game:
                 final_matrix[3,j]=0
         return final_matrix
     
-    def move(matrix,direction):                                                 #applies moveUP by rotating the matrix into the needed position and then afterwards rotates them back
+    def move(self, matrix, direction):                                                 #applies moveUP by rotating the matrix into the needed position and then afterwards rotates them back
         """checks if a move is legal on a boardstate and executes it if legal
         if move legal returns the new boardstate and True
         if move illegal returns the original boardstate and False"""
@@ -181,26 +181,26 @@ class game:
         move_matrix=np.copy(matrix)
         return_matrix=np.copy(matrix)
         manipulated_matrix = np.copy(matrix)
-        legality= game.checkmove(move_matrix,direction)
+        legality= self.checkmove(move_matrix,direction)
         if direction== "W" and legality == True:
-            return_matrix = game.moveUP(move_matrix)
+            return_matrix = self.moveUP(move_matrix)
         if direction== "D" and legality == True:
-            manipulated_matrix = game.rotate_entriesACW(move_matrix)
-            manipulated_matrix = game.moveUP(manipulated_matrix)
-            return_matrix = game.rotate_entriesCW(manipulated_matrix)
+            manipulated_matrix = self.rotate_entriesACW(move_matrix)
+            manipulated_matrix = self.moveUP(manipulated_matrix)
+            return_matrix = self.rotate_entriesCW(manipulated_matrix)
         if direction== "A" and legality == True:
-            manipulated_matrix = game.rotate_entriesCW(move_matrix)
-            manipulated_matrix = game.moveUP(manipulated_matrix)
-            return_matrix = game.rotate_entriesACW(manipulated_matrix)
+            manipulated_matrix = self.rotate_entriesCW(move_matrix)
+            manipulated_matrix = self.moveUP(manipulated_matrix)
+            return_matrix = self.rotate_entriesACW(manipulated_matrix)
         if direction == "S" and legality == True:
-            manipulated_matrix = game.rotate_entriesACW(move_matrix)
-            manipulated_matrix = game.rotate_entriesACW(manipulated_matrix)
-            manipulated_matrix = game.moveUP(manipulated_matrix)
-            manipulated_matrix = game.rotate_entriesACW(manipulated_matrix)
-            return_matrix = game.rotate_entriesACW(manipulated_matrix)
+            manipulated_matrix = self.rotate_entriesACW(move_matrix)
+            manipulated_matrix = self.rotate_entriesACW(manipulated_matrix)
+            manipulated_matrix = self.moveUP(manipulated_matrix)
+            manipulated_matrix = self.rotate_entriesACW(manipulated_matrix)
+            return_matrix = self.rotate_entriesACW(manipulated_matrix)
         return (return_matrix,legality)
     
-    def future_av_value(matrix,direction):                                      #hypothetically executes a move and gives back the average (nonempty) tilevalue after that move
+    def future_av_value(self, matrix, direction):                                      #hypothetically executes a move and gives back the average (nonempty) tilevalue after that move
         """predict the average tilevalue after a given move on the current board
         this does not take into account the random tilespawn
         returns 0 if move illegal"""
@@ -208,19 +208,19 @@ class game:
         future_matrix=np.copy(matrix)
         predict_matrix=np.copy(matrix)
         future_value=0
-        future_matrix,legality= game.move(predict_matrix,direction)
+        future_matrix,legality= self.move(predict_matrix,direction)
         if legality == True:
-            future_value=game.average_value(future_matrix)
+            future_value= self.average_value(future_matrix)
             return future_value
         else:
             return 0
     
-    def tile_spawn(matrix):                                                     #this first picks a random empty tile using the empty_spaces and then inserts a 2 or 4 into that position 
+    def tile_spawn(self, matrix):                                                     #this first picks a random empty tile using the empty_spaces and then inserts a 2 or 4 into that position 
         """spawns a 2 or a 4 on the board in an empty spot
         90% chance for 2
         10% for 4"""
         spawned_matrix = np.copy(matrix)
-        empty_spaces = game.empty_spaces(spawned_matrix)
+        empty_spaces = self.empty_spaces(spawned_matrix)
         empty_count = len(empty_spaces)
         spawnposition=random.randint(1,empty_count) -1
         a,b=empty_spaces[spawnposition]
@@ -238,7 +238,7 @@ class Human_Player:
         self.counter = 0
         self.name = name
     
-    def move(self, board): #condition: game must not be over
+    def move(self, game, board): #condition: game must not be over
         movelegality = False
         direction = None
         while not movelegality :
@@ -274,7 +274,7 @@ class Left_Down:#Left then down, else right or up
     def __str__(self):
         return "Left Down"
     
-    def move(self,board):#condition: game must not be over
+    def move(self, game, board):#condition: game must not be over
         prio_one = ["A","S"]
         prio_two = ["D","W"]
         
@@ -294,7 +294,7 @@ class Left_Down:#Left then down, else right or up
 """
 # Test for Left_Down_Player
 player_ld = Left_Down()
-spielstand = game.gamestate
+spielstand = game.state()
 for i in range(500):
     spielstand = game.tile_spawn(spielstand)
     if game.is_over(spielstand):
@@ -310,7 +310,7 @@ class Random:
     def __str__(self):
         return "Random"
     
-    def move(self, board):
+    def move(self, game, board):
         direction = random.choice(["W","D","S","A"])
         while not game.checkmove(board, direction):
             direction = random.choice(["W","D","S","A"])
@@ -335,7 +335,7 @@ class Simple_Max:
     def __str__(self):
         return "Simple Max"
     
-    def move(self, board):
+    def move(self, game, board):
         test_board = np.copy(board)
         max_average_value = 0
         best_direction = "A"
@@ -367,7 +367,7 @@ class Prob_Max:
     def __str__(self):
         return "Prob Max"
     
-    def move(self,board):
+    def move(self, game, board):
         
         max_sum_of_max_av_value = 0
         best_direction = "A"
@@ -536,6 +536,7 @@ class Pretty_UI:
 
 if __name__ == "__main__":
     # Main program to execute the game
+    game = Game()
     #Choose if you want to play by yourself or let the computer play the game
     player_modes=["VISUAL", "SHELL","STATISTICAL"]
     player_mode=None
@@ -559,7 +560,7 @@ if __name__ == "__main__":
         gui = Shell_UI(spielstand)
         while not game.is_over(spielstand):
             print("Current score: ", game.current_score(spielstand), "\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
-            test_spielstand = player.move(spielstand)
+            test_spielstand = player.move(game, spielstand)
 
             spielstand = np.copy(test_spielstand)
             spielstand = game.tile_spawn(spielstand)
@@ -574,7 +575,7 @@ if __name__ == "__main__":
         gui = Pretty_UI(spielstand)
         while not game.is_over(spielstand):
             print("\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
-            test_spielstand = player.move(spielstand)
+            test_spielstand = player.move(game, spielstand)
 
             spielstand = np.copy(test_spielstand)
             spielstand = game.tile_spawn(spielstand)
@@ -597,7 +598,7 @@ if __name__ == "__main__":
                         if game.is_over(spielstand):
                             thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand)])
                             break
-                        spielstand = player.move(spielstand)
+                        spielstand = player.move(game, spielstand)
 
                         thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand)])
 
