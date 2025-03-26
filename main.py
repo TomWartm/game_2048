@@ -4,8 +4,8 @@ import csv
 
 import matplotlib
 from tqdm import tqdm
-from src import Game, HumanPlayer
-from src.strategies import LeftDown, Random, ProbMax, SimpleMax
+from src import Game
+from src.strategies import HumanPlayer, LeftDown, Random, ProbMax, SimpleMax
 from src.ui import PrettyUI, ShellUI
 matplotlib.use('TkAgg')
                         
