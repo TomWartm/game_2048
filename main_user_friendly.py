@@ -4,18 +4,15 @@
 #Instruction: Enable popup-window to get GUI in seperate window.
 
 
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Dec 11 21:27:27 2018
-
-@author: mot99
-v"""
 
 import numpy as np
 import random
 import csv
 import matplotlib.pyplot as plt
+import matplotlib
 from tqdm import tqdm
+
+matplotlib.use('TkAgg')
 
 class game:
     gamestate = np.array([(0,0,0,0),(0,0,0,0),(0,0,0,0),(0,0,0,0)])
@@ -489,7 +486,7 @@ class Pretty_UI:
                 #self.a.tick_params(axis='both', which='both', bottom=False, top=False, labelbottom=False, right=False, left=False, labelleft=False)
                 self.text_list.append(self.a.text(0.5,0.5,'', horizontalalignment='center', verticalalignment='center', fontsize =18))
                 self.a.set_fc(self.emp_farb)
-        #plt.ion()
+        plt.ion()
         plt.show()
         self.update(board,score)
           
@@ -522,89 +519,87 @@ class Pretty_UI:
         plt.pause(0.1)
     
 #################### Test for GUI #################
-#gamestate_1 = np.array([(8192,4096,2048,1024),(64,128,256,512,),(32,16,8,4),(0,2,2,2)])
-#gamestate_2 = np.array([(8192,4096,2048,1024),(64,128,256,512,),(32,16,8,4),(0,0,2,4)])
-#score_1, score_2 = 11235813, 23571113
-#
-#b = Pretty_UI(gamestate_1)
-#b = Pretty_UI(gamestate_1, score1)
-#b.update(gamestate_2, score_2)
-#
-#c = Shell_UI(gamestate_1, score_1)
-#c.update(gamestate_2, score_2)
+# gamestate_1 = np.array([(8192,4096,2048,1024),(64,128,256,512,),(32,16,8,4),(0,2,2,2)])
+# gamestate_2 = np.array([(8192,4096,2048,1024),(64,128,256,512,),(32,16,8,4),(0,0,2,4)])
+# score_1, score_2 = 11235813, 23571113
+
+# b = Pretty_UI(gamestate_1)
+# b = Pretty_UI(gamestate_1, score_1)
+# b.update(gamestate_2, score_2)
+
+# c = Shell_UI(gamestate_1, score_1)
+# c.update(gamestate_2, score_2)
 
 
+if __name__ == "__main__":
+    # Main program to execute the game
+    #Choose if you want to play by yourself or let the computer play the game
+    player_modes=["VISUAL", "SHELL","STATISTICAL"]
+    player_mode=None
+    while player_mode not in player_modes:
+        player_mode=input('- To play the game by yourself enter: "visual" \n\
+    - To play the game by yourself using just the shell enter: "shell" \n\
+    - To run a computer simulation enter: "statistical" \n\
+    - To exit the program enter: "Exit"  ').upper()
+        # Quits program if user enters exit
+        if player_mode == "EXIT":
+                print("You have left the game!")
+                break
+            
+    # Execute the mode where a human player plays the game
+    player= None
+    if player_mode =="SHELL":
+        player = Human_Player("name")
+        spielstand = game.gamestate
+        spielstand= game.tile_spawn(spielstand)
+        spielstand= game.tile_spawn(spielstand)
+        gui = Shell_UI(spielstand)
+        while not game.is_over(spielstand):
+            print("Current score: ", game.current_score(spielstand), "\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
+            test_spielstand = player.move(spielstand)
 
-# Main program to execute the game
-#Choose if you want to play by yourself or let the computer play the game
-player_modes=["VISUAL", "SHELL","STATISTICAL"]
-player_mode=None
-while player_mode not in player_modes:
-    player_mode=input('- To play the game by yourself enter: "visual" \n\
-- To play the game by yourself using just the shell enter: "shell" \n\
-- To run a computer simulation enter: "statistical" \n\
-- To exit the program enter: "Exit"  ').upper()
-    # Quits program if user enters exit
-    if player_mode == "EXIT":
-            print("You have left the game!")
-            break
-        
-# Execute the mode where a human player plays the game
-player= None
-if player_mode =="SHELL":
-    player = Human_Player("name")
-    spielstand = game.gamestate
-    spielstand= game.tile_spawn(spielstand)
-    spielstand= game.tile_spawn(spielstand)
-    gui = Shell_UI(spielstand)
-    while not game.is_over(spielstand):
-        print("Current score: ", game.current_score(spielstand), "\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
-        test_spielstand = player.move(spielstand)
-        if test_spielstand == "EXIT":
-            break
-        spielstand = np.copy(test_spielstand)
-        spielstand = game.tile_spawn(spielstand)
-        gui.update(spielstand)
-    print("Game is over! \nYour score is: ", game.current_score(spielstand), "\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
+            spielstand = np.copy(test_spielstand)
+            spielstand = game.tile_spawn(spielstand)
+            gui.update(spielstand)
+        print("Game is over! \nYour score is: ", game.current_score(spielstand), "\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
 
-elif player_mode =="VISUAL":
-    player = Human_Player("name")
-    spielstand = game.gamestate
-    spielstand= game.tile_spawn(spielstand)
-    spielstand= game.tile_spawn(spielstand)
-    gui = Pretty_UI(spielstand)
-    while not game.is_over(spielstand):
-        print("\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
-        test_spielstand = player.move(spielstand)
-        if test_spielstand == "EXIT":
-            break
-        spielstand = np.copy(test_spielstand)
-        spielstand = game.tile_spawn(spielstand)
-        gui.update(spielstand, game.current_score(spielstand))
-    print("Game is over! \nYour score is: ", game.current_score(spielstand), "\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
+    elif player_mode =="VISUAL":
+        player = Human_Player("name")
+        spielstand = game.gamestate
+        spielstand= game.tile_spawn(spielstand)
+        spielstand= game.tile_spawn(spielstand)
+        gui = Pretty_UI(spielstand)
+        while not game.is_over(spielstand):
+            print("\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
+            test_spielstand = player.move(spielstand)
 
-# Execute statistical mode
-else:   
-    Left_Down=Left_Down()
-    Random= Random()
-    Simple_Max = Simple_Max()
-    Prob_Max = Prob_Max()
-    players=[Left_Down, Random, Prob_Max, Simple_Max]
-    print("Please wait for the data to be loaded...")
-    with open('statistical.csv', 'w', newline='') as f:
-        thewriter = csv.writer(f)
-        thewriter.writerow(['Player ','Score', 'Number of moves ','Highest tile ','Game over '])    
-        for player in tqdm(players): # iterate over different computer strategies
-            for k in range(50): # execute game k times per strategy
-                spielstand = game.gamestate
-                player.counter = 0
-                for i in range(1000):
-                   spielstand = game.tile_spawn(spielstand)
-                   if game.is_over(spielstand):
-                       break
-                   spielstand = player.move(spielstand)
-                   if game.is_over(spielstand):
-                       break
-                thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand)])
-        print('Computer simulation finished. Filename: statistical.csv ' )
-                    
+            spielstand = np.copy(test_spielstand)
+            spielstand = game.tile_spawn(spielstand)
+            gui.update(spielstand, game.current_score(spielstand))
+        print("Game is over! \nYour score is: ", game.current_score(spielstand), "\nNumber of moves ", player.counter, "\nHighest tile number: ", game.highest_tile(spielstand))
+
+    # Execute statistical mode
+    else:   
+        Left_Down=Left_Down()
+        Random= Random()
+        Simple_Max = Simple_Max()
+        Prob_Max = Prob_Max()
+        players=[Left_Down, Random, Prob_Max, Simple_Max]
+        print("Please wait for the data to be loaded...")
+        with open('statistical.csv', 'w', newline='') as f:
+            thewriter = csv.writer(f)
+            thewriter.writerow(['Player ','Score', 'Number of moves ','Highest tile ','Game over '])    
+            for player in tqdm(players): # iterate over different computer strategies
+                for k in range(50): # execute game k times per strategy
+                    spielstand = game.gamestate
+                    player.counter = 0
+                    for i in range(1000):
+                        spielstand = game.tile_spawn(spielstand)
+                        if game.is_over(spielstand):
+                            break
+                        spielstand = player.move(spielstand)
+                        if game.is_over(spielstand):
+                            break
+                        thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand)])
+            print('Computer simulation finished. Filename: statistical.csv ' )
+                        
