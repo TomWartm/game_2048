@@ -10,8 +10,10 @@ from src.strategies.LeftDown import LeftDown
 from src.strategies.Random import Random
 from src.strategies.TwoMax import TwoMax
 from src.strategies.SimpleMax import SimpleMax
+from src.strategies.QLearning import QLearning
 from src.ui.PrettyUI import PrettyUI
 from src.ui.ShellUI import ShellUI
+
 
 matplotlib.use('TkAgg')
                         
@@ -21,7 +23,7 @@ if __name__ == "__main__":
     # Main program to execute the game
     game = Game()
     #Choose if you want to play by yourself or let the computer play the game
-    player_modes=["VISUAL", "SHELL","STATISTICAL"]
+    player_modes=["VISUAL", "SHELL","STATISTICAL", "STA"]
     player_mode=None
     while player_mode not in player_modes:
         player_mode=input('- To play the game by yourself enter: "visual" \n\
@@ -67,23 +69,23 @@ if __name__ == "__main__":
 
     # Execute statistical mode
     else:   
-        players=[LeftDown(), Random(), TwoMax(), SimpleMax()]
+        players=[QLearning()]
         print("Please wait for the data to be loaded...")
         with open('data/statistical.csv', 'w', newline='') as f:
             thewriter = csv.writer(f)
-            thewriter.writerow(['Strategy','Score', 'Number of moves','Highest tile','Game over'])
-            for k in tqdm(range(50)): # execute game k times per strategy
+            thewriter.writerow(['Strategy','Score', 'Number of moves','Highest Tile','Game over', 'Iteration'])
+            for k in tqdm(range(100000)): # execute game k times per strategy
                 for player in players: # iterate over different computer strategies
                     spielstand = game.gamestate
                     player.counter = 0
-                    for i in range(1000):
+                    for i in range(20):
                         spielstand = game.tile_spawn(spielstand)
                         if game.is_over(spielstand):
-                            thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand)])
+                            thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand), k])
                             break
                         spielstand = player.move(game, spielstand)
 
-                        thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand)])
+                        thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand), k])
 
             print('Computer simulation finished. Filename: statistical.csv ' )
                         
