@@ -1,5 +1,5 @@
-# Game 2024
-Python implementation of the game 2024.
+# Game 2048
+Python implementation of the game 2048.
 ## Visual Mode
 ![Game Screenshot](img/screenshot_visual.png)
 
