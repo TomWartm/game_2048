@@ -84,7 +84,8 @@ if __name__ == "__main__":
                             thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand), k])
                             break
                         spielstand = player.move(game, spielstand)
-
+                        
+                        
                         thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand), k])
 
             print('Computer simulation finished. Filename: statistical.csv ' )
