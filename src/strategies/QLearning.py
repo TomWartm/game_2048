@@ -27,7 +27,7 @@ class DQNetwork(nn.Module):
         x = torch.relu(self.conv1(x))
         x = torch.relu(self.conv2(x)) 
         x = torch.relu(self.conv3(x)) 
-        x = torch.flatten(x)
+        x = x.view(x.size(0), -1) # flaten
         x = torch.relu(self.fc1(x))
         x = torch.relu(self.fc2(x))
         x = torch.relu(self.fc3(x))
@@ -36,10 +36,11 @@ class DQNetwork(nn.Module):
         return x
 
 class QLearning:
-    def __init__(self, model_path="data/qmodel.pt"):
+    def __init__(self, model_load_path="data/qmodel.pt"):
         self.counter = 0
+        self.training_steps = 0
         self.start_time = datetime.now()
-        self.model_path = model_path
+        self.model_load_path = model_load_path
         
         self.model = DQNetwork()
         self.optimizer = optim.Adam(self.model.parameters(), lr=0.001)
@@ -50,8 +51,8 @@ class QLearning:
 
         # Replay memory
         self.memory = []
-        self.memory_size = 1000 # Size of memory: note that this is not too good when we have more moves then that
-        self.batch_size = 256
+        self.memory_size = 2048 # Size of memory: note that this is not too good when we have more moves then that
+        self.batch_size = 512
         self.train_moves = 100
 
         # Discount factor
@@ -61,25 +62,27 @@ class QLearning:
         return "Deep Q-Learning"
 
     def save_model(self):
+        store_path = self.model_load_path.split("/")
+        store_path = store_path[:-1] + str(self.training_steps) + "_" + [store_path[-1]]
         # Ensure the directory exists
-        os.makedirs(os.path.dirname(self.model_path), exist_ok=True)
+        os.makedirs(os.path.dirname(store_path), exist_ok=True)
         
         # Save the model's state dictionary
-        torch.save(self.model.state_dict(), self.model_path)
-        print(f"Model saved to {self.model_path}")
+        torch.save(self.model.state_dict(), store_path)
+        print(f"Model saved to {store_path}")
 
     def load_model(self):
-        if os.path.exists(self.model_path):
-            self.model.load_state_dict(torch.load(self.model_path))
+        if os.path.exists(self.model_load_path):
+            self.model.load_state_dict(torch.load(self.model_load_path))
             self.model.eval()  # Set the model to evaluation mode
-            print(f"Model loaded from {self.model_path}")
+            print(f"Model loaded from {self.model_load_path}")
         else:
-            print(f"No model found at {self.model_path}")
+            print(f"No model found at {self.model_load_path}")
 
     def move(self, game, board):
         # Convert board to a flattened tensor
         
-        state = torch.FloatTensor(board).unsqueeze(0)
+        state = torch.FloatTensor(board).unsqueeze(0).unsqueeze(0)  # Add an extra dimension for the channel
 
         # Epsilon-greedy policy
         epsilon = 0.2
@@ -101,10 +104,11 @@ class QLearning:
         action_index = ACTION_MAP[action]
         # Perform the action and get the next state
         next_board, _ = game.move(board, action)
-        next_state = torch.FloatTensor(next_board).unsqueeze(0)
+        next_state = torch.FloatTensor(next_board).unsqueeze(0).unsqueeze(0)  # Add an extra dimension for the channel
 
         # Get reward
         reward = 0
+        reward += game.future_av_value(board, action)
         reward += len(game.empty_spaces(next_board)) - len(game.empty_spaces(board)) + 1
         if game.highest_tile(next_board) > game.highest_tile(board):
             reward += 1
@@ -122,7 +126,7 @@ class QLearning:
             self.train_model()
             
         # store model every 5minutes
-        if datetime.now() - self.start_time > timedelta(minutes=5):
+        if datetime.now() - self.start_time > timedelta(minutes=60):
             self.save_model()
             self.start_time = datetime.now()
 
@@ -136,22 +140,29 @@ class QLearning:
         # Sample a batch of experiences from memory
         batch = random.sample(self.memory, self.batch_size)
 
-        for state, action_index, reward, next_state, done in batch:
+        # Prepare batch data
+        states, actions, rewards, next_states, dones = zip(*batch)
+        states = torch.cat(states)
+        actions = torch.tensor(actions)
+        rewards = torch.tensor(rewards, dtype=torch.float32)
+        next_states = torch.cat(next_states)
+        dones = torch.tensor(dones, dtype=torch.bool)
 
-            # Get the current Q-values for the state
-            q_values = self.model(state)
-            target = q_values.clone().detach()
+        # Compute current Q-values
+        q_values = self.model(states)
+        q_values = q_values.gather(1, actions.unsqueeze(1)).squeeze(1)
 
-            if done:
-                target[action_index] = reward  # Set the target for the action to the reward
-            else:
-                # Get the maximum Q-value for the next state
-                next_q_values = self.model(next_state)
-                target[action_index] = reward + self.gamma * torch.max(next_q_values).item()
+        # Compute target Q-values
+        with torch.no_grad():
+            next_q_values = self.model(next_states).max(1)[0]
+            target_q_values = rewards + self.gamma * next_q_values * (~dones)
 
-            # Perform a gradient descent step
-            self.optimizer.zero_grad()
-            output = self.model(state)
-            loss = self.criterion(output, target)
-            loss.backward()
-            self.optimizer.step()
+        # Compute loss
+        loss = self.criterion(q_values, target_q_values)
+
+        # Perform a gradient descent step
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+        
+        self.training_steps += 1

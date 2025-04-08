@@ -74,7 +74,7 @@ if __name__ == "__main__":
         with open('data/statistical.csv', 'w', newline='') as f:
             thewriter = csv.writer(f)
             thewriter.writerow(['Strategy','Score', 'Number of moves','Highest Tile','Game over', 'Iteration'])
-            for k in tqdm(range(500)): # execute game k times per strategy
+            for k in tqdm(range(100000)): # execute game k times per strategy
                 for player in players: # iterate over different computer strategies
                     spielstand = game.gamestate
                     player.counter = 0
@@ -85,8 +85,8 @@ if __name__ == "__main__":
                             break
                         spielstand = player.move(game, spielstand)
                         
-                        
-                        thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand), k])
+                        if k % 1000 == 0:
+                            thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand), k])
 
             print('Computer simulation finished. Filename: statistical.csv ' )
                         
