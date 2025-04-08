@@ -58,7 +58,7 @@ class QLearning:
         self.gamma = 0.9
 
     def __str__(self):
-        return "Deep Q-Learning"
+        return "Deep-Q-Learning"
 
     def save_model(self):
         store_path = self.model_path.split("/")
