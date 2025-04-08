@@ -15,8 +15,7 @@ class DQNetwork(nn.Module):
         self.conv1 = nn.Conv2d(1, 4, kernel_size=2, padding=1)
         self.conv2 = nn.Conv2d(4, 8, kernel_size=2, padding=1)
         self.conv3 = nn.Conv2d(8, 16, kernel_size=2, padding=1)
-          
-        self.flat = nn.Flatten()
+
         self.fc1 = nn.Linear(784, 1024)  
         self.fc2 = nn.Linear(1024, 256)
         self.fc3 = nn.Linear(256, 128)
@@ -27,7 +26,7 @@ class DQNetwork(nn.Module):
         x = torch.relu(self.conv1(x))
         x = torch.relu(self.conv2(x)) 
         x = torch.relu(self.conv3(x)) 
-        x = x.view(x.size(0), -1) # flaten
+        x = x.view(x.size(0), -1) # flatten
         x = torch.relu(self.fc1(x))
         x = torch.relu(self.fc2(x))
         x = torch.relu(self.fc3(x))
@@ -63,7 +62,7 @@ class QLearning:
 
     def save_model(self):
         store_path = self.model_load_path.split("/")
-        store_path = store_path[:-1] + str(self.training_steps) + "_" + [store_path[-1]]
+        store_path = "/".join(store_path[:-1]) + "/" + str(self.training_steps) + "_" + store_path[-1]
         # Ensure the directory exists
         os.makedirs(os.path.dirname(store_path), exist_ok=True)
         
@@ -80,9 +79,8 @@ class QLearning:
             print(f"No model found at {self.model_load_path}")
 
     def move(self, game, board):
-        # Convert board to a flattened tensor
-        
-        state = torch.FloatTensor(board).unsqueeze(0).unsqueeze(0)  # Add an extra dimension for the channel
+
+        state = torch.FloatTensor(board).unsqueeze(0).unsqueeze(0)  
 
         # Epsilon-greedy policy
         epsilon = 0.2
@@ -100,18 +98,20 @@ class QLearning:
                     action = np.random.choice(possible_actions)
                     
 
-
         action_index = ACTION_MAP[action]
+        
         # Perform the action and get the next state
         next_board, _ = game.move(board, action)
-        next_state = torch.FloatTensor(next_board).unsqueeze(0).unsqueeze(0)  # Add an extra dimension for the channel
+        next_state = torch.FloatTensor(next_board).unsqueeze(0).unsqueeze(0) 
 
         # Get reward
         reward = 0
         reward += game.future_av_value(board, action)
-        reward += len(game.empty_spaces(next_board)) - len(game.empty_spaces(board)) + 1
+        reward = reward * (len(game.empty_spaces(next_board)) - len(game.empty_spaces(board)) + 1)
         if game.highest_tile(next_board) > game.highest_tile(board):
-            reward += 1
+            reward *= 1.5
+        if game.is_over(next_board):
+            reward *= 0.5  
 
         # Check if the game is over
         done = game.is_over(next_board)
