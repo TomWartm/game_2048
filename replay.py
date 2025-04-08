@@ -8,14 +8,16 @@ import ast
 
 if __name__ == "__main__":
     # Replay a played game in visual mode
-    df = pd.read_csv('data/statistical copy.csv')
+    df = pd.read_csv('data/statistical.csv')
     df['Board'] = df['Board'].apply(lambda x: np.array(ast.literal_eval(x)))
 
     game = Game()
     initial_board = np.zeros((4, 4), dtype=int)  # Initialize an empty 4x4 board
     gui = PrettyUI(initial_board)
 
-    
+    max_score = df['Score'].max()
+    iteration = df[df['Score'] == max_score]['Iteration'].values[0]
+
     df = df[df['Iteration'] == 0]
     strategy = df['Strategy'].values[0]
     frames = []

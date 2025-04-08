@@ -1,8 +1,8 @@
 # Game 2048
 Python implementation of the game 2048.
 ## Visual Mode
-![Game Screenshot](img/screenshot_visual.png)
-
+![Replay GIF](img/replay_Deep Q-Learning_23672.gif)
+Replay of a Game played by the Deep Q-Lerning agent with 23k training steps.
 ## Game Strategies
 There are 4 simple game strategies implemented:
 - **Random**: Makes a random next move.
