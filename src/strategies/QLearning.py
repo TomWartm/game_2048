@@ -35,11 +35,11 @@ class DQNetwork(nn.Module):
         return x
 
 class QLearning:
-    def __init__(self, model_load_path="data/qmodel.pt"):
+    def __init__(self, model_path="data/qmodel.pt"):
         self.counter = 0
         self.training_steps = 0
         self.start_time = datetime.now()
-        self.model_load_path = model_load_path
+        self.model_path = model_path
         
         self.model = DQNetwork()
         self.optimizer = optim.Adam(self.model.parameters(), lr=0.001)
@@ -61,7 +61,7 @@ class QLearning:
         return "Deep Q-Learning"
 
     def save_model(self):
-        store_path = self.model_load_path.split("/")
+        store_path = self.model_path.split("/")
         store_path = "/".join(store_path[:-1]) + "/" + str(self.training_steps) + "_" + store_path[-1]
         # Ensure the directory exists
         os.makedirs(os.path.dirname(store_path), exist_ok=True)
@@ -70,13 +70,16 @@ class QLearning:
         torch.save(self.model.state_dict(), store_path)
         print(f"Model saved to {store_path}")
 
-    def load_model(self):
-        if os.path.exists(self.model_load_path):
-            self.model.load_state_dict(torch.load(self.model_load_path))
+    def load_model(self, from_training_step = 48988):
+        self.training_steps = from_training_step
+        load_path = self.model_path.split("/")
+        load_path = "/".join(load_path[:-1]) + "/" + str(from_training_step) + "_" + load_path[-1]
+        if os.path.exists(load_path):
+            self.model.load_state_dict(torch.load(load_path))
             self.model.eval()  # Set the model to evaluation mode
-            print(f"Model loaded from {self.model_load_path}")
+            print(f"Model loaded from {load_path}")
         else:
-            print(f"No model found at {self.model_load_path}")
+            print(f"No model found at {load_path}")
 
     def move(self, game, board):
 

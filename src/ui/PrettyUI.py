@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
-
+from PIL import Image
+import io
 class PrettyUI:
     def __init__(self, board, score = 0):
         '''Create Figure and axes and update it with the givenboard and score'''
@@ -69,6 +70,21 @@ class PrettyUI:
 
         self.fig.canvas.draw()
         plt.pause(0.1)
+        
+    def get_frame(self):
+        """
+        Capture the current plot (inclusive of axes) as a PIL Image object.
+        """
+        # Save the figure to a BytesIO buffer
+        buf = io.BytesIO()
+        self.fig.savefig(buf, format='png', bbox_inches='tight')
+        buf.seek(0)
+
+        # Open the buffer as a PIL Image
+        image = Image.open(buf)
+        
+
+        return image
     
 #################### Test for GUI #################
 # gamestate_1 = np.array([(8192,4096,2048,1024),(64,128,256,512,),(32,16,8,4),(0,2,2,2)])
