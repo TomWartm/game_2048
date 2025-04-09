@@ -34,4 +34,4 @@ if __name__ == "__main__":
 
 
     # Save the frames as a GIF
-    frames[0].save(f'img/replay_{strategy}_23672.gif', save_all=True, append_images=frames[1:], duration=1000, loop=0)
+    frames[0].save(f'img/replay_{strategy}_231053.gif', save_all=True, append_images=frames[1:], duration=1000, loop=0)
