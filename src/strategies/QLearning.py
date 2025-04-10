@@ -70,7 +70,7 @@ class QLearning:
         torch.save(self.model.state_dict(), store_path)
         print(f"Model saved to {store_path}")
 
-    def load_model(self, from_training_step = 231053):
+    def load_model(self, from_training_step = 529596):
         self.training_steps = from_training_step
         load_path = self.model_path.split("/")
         load_path = "/".join(load_path[:-1]) + "/" + str(from_training_step) + "_" + load_path[-1]

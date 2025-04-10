@@ -11,6 +11,7 @@ from src.strategies.Random import Random
 from src.strategies.TwoMax import TwoMax
 from src.strategies.SimpleMax import SimpleMax
 from src.strategies.QLearning import QLearning
+from src.strategies.QLearningLarge import QLearningLarge
 from src.ui.PrettyUI import PrettyUI
 from src.ui.ShellUI import ShellUI
 
@@ -69,7 +70,7 @@ if __name__ == "__main__":
 
     # Execute statistical mode
     else:   
-        players=[QLearning()]
+        players=[QLearning(), QLearningLarge()]
         print("Please wait for the data to be loaded...")
         with open('data/statistical.csv', 'w', newline='') as f:
             thewriter = csv.writer(f)
@@ -81,7 +82,7 @@ if __name__ == "__main__":
                     for i in range(2000):
                         spielstand = game.tile_spawn(spielstand)
                         if game.is_over(spielstand):
-                            if k % 100 == 0:
+                            if k % 10 == 0:
                                 thewriter.writerow([player, game.current_score(spielstand), player.counter, game.highest_tile(spielstand), game.is_over(spielstand), k, str(spielstand.tolist())])
                             break
                         spielstand = player.move(game, spielstand)
